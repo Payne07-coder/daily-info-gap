@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <meta name="theme-color" content="#111315">
+    <title>每日信息差</title>
+    <link rel="stylesheet" href="./assets/styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="masthead">
+        <div>
+          <p class="eyebrow">DAILY SIGNAL BRIEF</p>
+          <h1>每日信息差</h1>
+          <p class="lede">只保留公开来源中值得早点知道的变化。</p>
+        </div>
+        <div class="edition" aria-live="polite">
+          <span id="edition-date">等待内容</span>
+          <span id="updated-at">尚未生成</span>
+        </div>
+      </header>
+
+      <section class="controls" aria-label="简报控制">
+        <label class="date-control">
+          <span>查看日期</span>
+          <select id="date-select">
+            <option>正在加载…</option>
+          </select>
+        </label>
+        <div class="filters" role="group" aria-label="栏目筛选">
+          <button class="filter is-active" data-category="all" type="button">全部</button>
+          <button class="filter" data-category="ai" type="button">AI</button>
+          <button class="filter" data-category="finance" type="button">金融</button>
+          <button class="filter" data-category="tech" type="button">科技</button>
+        </div>
+      </section>
+
+      <div id="status-banner" class="status-banner" hidden></div>
+      <main id="digest" class="digest-grid" aria-live="polite"></main>
+      <section id="empty-state" class="empty-state">
+        <p>正在读取今天的简报…</p>
+      </section>
+
+      <footer>
+        <p>信息来自公开 RSS 与官方发布，仅用于个人阅读，不构成投资建议。</p>
+        <p id="source-health"></p>
+      </footer>
+    </div>
+    <noscript>这个页面需要启用 JavaScript 才能读取每日简报。</noscript>
+    <script src="./assets/app.js" defer></script>
+  </body>
+</html>
+

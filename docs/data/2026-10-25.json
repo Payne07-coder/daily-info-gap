@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T22:47:09.165825+08:00",
+  "window_start": "2026-10-24T10:46:00.629950+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 24,
+    "failed": 1,
+    "failed_sources": [
+      "VentureBeat AI"
+    ]
+  },
+  "items": [
+    {
+      "id": "f0a4b8686580-02",
+      "category": "ai",
+      "headline": "TokenGate拟以“令牌门控”降低大模型长上下文处理成本",
+      "what_happened": "MarkTechPost报道，斯坦福和加州大学伯克利分校研究人员发布TokenGate，一种可嵌入模型的令牌裁剪模块；报道称测试中首个令牌等待时间缩短1.4至11.3倍，峰值内存降低1.5至3.4倍。",
+      "why_it_matters": "分析：如果性能结果可复现，长文档、代码库和持续对话带来的计算与内存成本可能明显下降，影响长上下文模型的部署门槛。",
+      "impact": "推断：云服务商和本地部署团队可能更快采用长上下文能力，但实际收益仍取决于任务类型、模型兼容性和独立复现结果。",
+      "evidence": "证据仅来自MarkTechPost对该研究发布稿的单一报道，未见其他候选来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-25T20:12:18+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/25/stanford-berkeley-tokengate-learned-token-pruning-llm-prefill"
+        }
+      ]
+    },
+    {
+      "id": "b40e84f2ea53-03",
+      "category": "ai",
+      "headline": "Anthropic推出面向关键开源项目的免费漏洞扫描器",
+      "what_happened": "MarkTechPost报道，Anthropic推出自愿加入的OSS Scanner，使用包括Claude Mythos在内的模型扫描关键开源项目代码，并将报告直接发送给维护者，没有人工审阅环节。",
+      "why_it_matters": "分析：这扩大了AI在开源安全中的应用，也把漏洞结果的真伪判断和后续分诊更多转移给通常资源有限的维护团队。",
+      "impact": "推断：项目方可能获得更快的初步发现，但误报处理和报告质量将决定实际减负效果；若缺少审核，也可能增加维护者负担。",
+      "evidence": "证据仅来自MarkTechPost的单一报道，未见其他候选来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-25T19:32:29+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/25/anthropic-launches-oss-scanner-a-free-ai-vulnerability-scanner"
+        }
+      ]
+    },
+    {
+      "id": "e0aa6bb3d121-05",
+      "category": "ai",
+      "headline": "研究称Grok与GPT在多数选举推荐中走向相反政党",
+      "what_happened": "TechCrunch报道，一项新研究称，在近500场选举中，Grok的推荐明显偏向共和党候选人，OpenAI的GPT偏向民主党候选人，两者在超过90%的选情中意见不同。",
+      "why_it_matters": "分析：不同模型和默认配置可能向用户提供方向相反的选举信息，即使模型本身不具政治意图，也会影响信息环境的一致性和可靠性。",
+      "impact": "推断：平台可能需要公开模型选择、提示设置和评测方法，并建立政治中立性与可审计性测试；实际偏差程度仍待更多独立研究确认。",
+      "evidence": "证据仅来自TechCrunch对相关研究的单一报道，候选材料未见第二来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-24T23:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/24/forced-to-pick-groks-ai-model-chooses-republicans-openais-picks-democrats"
+        }
+      ]
+    },
+    {
+      "id": "b251608e5013-07",
+      "category": "ai",
+      "headline": "Anthropic开源AI代理的操作系统级沙箱",
+      "what_happened": "MarkTechPost报道，Anthropic开源了用于Claude Code的sandbox-runtime，通过macOS的Seatbelt和Linux的bubblewrap限制代理、MCP服务器及命令行工具的文件和网络访问，不依赖容器。",
+      "why_it_matters": "分析：代理执行真实命令时，权限边界比对话质量更直接地决定安全风险；轻量沙箱降低了部署门槛，也为其他代理工具提供了可复用方案。",
+      "impact": "推断：开发团队可能更容易为本地代理增加权限隔离，但其保护范围仍受操作系统和配置质量限制，不能等同于完整安全隔离。",
+      "evidence": "证据仅来自MarkTechPost的单一报道，未见其他候选来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-24T19:12:27+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/24/anthropic-sandbox-runtime-ai-agent-sandbox"
+        }
+      ]
+    },
+    {
+      "id": "a1e6840f463e-08",
+      "category": "ai",
+      "headline": "微软研究开源无中心协调的多代理运行框架",
+      "what_happened": "MarkTechPost报道，Microsoft Research开源了Agensh，工作代理通过共享Git仓库、聊天记录和发现板自行协作，报道称其在ProgramBench任务上测试了1至1024个代理、单次预算6小时。",
+      "why_it_matters": "分析：这探索了不依赖中央编排器的代理扩展方式，可能降低大规模协作系统对单一调度节点的依赖，但报道范围主要是一次基准测试。",
+      "impact": "推断：该架构可能启发多代理软件工程工具，但成本、冲突处理和真实项目稳定性仍未得到充分验证，不宜直接外推为通用生产能力。",
+      "evidence": "证据仅来自MarkTechPost对该开源项目的单一报道，未见其他候选来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-25T11:32:59+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/24/microsoft-agensh-multi-agent-harness-1024-agents"
+        }
+      ]
+    },
+    {
+      "id": "3f206bb30633-04",
+      "category": "finance",
+      "headline": "逾三分之一标普500公司即将集中发布财报",
+      "what_happened": "MarketWatch报道，超过三分之一的标普500公司即将公布财报，并称市场情绪处于谨慎至负面状态。",
+      "why_it_matters": "分析：财报密集期会同时检验企业盈利、成本压力和未来指引，集中披露也可能放大市场对预期差和宏观不确定性的反应。",
+      "impact": "推断：投资者将面对更密集的信息更新，市场短线波动风险可能上升，但具体影响仍需看实际业绩和指引，不应仅凭市场情绪判断。",
+      "evidence": "证据仅来自MarketWatch的单一报道，未见其他候选来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-25T22:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/more-than-a-third-of-s-p-500-companies-are-about-to-report-earnings-as-market-confidence-cracks-03b7a8f1?mod=mw_rss_topstories"
+        }
+      ]
+    },
+    {
+      "id": "bfa0f577223a-00",
+      "category": "tech",
+      "headline": "乌克兰“星链”通信据报恢复，商业服务与军用系统的边界再度受关注",
+      "what_happened": "TechCrunch报道，乌克兰的“星链”服务似乎已恢复正常；报道同时称，马斯克曾被指要求SpaceX限制乌方使用相关服务。",
+      "why_it_matters": "分析：这表明商业卫星通信既能成为关键基础设施，也可能因企业决策或合同限制而突然改变可用性，影响远不止消费者上网。",
+      "impact": "推断：政府和企业将更重视通信服务的可用性条款、冗余链路，以及商业网络与受政府管控系统之间的边界；事件后续仍可能变化。",
+      "evidence": "证据仅来自TechCrunch的单一报道，未见其他候选来源交叉确认。",
+      "confidence": "仍在发展",
+      "published_at": "2026-10-25T04:46:34+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/starlink-seems-to-be-working-normally-again-in-ukraine"
+        }
+      ]
+    },
+    {
+      "id": "febc3bf62c7e-01",
+      "category": "tech",
+      "headline": "PHP两处严重漏洞暴露互联网基础软件的高度集中风险",
+      "what_happened": "TechCrunch报道，PHP出现两个严重漏洞，并指出PHP被大量网站使用，相关漏洞一度可能冲击互联网服务。",
+      "why_it_matters": "分析：少数基础软件承载范围极广，单点缺陷可能沿依赖链迅速扩散；对普通新闻汇总而言，这种底层安全信号也容易被产品新闻淹没。",
+      "impact": "推断：依赖PHP的组织需要缩短漏洞响应和版本清查周期，供应商与托管平台也可能面临更高的补丁和披露协调压力。",
+      "evidence": "证据仅来自TechCrunch的单一报道，候选材料未提供可交叉确认的第二来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-24T23:30:00+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/24/php-ocalypse-how-two-critical-web-bugs-almost-broke-the-internet"
+        }
+      ]
+    },
+    {
+      "id": "a4057176d4ec-06",
+      "category": "tech",
+      "headline": "韩国拟再次延后加密货币收益征税",
+      "what_happened": "36氪报道，韩国总统办公室决定推迟原定于明年1月实施的加密货币收益征税，理由包括征管准备尚未完成和青年群体舆论；该政策此前已三次推迟。",
+      "why_it_matters": "分析：这给出了监管执行能力与政治考量如何影响数字资产规则落地的信号，而不只是税率本身的变化。",
+      "impact": "推断：韩国数字资产持有人和交易平台的合规时间表可能继续变化，跨境业务规划也需要保留政策再次调整的空间；这是政策影响判断，不构成投资建议。",
+      "evidence": "证据仅来自36氪对该消息的单一转述，未见其他候选来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-25T14:15:54+08:00",
+      "sources": [
+        {
+          "source_id": "36kr",
+          "source_name": "36氪",
+          "url": "https://36kr.com/newsflashes/4040841011417985?f=rss"
+        }
+      ]
+    }
+  ]
+}

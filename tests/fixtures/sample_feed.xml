@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+  <channel>
+    <title>Sample Feed</title>
+    <link>https://example.com</link>
+    <description>Test fixture</description>
+    <item>
+      <title>OpenAI releases a new test model</title>
+      <link>https://example.com/news/new-model?utm_source=test&amp;id=42</link>
+      <description><![CDATA[<p>A <strong>new model</strong> was announced.</p>]]></description>
+      <pubDate>Sun, 25 Oct 2026 06:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>No publication date</title>
+      <link>https://example.com/no-date</link>
+      <description>Should be skipped.</description>
+    </item>
+  </channel>
+</rss>
+

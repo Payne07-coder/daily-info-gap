@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["items"],
+  "properties": {
+    "items": {
+      "type": "array",
+      "maxItems": 12,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "candidate_id",
+          "category",
+          "headline",
+          "what_happened",
+          "why_it_matters",
+          "impact",
+          "evidence",
+          "confidence"
+        ],
+        "properties": {
+          "candidate_id": {
+            "type": "string"
+          },
+          "category": {
+            "type": "string",
+            "enum": ["ai", "finance", "tech"]
+          },
+          "headline": {
+            "type": "string"
+          },
+          "what_happened": {
+            "type": "string"
+          },
+          "why_it_matters": {
+            "type": "string"
+          },
+          "impact": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "confidence": {
+            "type": "string",
+            "enum": ["已确认", "单一来源", "仍在发展"]
+          }
+        }
+      }
+    }
+  }
+}
+

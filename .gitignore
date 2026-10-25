@@ -1,0 +1,13 @@
+.venv/
+vendor/
+.ssh/
+.cache/
+data/*.sqlite
+data/*.sqlite-*
+data/tmp/
+data/run.lock
+logs/
+.pytest_cache/
+__pycache__/
+*.py[cod]
+
