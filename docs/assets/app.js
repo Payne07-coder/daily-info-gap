@@ -211,9 +211,9 @@ function showFreshness() {
     elements.banner.hidden = true;
     return;
   }
-  if (now.minutes >= 430 && now.minutes <= 450) {
+  if (now.minutes >= 415 && now.minutes <= 435) {
     showBanner("今日内容正在生成，页面会在更新后自动刷新。", false);
-  } else if (now.minutes > 450) {
+  } else if (now.minutes > 435) {
     showBanner(
       `今日内容尚未更新。当前显示 ${latestDate || "空页面"} 的数据，请检查电脑唤醒和网络。`,
       true
