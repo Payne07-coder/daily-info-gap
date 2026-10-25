@@ -51,35 +51,19 @@ $env:PIP_CACHE_DIR = "D:\Codex\daily-info-gap\.cache\pip"
 
 ## GitHub Pages
 
-公开仓库已经创建为 `Payne07-coder/daily-info-gap`，本地远端的地址也已配置。为了把网页推上去，需要在 GitHub 页面完成一次性的部署密钥授权：
+公开仓库已经创建为 `Payne07-coder/daily-info-gap`，GitHub Pages 已从 `main` 分支的 `/docs` 目录发布，公网地址是：
 
-1. 打开仓库的 `Settings > Deploy keys > Add deploy key`。
-2. 标题填写 `daily-info-gap-windows`，勾选 `Allow write access`。
-3. 把下面文件的全部内容粘贴到 Key 输入框：
+<https://payne07-coder.github.io/daily-info-gap/>
 
-```powershell
-Get-Content D:\Codex\daily-info-gap\.ssh\github_deploy_ed25519.pub
-```
-
-4. 保存后测试连接：
-
-```powershell
-ssh -i D:\Codex\daily-info-gap\.ssh\github_deploy_ed25519 -o IdentitiesOnly=yes -T git@github.com
-```
-
-5. 第一次推送并设置 GitHub Pages：
-
-```powershell
-git push -u origin main
-```
-
-然后在仓库 `Settings > Pages` 选择 `Deploy from a branch`，分支 `main`，目录 `/docs`。以后每天的生成和推送命令是：
+本机远端使用 HTTPS 和 Git Credential Manager 完成首次登录，不需要每次输入密码。以后每天自动使用的生成和推送命令是：
 
 ```powershell
 & D:\Codex\Python312\python.exe .\launch.py run --publish
 ```
 
 发布脚本只提交 `docs/`。数据库、日志和虚拟环境不会进入公开仓库。
+
+项目内另有一枚仅用于这个仓库的备用部署密钥，私钥保存在 `.ssh/`，不会提交。当前 HTTPS 登录已经可用，因此日常流程不依赖 SSH。
 
 ## 定时唤醒
 
