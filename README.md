@@ -51,15 +51,29 @@ $env:PIP_CACHE_DIR = "D:\Codex\daily-info-gap\.cache\pip"
 
 ## GitHub Pages
 
-1. 在 GitHub 创建一个公开仓库 `daily-info-gap`。
-2. 在本目录设置远端：
+公开仓库已经创建为 `Payne07-coder/daily-info-gap`，本地远端的地址也已配置。为了把网页推上去，需要在 GitHub 页面完成一次性的部署密钥授权：
+
+1. 打开仓库的 `Settings > Deploy keys > Add deploy key`。
+2. 标题填写 `daily-info-gap-windows`，勾选 `Allow write access`。
+3. 把下面文件的全部内容粘贴到 Key 输入框：
 
 ```powershell
-git remote add origin git@github.com:你的用户名/daily-info-gap.git
+Get-Content D:\Codex\daily-info-gap\.ssh\github_deploy_ed25519.pub
 ```
 
-3. 首次推送后在仓库 `Settings > Pages` 选择 `Deploy from a branch`，分支 `main`，目录 `/docs`。
-4. 完成 SSH 授权后，使用下面的命令生成并发布：
+4. 保存后测试连接：
+
+```powershell
+ssh -i D:\Codex\daily-info-gap\.ssh\github_deploy_ed25519 -o IdentitiesOnly=yes -T git@github.com
+```
+
+5. 第一次推送并设置 GitHub Pages：
+
+```powershell
+git push -u origin main
+```
+
+然后在仓库 `Settings > Pages` 选择 `Deploy from a branch`，分支 `main`，目录 `/docs`。以后每天的生成和推送命令是：
 
 ```powershell
 & D:\Codex\Python312\python.exe .\launch.py run --publish
