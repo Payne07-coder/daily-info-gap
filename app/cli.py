@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import json
 import logging
+import os
 import shutil
 import sys
 from collections import Counter
@@ -47,16 +48,21 @@ def configure_logging(verbose: bool = False) -> None:
         encoding="utf-8",
     )
     file_handler.setFormatter(formatter)
-    console_handler = logging.StreamHandler()
-    console_handler.setFormatter(formatter)
     root_logger = logging.getLogger()
     root_logger.setLevel(level)
     logging.getLogger("httpx").setLevel(logging.WARNING)
-    if not any(getattr(handler, "_daily_info_gap", False) for handler in root_logger.handlers):
-        file_handler._daily_info_gap = True
-        console_handler._daily_info_gap = True
-        root_logger.addHandler(file_handler)
-        root_logger.addHandler(console_handler)
+    handlers_to_add = [file_handler]
+    if os.getenv("DAILY_INFO_GAP_FILE_LOG_ONLY") != "1":
+        console_handler = logging.StreamHandler()
+        console_handler.setFormatter(formatter)
+        handlers_to_add.append(console_handler)
+    if not any(
+        getattr(handler, "_daily_info_gap", False)
+        for handler in root_logger.handlers
+    ):
+        for handler in handlers_to_add:
+            handler._daily_info_gap = True
+            root_logger.addHandler(handler)
 
 
 def build_parser() -> argparse.ArgumentParser:

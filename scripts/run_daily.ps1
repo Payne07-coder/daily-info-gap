@@ -25,6 +25,7 @@ Add-Content -LiteralPath $RunLog -Value "`n$(Get-Date -Format 'yyyy-MM-dd HH:mm:
 
 $env:PYTHONUTF8 = "1"
 $env:PYTHONIOENCODING = "utf-8"
+$env:DAILY_INFO_GAP_FILE_LOG_ONLY = "1"
 $env:PYTHONPATH = Join-Path $ProjectRoot "vendor"
 $env:PIP_CACHE_DIR = Join-Path $ProjectRoot ".cache\pip"
 $env:TEMP = $TempDir
@@ -37,8 +38,12 @@ try {
     }
 
     Add-Content -LiteralPath $RunLog -Value "$(Get-Date -Format 'yyyy-MM-dd HH:mm:ss') Running pipeline."
-    & $Python $Launcher run --publish 2>&1 | Tee-Object -FilePath $RunLog -Append
+    $ErrorActionPreference = "Continue"
+    & $Python $Launcher run --publish 2>&1 |
+        ForEach-Object { $_.ToString() } |
+        Tee-Object -FilePath $RunLog -Append
     $exitCode = $LASTEXITCODE
+    $ErrorActionPreference = "Stop"
     exit $exitCode
 }
 catch {
