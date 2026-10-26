@@ -65,6 +65,20 @@ $env:PIP_CACHE_DIR = "D:\Codex\daily-info-gap\.cache\pip"
 
 项目内另有一枚仅用于这个仓库的备用部署密钥，私钥保存在 `.ssh/`，不会提交。当前 HTTPS 登录已经可用，因此日常流程不依赖 SSH。
 
+## Tailscale Funnel
+
+固定入口：
+
+<https://superauto-study.tail848dcc.ts.net/info-gap/>
+
+Tailscale 直接读取本地 `docs/` 目录，不依赖另一个网页服务器。每次每日任务更新 `docs/` 后，这个地址会立即看到新内容。原有根路径的其他 Tailscale 服务保持不变。
+
+这个地址在电脑开机或唤醒时会自动上线；电脑休眠或关机后会暂时不可用。需要全天候访问时继续使用 GitHub Pages 地址。重新配置 Funnel 的命令是：
+
+```powershell
+powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\setup_tailscale_funnel.ps1
+```
+
 ## 定时唤醒
 
 以当前 Windows 用户运行：
