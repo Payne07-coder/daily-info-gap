@@ -11,6 +11,7 @@ const state = {
   selectedDate: null,
   isLatestView: true,
   loading: false,
+  lastRefreshCheck: 0,
 };
 
 const elements = {
@@ -229,9 +230,13 @@ function showBanner(message, isError) {
   elements.banner.hidden = false;
 }
 
-async function refreshInMorningWindow() {
+async function refreshIfDue() {
+  if (!state.isLatestView) return;
   const now = shanghaiNow();
-  if (now.minutes < 415 || now.minutes > 435) return;
+  const inMorningWindow = now.minutes >= 415 && now.minutes <= 435;
+  const interval = inMorningWindow ? 30_000 : 300_000;
+  if (Date.now() - state.lastRefreshCheck < interval) return;
+  state.lastRefreshCheck = Date.now();
   await loadManifest();
   if (elements.dateSelect.value === state.manifest.latest || !state.selectedDate) {
     await loadDigest(state.manifest.latest);
@@ -251,7 +256,10 @@ elements.filters.forEach((button) => {
 });
 
 document.addEventListener("visibilitychange", () => {
-  if (!document.hidden) refreshInMorningWindow();
+  if (!document.hidden) {
+    state.lastRefreshCheck = 0;
+    refreshIfDue();
+  }
 });
 
 async function initialize() {
@@ -262,7 +270,7 @@ async function initialize() {
     showBanner(`页面初始化失败：${error.message}`, true);
     elements.empty.textContent = "无法读取每日简报。";
   }
-  setInterval(refreshInMorningWindow, 30_000);
+  setInterval(refreshIfDue, 30_000);
 }
 
 initialize();
