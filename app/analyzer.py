@@ -61,9 +61,9 @@ def analyze(
 ) -> AnalysisResult:
     if not candidates:
         raise AnalysisError("No candidates available for analysis")
-    codex = shutil.which("codex")
+    codex = find_codex_cli()
     if not codex:
-        raise AnalysisError("Codex CLI not found on PATH")
+        raise AnalysisError("Codex CLI not found")
 
     schema = (schema_path or CONFIG_DIR / "digest.schema.json").resolve()
     payload = [candidate.analysis_payload() for candidate in candidates]
@@ -86,6 +86,29 @@ def analyze(
     if errors:
         raise AnalysisError("Codex output validation failed: " + "; ".join(errors))
     return AnalysisResult(items=_to_items(raw, candidates), raw_output=raw)
+
+
+def find_codex_cli() -> str | None:
+    command = shutil.which("codex")
+    if command:
+        return command
+
+    environment_path = os.getenv("CODEX_APP_RUNTIME_CLI_PATH", "")
+    if environment_path and Path(environment_path).is_file():
+        return environment_path
+
+    local_app_data = os.getenv("LOCALAPPDATA")
+    if local_app_data:
+        candidates = sorted(
+            (Path(local_app_data) / "OpenAI" / "Codex" / "bin").glob(
+                "*/codex.exe"
+            ),
+            key=lambda path: path.stat().st_mtime,
+            reverse=True,
+        )
+        if candidates:
+            return str(candidates[0])
+    return None
 
 
 def _run_codex(

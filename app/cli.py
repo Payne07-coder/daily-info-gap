@@ -52,7 +52,12 @@ def configure_logging(verbose: bool = False) -> None:
     root_logger.setLevel(level)
     logging.getLogger("httpx").setLevel(logging.WARNING)
     handlers_to_add = [file_handler]
-    if os.getenv("DAILY_INFO_GAP_FILE_LOG_ONLY") != "1":
+    file_log_only = (
+        os.getenv("DAILY_INFO_GAP_FILE_LOG_ONLY") == "1"
+        or sys.stdout is None
+        or sys.stderr is None
+    )
+    if not file_log_only:
         console_handler = logging.StreamHandler()
         console_handler.setFormatter(formatter)
         handlers_to_add.append(console_handler)

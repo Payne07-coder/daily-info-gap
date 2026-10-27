@@ -5,10 +5,18 @@ param(
 $ErrorActionPreference = "Stop"
 $ProjectRoot = Split-Path -Parent $PSScriptRoot
 $PowerShell = Join-Path $env:SystemRoot "System32\WindowsPowerShell\v1.0\powershell.exe"
+$Pythonw = "D:\Codex\Python312\pythonw.exe"
+$Launcher = Join-Path $ProjectRoot "launch.py"
 $CurrentUser = "$env:USERDOMAIN\$env:USERNAME"
 
 if (-not (Test-Path -LiteralPath $PowerShell)) {
     throw "Windows PowerShell not found at $PowerShell"
+}
+if (-not (Test-Path -LiteralPath $Pythonw)) {
+    throw "Python windowless runtime not found at $Pythonw"
+}
+if (-not (Test-Path -LiteralPath $Launcher)) {
+    throw "Application launcher not found at $Launcher"
 }
 
 function Register-DailyGapTask {
@@ -48,11 +56,33 @@ function Register-DailyGapTask {
         -Force | Out-Null
 }
 
-Register-DailyGapTask `
+$digestAction = New-ScheduledTaskAction `
+    -Execute $Pythonw `
+    -Argument "`"$Launcher`" run --publish" `
+    -WorkingDirectory $ProjectRoot
+$digestTrigger = New-ScheduledTaskTrigger -Daily -At (Get-Date "05:45")
+$digestPrincipal = New-ScheduledTaskPrincipal `
+    -UserId $CurrentUser `
+    -LogonType Interactive `
+    -RunLevel Limited
+$digestSettings = New-ScheduledTaskSettingsSet `
+    -WakeToRun `
+    -StartWhenAvailable `
+    -AllowStartIfOnBatteries `
+    -DontStopIfGoingOnBatteries `
+    -MultipleInstances IgnoreNew `
+    -RestartCount 2 `
+    -RestartInterval (New-TimeSpan -Minutes 5) `
+    -ExecutionTimeLimit (New-TimeSpan -Minutes 120)
+
+Register-ScheduledTask `
     -TaskName "DailyInfoGap" `
-    -ScriptName "run_daily.ps1" `
-    -At (Get-Date "05:45") `
-    -Wake $true
+    -Action $digestAction `
+    -Trigger $digestTrigger `
+    -Principal $digestPrincipal `
+    -Settings $digestSettings `
+    -Description "Daily Info Gap scheduled task" `
+    -Force | Out-Null
 
 Register-DailyGapTask `
     -TaskName "DailyInfoGapHibernate" `
