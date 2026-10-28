@@ -1,0 +1,196 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T21:42:19.578422+08:00",
+  "window_start": "2026-10-27T09:41:11.463746+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 24,
+    "failed": 1,
+    "failed_sources": [
+      "VentureBeat AI"
+    ]
+  },
+  "items": [
+    {
+      "id": "42273f1cbffc-03",
+      "category": "ai",
+      "headline": "Google DeepMind发布Genie 4世界模型",
+      "what_happened": "Google DeepMind发布Genie 4世界模型，官方称其提升了实时模拟的真实感；Ars Technica还报道，该模型加入音频以及更真实的物理和人物表现。",
+      "why_it_matters": "分析：世界模型可用于生成可交互的模拟环境，其进展会影响机器人训练、游戏内容生成和虚拟场景制作等需要大量环境数据的方向。",
+      "impact": "推断：更强的实时模拟可能降低部分训练和内容制作的数据成本，但模拟真实度与真实世界迁移效果仍需独立验证。",
+      "evidence": "证据来自Google DeepMind官方博客，Ars Technica在候选新闻中也报道了同一发布，构成交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-10-28T00:01:38+08:00",
+      "sources": [
+        {
+          "source_id": "deepmind",
+          "source_name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"
+        }
+      ]
+    },
+    {
+      "id": "f5b61a4c5191-05",
+      "category": "ai",
+      "headline": "OpenAI与Oracle扩大合作，将企业应用接入ChatGPT",
+      "what_happened": "OpenAI宣布扩大与Oracle的合作，计划把Oracle业务应用和AI代理接入ChatGPT，并用相关AI能力支持新的Oracle产品。",
+      "why_it_matters": "分析：这显示ChatGPT正从独立对话工具向企业软件入口延伸。若企业应用直接进入ChatGPT，AI助手可能更深入参与流程执行，而不只是回答问题。",
+      "impact": "推断：企业客户未来可能更依赖跨应用代理来完成任务，但权限边界、数据隔离和审计能力将决定其能否在受监管行业落地。",
+      "evidence": "证据来自OpenAI官方发布，候选新闻中没有第二来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-27T15:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/oracle-apps-in-chatgpt"
+        }
+      ]
+    },
+    {
+      "id": "c03238f50ffc-07",
+      "category": "ai",
+      "headline": "研究称用户在场会改变谈判代理的行为与结果",
+      "what_happened": "一篇论文在7种博弈、8个模型和1.12万次运行中比较有无用户在场的谈判，发现用户在场会显著改变AI代理的策略；有用户在场的一方平均获得高13.7%的收益，且代理谈判更激进。",
+      "why_it_matters": "分析：这意味着代理在无人监督和有人监督时可能表现出不同的谈判策略。仅用无人值守测试评估代理行为，可能低估部署后出现的风险。",
+      "impact": "推断：企业在部署代用户议价或采购的AI代理时，需要把人的监督方式纳入测试，尤其关注更激进行为带来的关系和法律风险。",
+      "evidence": "证据来自arXiv cs.AI论文摘要，候选新闻中没有第二来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T12:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.36435"
+        }
+      ]
+    },
+    {
+      "id": "08fd1ae64f93-08",
+      "category": "ai",
+      "headline": "研究揭示代理记忆中的过时信息会严重干扰回答",
+      "what_happened": "一篇论文报告，在包含6K历史记录的检索测试中，将检索证据从64个token扩大到512个token后，Qwen2.5-7B-Instruct的准确率从45%降至32%；作者确认最新陈述其实已经出现在每个检索集合中。",
+      "why_it_matters": "分析：问题并非最新事实没有检索到，而是模型无法稳定识别新旧信息之间的冲突。简单增加上下文长度可能反而增加干扰。",
+      "impact": "推断：长期记忆代理需要显式处理信息更新和失效机制，企业知识库的场景还应保留版本来源与更新时间，以降低过期事实影响决策。",
+      "evidence": "证据来自arXiv cs.AI论文摘要，候选新闻中没有第二来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T12:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.36308"
+        }
+      ]
+    },
+    {
+      "id": "b490170cf19b-09",
+      "category": "ai",
+      "headline": "研究提出衡量AI节省时间的新方法",
+      "what_happened": "一篇论文区分了直接掐表计算时间节省与实际收益的“账本视角”，提出同时衡量节省时间和额外漏过缺陷，并用“盈亏平衡缺陷成本”作为决策指标。",
+      "why_it_matters": "分析：AI提高产出速度不等于净效率提高。若节省的时间伴随更多错误和复核成本，组织可能误判自动化投入的实际回报。",
+      "impact": "推断：企业在评估编程、研究和文書类AI工具时，应把返工、审阅和错误外溢成本纳入同一套指标，而非只统计任务完成时间的下降。",
+      "evidence": "证据来自arXiv cs.AI论文摘要，候选新闻中没有第二来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T12:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.35942"
+        }
+      ]
+    },
+    {
+      "id": "4d5abadf33ff-04",
+      "category": "finance",
+      "headline": "SK海力士称内存供应约束可能持续至2030年",
+      "what_happened": "SK海力士公布第三季度业绩，并表示内存供应约束预计将持续到2030年。MarketWatch报道称，市场更关注这一前景而非已经公布的季度业绩。",
+      "why_it_matters": "分析：内存是AI服务器和数据中心扩展的关键投入品。供应约束延续多年意味着算力扩张速度可能受上游供货能力限制，而非只取决于芯片设计或客户订单。",
+      "impact": "推断：云厂商和服务器制造商可能需要更长期锁定供应，采购成本与交付周期也可能继续承压；这一影响取决于公司预测能否兑现。",
+      "evidence": "证据来自MarketWatch对SK海力士业绩和前景表态的报道，候选新闻中没有第二来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T20:34:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/sk-hynix-delivered-on-third-quarter-results-but-the-outlook-is-what-really-mattered-to-wall-street-and-the-ai-trade-2fde9a57"
+        }
+      ]
+    },
+    {
+      "id": "ccb7689a25f5-06",
+      "category": "finance",
+      "headline": "Vertiv销售超预期，AI基础设施需求继续显现",
+      "what_happened": "MarketWatch报道，Vertiv季度销售额大幅超出预期，并将其视为大型科技公司财报发布前AI建设仍在加速的一个信号。",
+      "why_it_matters": "分析：AI投入不仅体现在芯片采购，也体现在供电、散热和数据中心基础设施上。设备供应商的销售表现提供了观察AI建设实际支出进度的另一条线索。",
+      "impact": "推断：若后续公司披露继续印证这一趋势，AI资本开支压力可能更多转向电力、散热和建设交付环节。",
+      "evidence": "证据来自MarketWatch对Vertiv业绩的报道，候选新闻中没有第二来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T20:48:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/vertiv-earnings-just-sent-an-upbeat-signal-about-ai-ahead-of-big-tech-results-5714a105"
+        }
+      ]
+    },
+    {
+      "id": "6c84895fec96-00",
+      "category": "tech",
+      "headline": "UEFI固件严重漏洞可影响大量服务器",
+      "what_happened": "Ars Technica报道，UEFI固件实现EDK2存在代码执行漏洞，攻击者可在设备启动流程的早期执行代码，报道称该问题可能影响全球大量服务器。",
+      "why_it_matters": "分析：固件在操作系统启动前运行，因此这类漏洞可能绕过常规的系统和应用安全防护，受影响设备的修复也不能只依赖普通软件更新。",
+      "impact": "推断：云服务商、企业数据中心和设备管理团队需要核查EDK2版本与固件更新能力；未修补设备可能增加启动链被控制的风险。",
+      "evidence": "证据来自Ars Technica，候选新闻中没有第二个来源对该漏洞进行交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T04:25:55+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth"
+        }
+      ]
+    },
+    {
+      "id": "b4dfe27147a3-01",
+      "category": "tech",
+      "headline": "美国政府机构警告PHP严重漏洞正被利用",
+      "what_happened": "TechCrunch报道，美国政府的网络安全机构警告，攻击者已经开始利用流行的PHP软件中的严重漏洞，报道同时称PHP用于大量网站和网络软件。",
+      "why_it_matters": "分析：PHP位于许多网站的服务端处理路径中，已发现实际利用意味着风险不再只是潜在的理论漏洞，网站运营者的修补紧迫性上升。",
+      "impact": "推断：运行受影响PHP版本的网站可能面临远程入侵或服务失守风险，运维团队应优先确认版本、访问日志和修补状态。",
+      "evidence": "证据来自TechCrunch对政府网络安全机构警告的报道，候选新闻中没有第二来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-27T22:40:39+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs"
+        }
+      ]
+    },
+    {
+      "id": "1e24a5b6e6be-02",
+      "category": "tech",
+      "headline": "特拉华州拟允许AI代理经营整套企业",
+      "what_happened": "Ars Technica报道，特拉华州有一项计划将允许AI代理经营整套业务；报道并称，美国众议员Comer表示企业所有者可能借此规避对“鲁莽”AI行为的责任。",
+      "why_it_matters": "分析：这项计划触及公司法、代理责任和AI决策归责。若法律责任无法明确落到可负责的人或机构，交易对手和受损害方的追索路径会变得复杂。",
+      "impact": "推断：若该方案推进，AI自主经营企业的合规、审计、保险和责任分配规则可能成为新的制度竞争点，而不只是技术部署问题。",
+      "evidence": "证据来自Ars Technica对州级计划和议员评论的报道，候选新闻中没有第二来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T05:50:04+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses"
+        }
+      ]
+    }
+  ]
+}
