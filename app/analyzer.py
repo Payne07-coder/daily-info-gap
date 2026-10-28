@@ -143,6 +143,11 @@ def _run_codex(
         ]
         environment = os.environ.copy()
         environment["PYTHONUTF8"] = "1"
+        creationflags = (
+            subprocess.CREATE_NO_WINDOW
+            if os.name == "nt"
+            else 0
+        )
         try:
             completed = subprocess.run(
                 command,
@@ -153,6 +158,7 @@ def _run_codex(
                 errors="replace",
                 timeout=timeout_seconds,
                 env=environment,
+                creationflags=creationflags,
                 check=False,
             )
         except subprocess.TimeoutExpired as exc:

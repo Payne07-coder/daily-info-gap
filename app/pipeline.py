@@ -16,6 +16,10 @@ from app.textutil import title_key
 LOGGER = logging.getLogger(__name__)
 
 
+class CollectionUnavailableError(RuntimeError):
+    """Raised when the network is not ready and every source fails."""
+
+
 @dataclass
 class CollectionResult:
     candidates: list[Candidate]
@@ -40,6 +44,11 @@ def collect(
     current = now or datetime.now(SHANGHAI)
     LOGGER.info("Fetching %d sources", len(sources))
     source_results = fetch_all(sources, current)
+    if source_results and all(result.error for result in source_results):
+        failures = sum(1 for result in source_results if result.error)
+        raise CollectionUnavailableError(
+            f"All {failures} sources failed; network may not be ready"
+        )
     raw_candidates = [
         candidate
         for result in source_results

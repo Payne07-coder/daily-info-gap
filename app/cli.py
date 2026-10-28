@@ -6,6 +6,7 @@ import logging
 import os
 import shutil
 import sys
+import time
 from collections import Counter
 from datetime import datetime
 from logging.handlers import RotatingFileHandler
@@ -20,15 +21,20 @@ from app.config import (
     LOG_DIR,
     PROJECT_ROOT,
     SHANGHAI,
+    Source,
     ensure_runtime_dirs,
     load_sources,
 )
-from app.pipeline import collect, run_pipeline
-from app.publisher import PublishError, has_remote, publish_site
+from app.pipeline import (
+    CollectionUnavailableError,
+    PipelineResult,
+    collect,
+    run_pipeline,
+)
+from app.publisher import PublishError, has_remote, publish_site, push_current
 from app.render import write_digest
 from app.store import Store
 from app.system import keep_system_awake
-from app.textutil import canonicalize_url, title_key
 
 
 LOGGER = logging.getLogger("daily_info_gap")
@@ -103,6 +109,10 @@ def build_parser() -> argparse.ArgumentParser:
         "doctor",
         help="Check local prerequisites and configuration",
     )
+    subparsers.add_parser(
+        "push",
+        help="Push the current commit using stored Git credentials",
+    )
     return parser
 
 
@@ -115,6 +125,8 @@ def main(argv: list[str] | None = None) -> int:
         return collect_preview(args.limit)
     if args.command == "run":
         return run_daily(publish=args.publish)
+    if args.command == "push":
+        return push_current_command()
     return 2
 
 
@@ -139,6 +151,16 @@ def doctor() -> int:
         print(f"最近运行: {latest_run or '暂无记录'}")
     print("检查完成。")
     return 0
+
+
+def push_current_command() -> int:
+    try:
+        push_current()
+        print("GitHub push completed.")
+        return 0
+    except PublishError as exc:
+        LOGGER.error("GitHub push failed: %s", exc)
+        return 1
 
 
 def collect_preview(limit: int) -> int:
@@ -206,11 +228,10 @@ def _run_daily_with_lock(publish: bool) -> int:
         run_id = store.begin_run(started)
         try:
             seen_urls, seen_titles = store.seen_markers()
-            result = run_pipeline(
+            result = run_pipeline_with_network_retries(
                 sources,
                 seen_urls=seen_urls,
                 seen_titles=seen_titles,
-                now=started,
             )
             store.record_source_status(run_id, result.collection.source_results, started)
 
@@ -260,7 +281,13 @@ def _run_daily_with_lock(publish: bool) -> int:
             else:
                 print("本次未发布，也未标记为已读。")
             return 0
-        except (AnalysisError, PublishError, RuntimeError, httpx.HTTPError) as exc:
+        except (
+            AnalysisError,
+            CollectionUnavailableError,
+            PublishError,
+            RuntimeError,
+            httpx.HTTPError,
+        ) as exc:
             LOGGER.exception("Daily run failed")
             store.finish_run(
                 run_id,
@@ -278,6 +305,38 @@ def _run_daily_with_lock(publish: bool) -> int:
                 message=f"{type(exc).__name__}: {exc}",
             )
             return 1
+
+
+def run_pipeline_with_network_retries(
+    sources: list[Source],
+    seen_urls: set[str],
+    seen_titles: set[str],
+    attempts: int = 4,
+    delay_seconds: int = 120,
+) -> PipelineResult:
+    last_error: CollectionUnavailableError | None = None
+    for attempt in range(1, attempts + 1):
+        try:
+            return run_pipeline(
+                sources,
+                seen_urls=seen_urls,
+                seen_titles=seen_titles,
+                now=datetime.now(SHANGHAI),
+            )
+        except CollectionUnavailableError as exc:
+            last_error = exc
+            if attempt >= attempts:
+                break
+            LOGGER.warning(
+                "Network not ready (attempt %d/%d): %s; retrying in %d seconds",
+                attempt,
+                attempts,
+                exc,
+                delay_seconds,
+            )
+            time.sleep(delay_seconds)
+    assert last_error is not None
+    raise last_error
 
 
 def _category_counts(counts: Counter[str]) -> str:

@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import logging
+import os
 import shutil
 import subprocess
 from pathlib import Path
@@ -23,6 +24,7 @@ def publish_site(root: Path | None = None) -> bool:
         [git, "-C", str(project), "diff", "--cached", "--quiet"],
         capture_output=True,
         text=True,
+        env=_git_environment(),
         check=False,
     )
     if diff.returncode == 0:
@@ -37,6 +39,7 @@ def publish_site(root: Path | None = None) -> bool:
         [git, "-C", str(project), "remote", "get-url", "origin"],
         capture_output=True,
         text=True,
+        env=_git_environment(),
         check=False,
     )
     if remote.returncode != 0 or not remote.stdout.strip():
@@ -44,7 +47,7 @@ def publish_site(root: Path | None = None) -> bool:
             "Git remote 'origin' is unavailable: "
             + (remote.stderr.strip() or remote.stdout.strip() or "unknown Git error")
         )
-    _git(project, "push", "origin", "HEAD")
+    _git(project, "-c", "credential.interactive=false", "push", "origin", "HEAD")
     LOGGER.info("Published static site to %s", remote.stdout.strip())
     return True
 
@@ -56,9 +59,22 @@ def has_remote(root: Path | None = None) -> bool:
         [git, "-C", str(project), "remote", "get-url", "origin"],
         capture_output=True,
         text=True,
+        env=_git_environment(),
         check=False,
     )
     return result.returncode == 0 and bool(result.stdout.strip())
+
+
+def push_current(root: Path | None = None) -> None:
+    project = root or PROJECT_ROOT
+    _git(
+        project,
+        "-c",
+        "credential.interactive=false",
+        "push",
+        "origin",
+        "HEAD",
+    )
 
 
 def _git(project: Path, *args: str) -> None:
@@ -69,6 +85,7 @@ def _git(project: Path, *args: str) -> None:
         text=True,
         encoding="utf-8",
         errors="replace",
+        env=_git_environment(),
         check=False,
     )
     if completed.returncode != 0:
@@ -84,4 +101,12 @@ def _git_executable() -> str:
     if found:
         return found
     raise PublishError("Git executable not found")
+
+
+def _git_environment() -> dict[str, str]:
+    environment = os.environ.copy()
+    environment["GIT_TERMINAL_PROMPT"] = "0"
+    environment["GCM_INTERACTIVE"] = "never"
+    environment["GCM_CREDENTIAL_STORE"] = "wincredman"
+    return environment
 
