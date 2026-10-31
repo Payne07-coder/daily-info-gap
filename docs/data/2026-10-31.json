@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T05:46:05.965868+08:00",
+  "window_start": "2026-10-29T17:45:02.893301+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 23,
+    "failed": 2,
+    "failed_sources": [
+      "VentureBeat AI",
+      "36氪"
+    ]
+  },
+  "items": [
+    {
+      "id": "f018345ba2ae-03",
+      "category": "ai",
+      "headline": "AI 基建支出热潮出现融资压力信号",
+      "what_happened": "TechCrunch 发文称，大型科技公司正投入数十亿美元建设 AI 基础设施，同时面临债务上升、负现金流和投资者怀疑加剧的问题。",
+      "why_it_matters": "分析判断：关注点正从 AI 算力需求本身转向资金成本、现金流和债务承受能力，这可能比模型发布更能影响数据中心扩张节奏。",
+      "impact": "分析判断：融资条件收紧可能抬高扩建成本，并促使企业更严格评估项目回报；文章未证明整体支出即将收缩。",
+      "evidence": "来源为 TechCrunch 的分析报道；候选集合中没有其他来源对整项判断作交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T05:17:40+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/30/cracks-are-emerging-in-the-ai-spending-boom"
+        }
+      ]
+    },
+    {
+      "id": "ce9f667f47ad-04",
+      "category": "ai",
+      "headline": "OpenAI 将遵循共享的 robots.txt AI 训练偏好信号",
+      "what_happened": "OpenAI 宣布将遵循一种共享的 robots.txt 信号，让网站运营者向参与该机制的提供方表达其 AI 训练偏好。",
+      "why_it_matters": "分析判断：网站对训练数据使用的限制可能从逐家公司协商转向更统一的协议信号，降低网站管理多个爬虫规则的复杂度。",
+      "impact": "分析判断：采用该信号的网站可更明确地限制参与方抓取，但实际覆盖范围取决于有多少 AI 提供方加入及如何执行。",
+      "evidence": "来源为 OpenAI 官方页面；候选集合中没有其他来源交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-30T17:30:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/helping-websites-express-ai-training-preferences"
+        }
+      ]
+    },
+    {
+      "id": "2105abd6b92b-08",
+      "category": "ai",
+      "headline": "DoorDash 称第三方 AI 代理仅带来数百笔订单",
+      "what_happened": "DoorDash 表示，来自第三方 AI 代理的订单目前只有“数百笔”，同时称愿意继续与代理开发者合作。",
+      "why_it_matters": "分析判断：这为“AI 代理自动购物将迅速普及”的预期提供了一个现实对照，说明代理式商务仍处于很小的早期规模。",
+      "impact": "分析判断：代理商务的基础设施投入可能继续，但短期交易量不足以证明主流采用已经形成；公司未披露可比基数和增长趋势。",
+      "evidence": "来源为 TechCrunch；Ars Technica 的候选报道也描述了 DoorDash 仅获得数百笔外部 AI 代理订单，构成跨来源确认。",
+      "confidence": "已确认",
+      "published_at": "2026-10-30T21:54:25+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/30/doordash-said-its-only-received-several-hundred-orders-from-ai-agents"
+        }
+      ]
+    },
+    {
+      "id": "effc9dd75cd1-10",
+      "category": "ai",
+      "headline": "报道指谷歌首个数据中心卫星已上线运行 AI 模型",
+      "what_happened": "TechCrunch 报道称，谷歌首个数据中心卫星已经上线，首颗在轨 TPU 正运行 Google DeepMind 的 Gemma 4 模型。",
+      "why_it_matters": "分析判断：这是把 AI 计算搬到太空的早期技术验证，可能探索偏远地区连接、能源与散热等地面数据中心难以处理的条件。",
+      "impact": "分析判断：现阶段更像演示项目，尚不足以说明轨道计算能替代或显著补充地面数据中心；技术、成本和维护能力仍未得到候选材料充分展示。",
+      "evidence": "来源为 TechCrunch 的候选报道；候选集合中没有其他来源交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T01:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/30/googles-first-data-center-satellite-is-online-and-writing-poetry"
+        }
+      ]
+    },
+    {
+      "id": "240f93cf03b1-11",
+      "category": "ai",
+      "headline": "OpenAI 发布社区安全报告并加强青少年保护",
+      "what_happened": "OpenAI 表示正在加强 ChatGPT 的暴力预防措施，包括扩大安全防护、更早进行干预，并承诺开展公共安全报告；同时发布了社区安全报告。",
+      "why_it_matters": "分析判断：平台安全政策正从事后过滤扩展到早期干预和公开报告，可能影响青少年使用体验及平台对风险事件的责任边界。",
+      "impact": "分析判断：用户可能遇到更多限制或干预提示，外部研究者也可借助新增报告评估安全措施；候选材料未给出具体误判率或覆盖数据。",
+      "evidence": "来源为 OpenAI 官方页面；候选集合中没有其他来源交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-30T17:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/community-safety-report-and-new-protections-for-teens"
+        }
+      ]
+    },
+    {
+      "id": "ca9e8b28b5fc-01",
+      "category": "finance",
+      "headline": "美国 SEC 为部分关联方间及非美国回购交易提供国库券清算豁免",
+      "what_happened": "美国 SEC 宣布给予豁免，使某些关联方间及非美国回购交易在适应美国国债中央清算要求时获得例外安排。",
+      "why_it_matters": "分析判断：这项安排关系到美国国债回购市场向中央清算过渡的节奏，可能影响跨国机构的交易成本和抵押品安排，容易被宏观新闻忽略。",
+      "impact": "分析判断：受影响的经纪交易商和跨国机构可降低部分过渡摩擦，但豁免范围有限，整体中央清算目标并未取消。",
+      "evidence": "来源为美国 SEC 官方新闻稿；候选集合中没有其他来源交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T03:30:00+08:00",
+      "sources": [
+        {
+          "source_id": "sec_press",
+          "source_name": "美国 SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo"
+        }
+      ]
+    },
+    {
+      "id": "cf14a56603ed-02",
+      "category": "finance",
+      "headline": "美国 2026 年 9 月 CPI 汇总值为 0.6%",
+      "what_happened": "美国劳工统计局汇总页显示，2026 年 9 月 CPI 为 0.6%，失业率为 4.2%，薪资就业增加 2.9 万人，平均时薪增加 0.05 美元，均为页面所列数据，部分数据标记为初值。",
+      "why_it_matters": "分析判断：这组数据同时反映价格、就业和收入变化，是判断利率路径的重要输入；单看就业或单看 CPI 都可能遗漏组合信号。",
+      "impact": "分析判断：若后续修订方向一致，市场和政策制定者可能重新评估通胀持续性及降息空间；候选材料没有提供市场反应。",
+      "evidence": "来源为美国劳工统计局官方汇总页；候选集合中没有其他来源交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-30T20:30:25+08:00",
+      "sources": [
+        {
+          "source_id": "bls",
+          "source_name": "美国劳工统计局",
+          "url": "https://www.bls.gov/bls"
+        }
+      ]
+    },
+    {
+      "id": "06e7841ab606-07",
+      "category": "finance",
+      "headline": "欧洲央行行长拉加德将于 2027 年 2 月卸任",
+      "what_happened": "欧洲央行公布，行长克里斯蒂娜·拉加德将于 2027 年 2 月 7 日卸任。",
+      "why_it_matters": "分析判断：这一人事变化涉及欧洲央行最高决策职位，继任者的政策倾向会影响市场对该行沟通方式、通胀立场和机构改革连续性的预期。",
+      "impact": "分析判断：未来数月欧洲政治和市场关注点可能转向继任程序；候选材料没有说明卸任原因或继任人选。",
+      "evidence": "来源为欧洲央行官方页面；候选集合中没有其他来源交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-29T18:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "ecb",
+          "source_name": "欧洲央行",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261029~abbb6dc64b.en.html"
+        }
+      ]
+    },
+    {
+      "id": "a0109a5f6c31-09",
+      "category": "finance",
+      "headline": "英国央行启动代币化抵押品进入中央清算的咨询",
+      "what_happened": "英国央行启动咨询，研究中央对手方接受符合条件的代币化抵押品的监管预期。",
+      "why_it_matters": "分析判断：这涉及传统清算基础设施是否能直接接纳代币化资产，是代币化从发行试验走向抵押品使用的重要制度环节。",
+      "impact": "分析判断：若规则最终落地，中央对手方和托管机构可能调整资产接受与风险管理流程；当前仍只是咨询阶段。",
+      "evidence": "来源为英国央行新闻稿；候选集合中没有其他来源交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-29T18:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "boe_news",
+          "source_name": "英国央行新闻",
+          "url": "https://www.bankofengland.co.uk/news/2026/october/bank-of-england-sets-out-approach-to-tokenised-collateral-in-central-clearing"
+        }
+      ]
+    },
+    {
+      "id": "09ce52f1038c-00",
+      "category": "tech",
+      "headline": "Binance 遭疑似朝鲜相关黑客窃取约 63 亿美元",
+      "what_happened": "TechCrunch 的候选报道称，与朝鲜相关的黑客被指通过入侵一名 Binance 员工的笔记本电脑，窃取约 63 亿美元，Binance 随后曾暂停提现；相关调查结果和损失规模仍在发展。",
+      "why_it_matters": "分析判断：若相关规模和攻击路径成立，这将成为规模空前的加密资产盗窃事件，暴露交易所员工终端、内部权限和应急冻结机制的系统性风险。",
+      "impact": "分析判断：交易所可能加强设备隔离和提现风控，监管机构及托管机构也会更关注员工终端和社会工程攻击，但资产追回前景仍不确定。",
+      "evidence": "来源为 TechCrunch；同一候选集合中 Ars Technica 和 WIRED 也报道了同一事件，构成跨来源报道，因关键事实仍在快速变化，标记为“仍在发展”。",
+      "confidence": "仍在发展",
+      "published_at": "2026-10-30T22:00:25+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/30/north-korean-hackers-blamed-for-stealing-record-6-3b-in-binance-breach"
+        }
+      ]
+    },
+    {
+      "id": "b77dbc854dce-05",
+      "category": "tech",
+      "headline": "通用汽车将以 2.2 亿美元和解驾驶数据销售相关争议",
+      "what_happened": "候选报道显示，通用汽车就出售车主 Smart Driver 数据相关争议达成 2.2 亿美元和解，并要求在收集或分享驾驶及位置数据前取得车主的明确同意。",
+      "why_it_matters": "分析判断：汽车企业掌握的位置和驾驶行为数据具有保险定价价值，此案把车企数据商业化与消费者同意问题推到了更明确的监管边界。",
+      "impact": "分析判断：车企可能收紧数据共享和第三方合同，保险公司获取驾驶数据的难度也可能上升；和解的实际执行仍需观察。",
+      "evidence": "来源为 Ars Technica，TechCrunch 的候选报道也描述了同一和解金额和同意要求，构成跨来源确认。",
+      "confidence": "已确认",
+      "published_at": "2026-10-30T21:53:20+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data"
+        }
+      ]
+    },
+    {
+      "id": "41ff5a2e37c3-06",
+      "category": "tech",
+      "headline": "恶意 Claude 扩展通过供应链攻击进入开发者设备",
+      "what_happened": "WIRED 报道称，恶意版 Anthropic Claude 扩展通过供应链攻击进入数千台开发者设备；报道还说，恶意代码中的缺陷使攻击未能完全蔓延至约 5000 台机器。",
+      "why_it_matters": "分析判断：AI 编程工具正获得读取代码和调用开发环境的能力，其扩展供应链一旦被污染，风险可能从聊天应用扩散到源码和开发者凭证。",
+      "impact": "分析判断：使用 AI 编程扩展的团队可能加强扩展来源审查、权限隔离和凭证轮换；目前披露的影响范围仍取决于调查结果。",
+      "evidence": "来源为 WIRED 的候选报道；候选集合中没有其他独立来源交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T04:38:46+08:00",
+      "sources": [
+        {
+          "source_id": "wired",
+          "source_name": "WIRED",
+          "url": "https://www.wired.com/story/trojan-malware-targets-thousands-of-anthropic-claude-developer-systems"
+        }
+      ]
+    }
+  ]
+}

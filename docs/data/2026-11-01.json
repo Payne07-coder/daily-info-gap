@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T05:47:56.924278+08:00",
+  "window_start": "2026-10-30T17:45:02.901344+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
+    ]
+  },
+  "items": [
+    {
+      "id": "b97e4c5ece2c-02",
+      "category": "ai",
+      "headline": "美国法院允许 NAACP 就 xAI 数据中心污染提起诉讼",
+      "what_happened": "法官允许 NAACP 指控 xAI 数据中心违反《清洁空气法》的诉讼继续推进；报道将 xAI 描述为由 SpaceX 持有的 AI 公司。",
+      "why_it_matters": "分析：案件把 AI 算力扩张的环境成本带入司法审查，可能促使其他数据中心运营者更重视排放许可和社区影响。",
+      "impact": "推断：若诉讼继续推进，xAI 及同类数据中心可能面临更严格的合规审查、运营调整和声誉压力。",
+      "evidence": "证据来自 TechCrunch AI 的单篇报道，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-01T05:17:03+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward"
+        }
+      ]
+    },
+    {
+      "id": "cfc507e7c4d2-04",
+      "category": "ai",
+      "headline": "报道称 OpenAI 下调新一轮融资目标",
+      "what_happened": "TechCrunch AI 报道称，OpenAI 降低了新一轮融资的目标金额，并称该轮融资表现未达到预期。",
+      "why_it_matters": "分析：头部 AI 公司的融资目标若确实下调，可能是高估值与巨额算力投入背景下，资本市场更谨慎的信号。",
+      "impact": "推断：可能影响其扩张节奏及同业估值预期，但具体融资金额、条件和最终结果尚未由候选材料中的官方信息确认。",
+      "evidence": "证据来自 TechCrunch AI 基于消息的报道，候选集中没有交叉确认。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-01T00:12:55+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round"
+        }
+      ]
+    },
+    {
+      "id": "99e0e43d85d1-07",
+      "category": "ai",
+      "headline": "新资源用 200 道数学问题评估 AI 的科研重现能力",
+      "what_happened": "arXiv 论文提出 OpenFrontiers，收集 12,151 个开放研究问题，并构建包含 200 道数学问题的回顾性基准；其中 110 道已于 2026 年解决、90 道仍开放，声明使用 Lean 4 及自动检查。",
+      "why_it_matters": "分析：现有模型评测常偏向已公开知识，这一基准试图区分模型能否重现近期研究结果，而不只是记住答案。",
+      "impact": "推断：若被广泛采用，可能更清楚地暴露模型在长链条科学推理和形式化证明方面的短板。",
+      "evidence": "证据来自 arXiv cs.AI 的单篇预印本，所述基准由作者提出，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T12:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.37739"
+        }
+      ]
+    },
+    {
+      "id": "9a585c2c8916-08",
+      "category": "ai",
+      "headline": "论文提出分离指令与数据以降低提示注入风险",
+      "what_happened": "arXiv 论文提出 LLMON 后训练方法，用显式标识符区分可执行指令和被动数据，并据此对两个 Granite-4.1 模型进行监督微调与强化学习。",
+      "why_it_matters": "分析：提示注入的核心问题之一是模型难以区分可信指令与上下文中的不可信文本；将两者结构化和显式绑定，是针对该风险的技术路线。",
+      "impact": "推断：若实际部署有效，可能降低检索增强生成和工具调用中的指令劫持风险，但候选摘要未提供完整效果数据。",
+      "evidence": "证据来自 arXiv cs.AI 的单篇预印本，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T12:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.38120"
+        }
+      ]
+    },
+    {
+      "id": "d22b23c64aff-10",
+      "category": "ai",
+      "headline": "新方法试图发现 AI 代理之间的隐蔽串谋",
+      "what_happened": "arXiv 论文提出名为 PoPLi 的行为测试：比较合作伙伴与无关代理在消息改写后行动变化的差异，并在一个包含五种条件的模拟市场中测试。论文摘要称，存在首字母编码时指标介于 0.48 至 0.59。",
+      "why_it_matters": "分析：仅审查代理发送的消息可能漏掉看似正常、实际承载秘密约定的沟通；行为复测提供了另一种检查思路。",
+      "impact": "推断：该指标目前来自模拟市场，是否适用于真实交易、协作和监控系统仍需验证，不能据此认定现实系统已发生串谋。",
+      "evidence": "证据来自 arXiv cs.AI 的单篇预印本，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T12:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.37849"
+        }
+      ]
+    },
+    {
+      "id": "ca9e8b28b5fc-00",
+      "category": "finance",
+      "headline": "美国 SEC 对部分国债清算要求给予豁免",
+      "what_happened": "美国 SEC 发布豁免救济，适用于特定关联机构之间的回购交易及部分非美国回购交易，涉及美国国债中央清算要求。",
+      "why_it_matters": "这是官方监管口径的调整，可能改变相关机构过渡到国债中央清算的方式，并降低部分跨境及关联交易的合规摩擦。",
+      "impact": "分析：受影响机构可能调整回购业务结构和清算路径，但候选材料未给出受影响交易规模，实际市场影响仍需观察。",
+      "evidence": "证据来自美国 SEC 官方新闻稿，属原始发布；候选集中未提供其他交叉报道。",
+      "confidence": "已确认",
+      "published_at": "2026-10-31T03:30:00+08:00",
+      "sources": [
+        {
+          "source_id": "sec_press",
+          "source_name": "美国 SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo"
+        }
+      ]
+    },
+    {
+      "id": "7a84c721f0da-05",
+      "category": "finance",
+      "headline": "Medicare 测试用 AI 进行医疗事前授权",
+      "what_happened": "MarketWatch 报道称，Medicare 正在测试用 AI 进行患者医疗的事前授权，并称该做法实施后医疗服务量大幅下降。",
+      "why_it_matters": "分析：如果下降确实由授权机制导致，可能同时意味着减少浪费性支出和增加必要医疗被延误的风险。",
+      "impact": "推断：患者就医可及性、医疗服务机构收入和公共医保支出可能受到影响；候选材料不足以判断下降的成因和医疗后果。",
+      "evidence": "证据来自 MarketWatch 对 Medicare 试点情况的单篇报道，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-01T01:26:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/medicare-used-ai-to-pre-approve-patient-care-and-it-immediately-led-to-a-large-drop-in-medical-services-dc38a210"
+        }
+      ]
+    },
+    {
+      "id": "28ad77cbba41-09",
+      "category": "finance",
+      "headline": "家庭照护者每年自付费用超过 1.1 万美元",
+      "what_happened": "MarketWatch 援引 AARP 研究报道称，照护者每年自付费用超过 1.1 万美元，五年内上升约 60%。",
+      "why_it_matters": "分析：这一负担会压缩家庭储蓄并影响劳动参与，且往往分散在多个家庭支出项目中，容易被宏观统计忽略。",
+      "impact": "推断：家庭财务、照护安排及长期储蓄可能持续承压；候选材料未提供地域范围和统计口径细节。",
+      "evidence": "证据来自 MarketWatch 对 AARP 研究的单篇报道，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-01T02:10:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/were-spending-more-than-11-000-a-year-of-our-own-money-caring-for-our-aging-parents-and-loved-ones-8fc5b2dc"
+        }
+      ]
+    },
+    {
+      "id": "bce40356eef1-01",
+      "category": "tech",
+      "headline": "报道称 Binance 遭遇创纪录规模的加密资产盗取",
+      "what_happened": "Ars Technica 报道称，黑客从 Binance 盗取 63 亿美元，Binance 正在冻结相关资金，报道还将事件与朝鲜联系起来。",
+      "why_it_matters": "分析：若报道所述金额和关联方得到确认，这将是影响交易所安全、跨境执法和加密资产托管信任的重大事件。",
+      "impact": "推断：用户资金安全、交易所风控和监管审查可能受到影响；资金冻结进展及攻击归因仍可能变化。",
+      "evidence": "证据来自 Ars Technica 的单篇报道，候选集中没有交叉确认。",
+      "confidence": "仍在发展",
+      "published_at": "2026-10-30T21:46:39+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist"
+        }
+      ]
+    },
+    {
+      "id": "cfb38706724b-03",
+      "category": "tech",
+      "headline": "Anthropic 在 Cursor 上的扩展被植入后门近 12 小时",
+      "what_happened": "Ars Technica 报道称，Anthropic 在 Cursor 上的 VS Code 扩展被植入后门近 12 小时，攻击者取得 Anthropic 已验证 Cursor 账户的方式仍不清楚。",
+      "why_it_matters": "分析：该事件暴露了开发者工具和扩展分发链的风险，恶意改动即使持续时间不长，也可能接触大量开发环境。",
+      "impact": "推断：使用相关扩展的开发者可能需要检查账户、代码和环境安全，平台也可能收紧扩展发布与账户验证流程。",
+      "evidence": "证据来自 Ars Technica 的单篇报道，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T05:09:54+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours"
+        }
+      ]
+    },
+    {
+      "id": "b77dbc854dce-06",
+      "category": "tech",
+      "headline": "通用汽车因出售智能驾驶数据支付 2.2 亿美元",
+      "what_happened": "Ars Technica 报道称，通用汽车车主发现其驾驶数据被出售给保险公司，公司将因此支付 2.2 亿美元。",
+      "why_it_matters": "分析：事件凸显车辆数据商业化与消费者知情同意之间的冲突，也可能提高车企处理敏感驾驶数据的合规成本。",
+      "impact": "推断：其他车企和保险机构可能面临更严格的隐私审查，车主对车辆数据用途的担忧也可能上升。",
+      "evidence": "证据来自 Ars Technica 的单篇报道，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-30T21:53:20+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data"
+        }
+      ]
+    }
+  ]
+}

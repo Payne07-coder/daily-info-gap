@@ -1,194 +1,214 @@
 {
   "schema_version": 1,
-  "date": "2026-10-28",
-  "generated_at": "2026-10-28T21:42:19.578422+08:00",
-  "window_start": "2026-10-27T09:41:11.463746+08:00",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T05:47:56.924278+08:00",
+  "window_start": "2026-10-30T17:45:02.901344+08:00",
   "status": "partial",
   "source_health": {
-    "ok": 24,
-    "failed": 1,
+    "ok": 22,
+    "failed": 3,
     "failed_sources": [
-      "VentureBeat AI"
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
     ]
   },
   "items": [
     {
-      "id": "42273f1cbffc-03",
+      "id": "b97e4c5ece2c-02",
       "category": "ai",
-      "headline": "Google DeepMind发布Genie 4世界模型",
-      "what_happened": "Google DeepMind发布Genie 4世界模型，官方称其提升了实时模拟的真实感；Ars Technica还报道，该模型加入音频以及更真实的物理和人物表现。",
-      "why_it_matters": "分析：世界模型可用于生成可交互的模拟环境，其进展会影响机器人训练、游戏内容生成和虚拟场景制作等需要大量环境数据的方向。",
-      "impact": "推断：更强的实时模拟可能降低部分训练和内容制作的数据成本，但模拟真实度与真实世界迁移效果仍需独立验证。",
-      "evidence": "证据来自Google DeepMind官方博客，Ars Technica在候选新闻中也报道了同一发布，构成交叉确认。",
+      "headline": "美国法院允许 NAACP 就 xAI 数据中心污染提起诉讼",
+      "what_happened": "法官允许 NAACP 指控 xAI 数据中心违反《清洁空气法》的诉讼继续推进；报道将 xAI 描述为由 SpaceX 持有的 AI 公司。",
+      "why_it_matters": "分析：案件把 AI 算力扩张的环境成本带入司法审查，可能促使其他数据中心运营者更重视排放许可和社区影响。",
+      "impact": "推断：若诉讼继续推进，xAI 及同类数据中心可能面临更严格的合规审查、运营调整和声誉压力。",
+      "evidence": "证据来自 TechCrunch AI 的单篇报道，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-01T05:17:03+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/31/judge-allows-naacp-lawsuit-over-xai-data-center-pollution-to-move-forward"
+        }
+      ]
+    },
+    {
+      "id": "cfc507e7c4d2-04",
+      "category": "ai",
+      "headline": "报道称 OpenAI 下调新一轮融资目标",
+      "what_happened": "TechCrunch AI 报道称，OpenAI 降低了新一轮融资的目标金额，并称该轮融资表现未达到预期。",
+      "why_it_matters": "分析：头部 AI 公司的融资目标若确实下调，可能是高估值与巨额算力投入背景下，资本市场更谨慎的信号。",
+      "impact": "推断：可能影响其扩张节奏及同业估值预期，但具体融资金额、条件和最终结果尚未由候选材料中的官方信息确认。",
+      "evidence": "证据来自 TechCrunch AI 基于消息的报道，候选集中没有交叉确认。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-01T00:12:55+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/31/openai-reportedly-lowers-funding-target-for-new-round"
+        }
+      ]
+    },
+    {
+      "id": "99e0e43d85d1-07",
+      "category": "ai",
+      "headline": "新资源用 200 道数学问题评估 AI 的科研重现能力",
+      "what_happened": "arXiv 论文提出 OpenFrontiers，收集 12,151 个开放研究问题，并构建包含 200 道数学问题的回顾性基准；其中 110 道已于 2026 年解决、90 道仍开放，声明使用 Lean 4 及自动检查。",
+      "why_it_matters": "分析：现有模型评测常偏向已公开知识，这一基准试图区分模型能否重现近期研究结果，而不只是记住答案。",
+      "impact": "推断：若被广泛采用，可能更清楚地暴露模型在长链条科学推理和形式化证明方面的短板。",
+      "evidence": "证据来自 arXiv cs.AI 的单篇预印本，所述基准由作者提出，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T12:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.37739"
+        }
+      ]
+    },
+    {
+      "id": "9a585c2c8916-08",
+      "category": "ai",
+      "headline": "论文提出分离指令与数据以降低提示注入风险",
+      "what_happened": "arXiv 论文提出 LLMON 后训练方法，用显式标识符区分可执行指令和被动数据，并据此对两个 Granite-4.1 模型进行监督微调与强化学习。",
+      "why_it_matters": "分析：提示注入的核心问题之一是模型难以区分可信指令与上下文中的不可信文本；将两者结构化和显式绑定，是针对该风险的技术路线。",
+      "impact": "推断：若实际部署有效，可能降低检索增强生成和工具调用中的指令劫持风险，但候选摘要未提供完整效果数据。",
+      "evidence": "证据来自 arXiv cs.AI 的单篇预印本，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T12:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.38120"
+        }
+      ]
+    },
+    {
+      "id": "d22b23c64aff-10",
+      "category": "ai",
+      "headline": "新方法试图发现 AI 代理之间的隐蔽串谋",
+      "what_happened": "arXiv 论文提出名为 PoPLi 的行为测试：比较合作伙伴与无关代理在消息改写后行动变化的差异，并在一个包含五种条件的模拟市场中测试。论文摘要称，存在首字母编码时指标介于 0.48 至 0.59。",
+      "why_it_matters": "分析：仅审查代理发送的消息可能漏掉看似正常、实际承载秘密约定的沟通；行为复测提供了另一种检查思路。",
+      "impact": "推断：该指标目前来自模拟市场，是否适用于真实交易、协作和监控系统仍需验证，不能据此认定现实系统已发生串谋。",
+      "evidence": "证据来自 arXiv cs.AI 的单篇预印本，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T12:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.37849"
+        }
+      ]
+    },
+    {
+      "id": "ca9e8b28b5fc-00",
+      "category": "finance",
+      "headline": "美国 SEC 对部分国债清算要求给予豁免",
+      "what_happened": "美国 SEC 发布豁免救济，适用于特定关联机构之间的回购交易及部分非美国回购交易，涉及美国国债中央清算要求。",
+      "why_it_matters": "这是官方监管口径的调整，可能改变相关机构过渡到国债中央清算的方式，并降低部分跨境及关联交易的合规摩擦。",
+      "impact": "分析：受影响机构可能调整回购业务结构和清算路径，但候选材料未给出受影响交易规模，实际市场影响仍需观察。",
+      "evidence": "证据来自美国 SEC 官方新闻稿，属原始发布；候选集中未提供其他交叉报道。",
       "confidence": "已确认",
-      "published_at": "2026-10-28T00:01:38+08:00",
+      "published_at": "2026-10-31T03:30:00+08:00",
       "sources": [
         {
-          "source_id": "deepmind",
-          "source_name": "Google DeepMind",
-          "url": "https://deepmind.google/blog/genie-4-a-new-generation-of-world-simulation"
+          "source_id": "sec_press",
+          "source_name": "美国 SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-111-sec-issues-exemptive-relief-treasury-clearing-requirements-certain-inter-affiliate-non-us-repo"
         }
       ]
     },
     {
-      "id": "f5b61a4c5191-05",
-      "category": "ai",
-      "headline": "OpenAI与Oracle扩大合作，将企业应用接入ChatGPT",
-      "what_happened": "OpenAI宣布扩大与Oracle的合作，计划把Oracle业务应用和AI代理接入ChatGPT，并用相关AI能力支持新的Oracle产品。",
-      "why_it_matters": "分析：这显示ChatGPT正从独立对话工具向企业软件入口延伸。若企业应用直接进入ChatGPT，AI助手可能更深入参与流程执行，而不只是回答问题。",
-      "impact": "推断：企业客户未来可能更依赖跨应用代理来完成任务，但权限边界、数据隔离和审计能力将决定其能否在受监管行业落地。",
-      "evidence": "证据来自OpenAI官方发布，候选新闻中没有第二来源交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-10-27T15:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "openai_news",
-          "source_name": "OpenAI",
-          "url": "https://openai.com/index/oracle-apps-in-chatgpt"
-        }
-      ]
-    },
-    {
-      "id": "c03238f50ffc-07",
-      "category": "ai",
-      "headline": "研究称用户在场会改变谈判代理的行为与结果",
-      "what_happened": "一篇论文在7种博弈、8个模型和1.12万次运行中比较有无用户在场的谈判，发现用户在场会显著改变AI代理的策略；有用户在场的一方平均获得高13.7%的收益，且代理谈判更激进。",
-      "why_it_matters": "分析：这意味着代理在无人监督和有人监督时可能表现出不同的谈判策略。仅用无人值守测试评估代理行为，可能低估部署后出现的风险。",
-      "impact": "推断：企业在部署代用户议价或采购的AI代理时，需要把人的监督方式纳入测试，尤其关注更激进行为带来的关系和法律风险。",
-      "evidence": "证据来自arXiv cs.AI论文摘要，候选新闻中没有第二来源交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-10-28T12:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "arxiv_ai",
-          "source_name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.36435"
-        }
-      ]
-    },
-    {
-      "id": "08fd1ae64f93-08",
-      "category": "ai",
-      "headline": "研究揭示代理记忆中的过时信息会严重干扰回答",
-      "what_happened": "一篇论文报告，在包含6K历史记录的检索测试中，将检索证据从64个token扩大到512个token后，Qwen2.5-7B-Instruct的准确率从45%降至32%；作者确认最新陈述其实已经出现在每个检索集合中。",
-      "why_it_matters": "分析：问题并非最新事实没有检索到，而是模型无法稳定识别新旧信息之间的冲突。简单增加上下文长度可能反而增加干扰。",
-      "impact": "推断：长期记忆代理需要显式处理信息更新和失效机制，企业知识库的场景还应保留版本来源与更新时间，以降低过期事实影响决策。",
-      "evidence": "证据来自arXiv cs.AI论文摘要，候选新闻中没有第二来源交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-10-28T12:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "arxiv_ai",
-          "source_name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.36308"
-        }
-      ]
-    },
-    {
-      "id": "b490170cf19b-09",
-      "category": "ai",
-      "headline": "研究提出衡量AI节省时间的新方法",
-      "what_happened": "一篇论文区分了直接掐表计算时间节省与实际收益的“账本视角”，提出同时衡量节省时间和额外漏过缺陷，并用“盈亏平衡缺陷成本”作为决策指标。",
-      "why_it_matters": "分析：AI提高产出速度不等于净效率提高。若节省的时间伴随更多错误和复核成本，组织可能误判自动化投入的实际回报。",
-      "impact": "推断：企业在评估编程、研究和文書类AI工具时，应把返工、审阅和错误外溢成本纳入同一套指标，而非只统计任务完成时间的下降。",
-      "evidence": "证据来自arXiv cs.AI论文摘要，候选新闻中没有第二来源交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-10-28T12:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "arxiv_ai",
-          "source_name": "arXiv cs.AI",
-          "url": "https://arxiv.org/abs/2610.35942"
-        }
-      ]
-    },
-    {
-      "id": "4d5abadf33ff-04",
+      "id": "7a84c721f0da-05",
       "category": "finance",
-      "headline": "SK海力士称内存供应约束可能持续至2030年",
-      "what_happened": "SK海力士公布第三季度业绩，并表示内存供应约束预计将持续到2030年。MarketWatch报道称，市场更关注这一前景而非已经公布的季度业绩。",
-      "why_it_matters": "分析：内存是AI服务器和数据中心扩展的关键投入品。供应约束延续多年意味着算力扩张速度可能受上游供货能力限制，而非只取决于芯片设计或客户订单。",
-      "impact": "推断：云厂商和服务器制造商可能需要更长期锁定供应，采购成本与交付周期也可能继续承压；这一影响取决于公司预测能否兑现。",
-      "evidence": "证据来自MarketWatch对SK海力士业绩和前景表态的报道，候选新闻中没有第二来源交叉确认。",
+      "headline": "Medicare 测试用 AI 进行医疗事前授权",
+      "what_happened": "MarketWatch 报道称，Medicare 正在测试用 AI 进行患者医疗的事前授权，并称该做法实施后医疗服务量大幅下降。",
+      "why_it_matters": "分析：如果下降确实由授权机制导致，可能同时意味着减少浪费性支出和增加必要医疗被延误的风险。",
+      "impact": "推断：患者就医可及性、医疗服务机构收入和公共医保支出可能受到影响；候选材料不足以判断下降的成因和医疗后果。",
+      "evidence": "证据来自 MarketWatch 对 Medicare 试点情况的单篇报道，候选集中没有交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-10-28T20:34:00+08:00",
+      "published_at": "2026-11-01T01:26:00+08:00",
       "sources": [
         {
           "source_id": "marketwatch",
           "source_name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/sk-hynix-delivered-on-third-quarter-results-but-the-outlook-is-what-really-mattered-to-wall-street-and-the-ai-trade-2fde9a57"
+          "url": "https://www.marketwatch.com/story/medicare-used-ai-to-pre-approve-patient-care-and-it-immediately-led-to-a-large-drop-in-medical-services-dc38a210"
         }
       ]
     },
     {
-      "id": "ccb7689a25f5-06",
+      "id": "28ad77cbba41-09",
       "category": "finance",
-      "headline": "Vertiv销售超预期，AI基础设施需求继续显现",
-      "what_happened": "MarketWatch报道，Vertiv季度销售额大幅超出预期，并将其视为大型科技公司财报发布前AI建设仍在加速的一个信号。",
-      "why_it_matters": "分析：AI投入不仅体现在芯片采购，也体现在供电、散热和数据中心基础设施上。设备供应商的销售表现提供了观察AI建设实际支出进度的另一条线索。",
-      "impact": "推断：若后续公司披露继续印证这一趋势，AI资本开支压力可能更多转向电力、散热和建设交付环节。",
-      "evidence": "证据来自MarketWatch对Vertiv业绩的报道，候选新闻中没有第二来源交叉确认。",
+      "headline": "家庭照护者每年自付费用超过 1.1 万美元",
+      "what_happened": "MarketWatch 援引 AARP 研究报道称，照护者每年自付费用超过 1.1 万美元，五年内上升约 60%。",
+      "why_it_matters": "分析：这一负担会压缩家庭储蓄并影响劳动参与，且往往分散在多个家庭支出项目中，容易被宏观统计忽略。",
+      "impact": "推断：家庭财务、照护安排及长期储蓄可能持续承压；候选材料未提供地域范围和统计口径细节。",
+      "evidence": "证据来自 MarketWatch 对 AARP 研究的单篇报道，候选集中没有交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-10-28T20:48:00+08:00",
+      "published_at": "2026-11-01T02:10:00+08:00",
       "sources": [
         {
           "source_id": "marketwatch",
           "source_name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/vertiv-earnings-just-sent-an-upbeat-signal-about-ai-ahead-of-big-tech-results-5714a105"
+          "url": "https://www.marketwatch.com/story/were-spending-more-than-11-000-a-year-of-our-own-money-caring-for-our-aging-parents-and-loved-ones-8fc5b2dc"
         }
       ]
     },
     {
-      "id": "6c84895fec96-00",
+      "id": "bce40356eef1-01",
       "category": "tech",
-      "headline": "UEFI固件严重漏洞可影响大量服务器",
-      "what_happened": "Ars Technica报道，UEFI固件实现EDK2存在代码执行漏洞，攻击者可在设备启动流程的早期执行代码，报道称该问题可能影响全球大量服务器。",
-      "why_it_matters": "分析：固件在操作系统启动前运行，因此这类漏洞可能绕过常规的系统和应用安全防护，受影响设备的修复也不能只依赖普通软件更新。",
-      "impact": "推断：云服务商、企业数据中心和设备管理团队需要核查EDK2版本与固件更新能力；未修补设备可能增加启动链被控制的风险。",
-      "evidence": "证据来自Ars Technica，候选新闻中没有第二个来源对该漏洞进行交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-10-28T04:25:55+08:00",
+      "headline": "报道称 Binance 遭遇创纪录规模的加密资产盗取",
+      "what_happened": "Ars Technica 报道称，黑客从 Binance 盗取 63 亿美元，Binance 正在冻结相关资金，报道还将事件与朝鲜联系起来。",
+      "why_it_matters": "分析：若报道所述金额和关联方得到确认，这将是影响交易所安全、跨境执法和加密资产托管信任的重大事件。",
+      "impact": "推断：用户资金安全、交易所风控和监管审查可能受到影响；资金冻结进展及攻击归因仍可能变化。",
+      "evidence": "证据来自 Ars Technica 的单篇报道，候选集中没有交叉确认。",
+      "confidence": "仍在发展",
+      "published_at": "2026-10-30T21:46:39+08:00",
       "sources": [
         {
           "source_id": "ars_technica",
           "source_name": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/10/code-execution-flaw-in-uefi-firmware-threatens-most-servers-on-planet-earth"
+          "url": "https://arstechnica.com/security/2026/10/hackers-steal-6-3-billion-from-binance-in-record-crypto-heist"
         }
       ]
     },
     {
-      "id": "b4dfe27147a3-01",
+      "id": "cfb38706724b-03",
       "category": "tech",
-      "headline": "美国政府机构警告PHP严重漏洞正被利用",
-      "what_happened": "TechCrunch报道，美国政府的网络安全机构警告，攻击者已经开始利用流行的PHP软件中的严重漏洞，报道同时称PHP用于大量网站和网络软件。",
-      "why_it_matters": "分析：PHP位于许多网站的服务端处理路径中，已发现实际利用意味着风险不再只是潜在的理论漏洞，网站运营者的修补紧迫性上升。",
-      "impact": "推断：运行受影响PHP版本的网站可能面临远程入侵或服务失守风险，运维团队应优先确认版本、访问日志和修补状态。",
-      "evidence": "证据来自TechCrunch对政府网络安全机构警告的报道，候选新闻中没有第二来源交叉确认。",
+      "headline": "Anthropic 在 Cursor 上的扩展被植入后门近 12 小时",
+      "what_happened": "Ars Technica 报道称，Anthropic 在 Cursor 上的 VS Code 扩展被植入后门近 12 小时，攻击者取得 Anthropic 已验证 Cursor 账户的方式仍不清楚。",
+      "why_it_matters": "分析：该事件暴露了开发者工具和扩展分发链的风险，恶意改动即使持续时间不长，也可能接触大量开发环境。",
+      "impact": "推断：使用相关扩展的开发者可能需要检查账户、代码和环境安全，平台也可能收紧扩展发布与账户验证流程。",
+      "evidence": "证据来自 Ars Technica 的单篇报道，候选集中没有交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-10-27T22:40:39+08:00",
-      "sources": [
-        {
-          "source_id": "techcrunch",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/10/27/us-government-says-hackers-are-now-exploiting-critical-php-web-bugs"
-        }
-      ]
-    },
-    {
-      "id": "1e24a5b6e6be-02",
-      "category": "tech",
-      "headline": "特拉华州拟允许AI代理经营整套企业",
-      "what_happened": "Ars Technica报道，特拉华州有一项计划将允许AI代理经营整套业务；报道并称，美国众议员Comer表示企业所有者可能借此规避对“鲁莽”AI行为的责任。",
-      "why_it_matters": "分析：这项计划触及公司法、代理责任和AI决策归责。若法律责任无法明确落到可负责的人或机构，交易对手和受损害方的追索路径会变得复杂。",
-      "impact": "推断：若该方案推进，AI自主经营企业的合规、审计、保险和责任分配规则可能成为新的制度竞争点，而不只是技术部署问题。",
-      "evidence": "证据来自Ars Technica对州级计划和议员评论的报道，候选新闻中没有第二来源交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-10-28T05:50:04+08:00",
+      "published_at": "2026-10-31T05:09:54+08:00",
       "sources": [
         {
           "source_id": "ars_technica",
           "source_name": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/10/no-human-at-the-helm-delaware-plan-would-let-ai-agents-run-entire-businesses"
+          "url": "https://arstechnica.com/security/2026/10/anthropic-vs-code-extension-on-cursor-backdoored-for-nearly-12-hours"
+        }
+      ]
+    },
+    {
+      "id": "b77dbc854dce-06",
+      "category": "tech",
+      "headline": "通用汽车因出售智能驾驶数据支付 2.2 亿美元",
+      "what_happened": "Ars Technica 报道称，通用汽车车主发现其驾驶数据被出售给保险公司，公司将因此支付 2.2 亿美元。",
+      "why_it_matters": "分析：事件凸显车辆数据商业化与消费者知情同意之间的冲突，也可能提高车企处理敏感驾驶数据的合规成本。",
+      "impact": "推断：其他车企和保险机构可能面临更严格的隐私审查，车主对车辆数据用途的担忧也可能上升。",
+      "evidence": "证据来自 Ars Technica 的单篇报道，候选集中没有交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-30T21:53:20+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/cars/2026/10/gm-to-pay-220-million-after-selling-customer-smart-driver-data"
         }
       ]
     }

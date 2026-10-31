@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T05:46:11.123509+08:00",
+  "window_start": "2026-10-27T17:45:02.871194+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 24,
+    "failed": 1,
+    "failed_sources": [
+      "VentureBeat AI"
+    ]
+  },
+  "items": [
+    {
+      "id": "29cb951ce26f-04",
+      "category": "ai",
+      "headline": "Google DeepMind发布Gemini 4 Carbon前沿模型",
+      "what_happened": "Google DeepMind发布Gemini 4 Carbon，并将其定位为下一代前沿模型；Ars Technica同期报道称，该模型目前不可供公众使用，相较Argon为小幅改进。",
+      "why_it_matters": "分析：前沿模型的发布节奏与可实际使用范围并不相同，官方公告可能放大能力信号，而独立报道提供了可用性和改进幅度的限制条件。",
+      "impact": "推断：短期内更值得关注的是该模型何时向开发者或企业开放，以及其能力提升是否足以改变现有模型选型和推理成本。",
+      "evidence": "证据来自Google DeepMind原始发布，Ars Technica同日报道补充了不可公开使用与性能定位，构成跨来源确认。",
+      "confidence": "已确认",
+      "published_at": "2026-10-29T01:00:58+08:00",
+      "sources": [
+        {
+          "source_id": "deepmind",
+          "source_name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-4-carbon-our-next-frontier-model"
+        }
+      ]
+    },
+    {
+      "id": "a07dc229794c-05",
+      "category": "ai",
+      "headline": "OpenAI与ServiceNow把模型、代理和企业工作流双向接入",
+      "what_happened": "OpenAI与ServiceNow扩大合作，将OpenAI模型和代理引入ServiceNow，并将ServiceNow工作流接入ChatGPT和Codex。",
+      "why_it_matters": "分析：合作重点已从单一API调用转向企业流程与AI入口的双向嵌入，可能改变员工访问企业数据和执行跨系统任务的方式。",
+      "impact": "推断：企业将更依赖平台间的身份、权限和审计衔接；接入范围扩大也会提高配置错误、数据越权和流程失控的治理成本。",
+      "evidence": "证据来自OpenAI官方公告，候选集合内无独立报道可交叉确认合作细节。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T21:15:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/openai-servicenow-partnership-expansion"
+        }
+      ]
+    },
+    {
+      "id": "b308b8606030-06",
+      "category": "ai",
+      "headline": "NVIDIA发布可提示和适配的多语言开源转录模型",
+      "what_happened": "NVIDIA发布Nemotron 3.5 Transcribe与Granary v2；TechCrunch报道称其可转录多达40种语言，但只处理录音而不支持实时音频。",
+      "why_it_matters": "分析：多语言与可适配能力降低了会议、医疗等批量录音转录的模型门槛，但缺少实时能力意味着它不会直接替代实时语音代理。",
+      "impact": "推断：转录工具供应商可能更多采用开源模型处理非实时任务，实时通话和低延迟场景仍会保留专有或专用方案。",
+      "evidence": "证据来自NVIDIA的Hugging Face官方博客，TechCrunch同日报道补充了语种和录音限制，构成跨来源确认。",
+      "confidence": "已确认",
+      "published_at": "2026-10-28T22:58:17+08:00",
+      "sources": [
+        {
+          "source_id": "huggingface_blog",
+          "source_name": "Hugging Face",
+          "url": "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
+        }
+      ]
+    },
+    {
+      "id": "a278c9430a03-07",
+      "category": "ai",
+      "headline": "微软单季从与OpenAI的安排中录得100亿美元收入",
+      "what_happened": "TechCrunch报道，微软称截至9月30日的季度中，其从与OpenAI的商业安排中获得100亿美元收入，其中包括收入分成付款。",
+      "why_it_matters": "分析：这一数字揭示微软与OpenAI之间不仅是技术合作，也存在规模巨大的商业收入依赖，单看模型发布容易忽略其财务绑定。",
+      "impact": "推断：双方合作条款、算力采购或客户分成若发生调整，可能同时影响微软的财务表现与OpenAI的资金结构。",
+      "evidence": "证据来自TechCrunch对微软披露内容的单一报道，候选集合内无其他来源交叉确认该数字。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-29T05:34:30+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/microsoft-recorded-10-billion-in-revenue-from-openai"
+        }
+      ]
+    },
+    {
+      "id": "36afd3ed84d8-10",
+      "category": "ai",
+      "headline": "Anthropic推出企业AI支出透明工具",
+      "what_happened": "TechCrunch报道，Anthropic推出用于展示企业AI支出实际购买了什么的新工具，并将该发布置于其计划IPO的背景下。",
+      "why_it_matters": "分析：随着企业从试用转向规模化采购，模型调用量已不足以说明价值，支出归因和可衡量产出正成为采购决策的核心。",
+      "impact": "推断：企业可能要求模型厂商提供更细的使用、成本和业务效果数据，供应商若无法证明回报，续约和扩单会更困难。",
+      "evidence": "证据来自TechCrunch的单一报道，候选集合内无其他来源确认工具能力或IPO安排。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-29T03:19:58+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/10/28/anthropic-just-launched-tools-to-show-companies-what-their-ai-spending-is-buying"
+        }
+      ]
+    },
+    {
+      "id": "f280ed7e0ce1-02",
+      "category": "finance",
+      "headline": "美联储发布10月FOMC声明并维持利率不变",
+      "what_happened": "美联储发布10月FOMC声明；MarketWatch同日报道称，美联储维持利率不变。",
+      "why_it_matters": "分析：官方声明是判断利率路径、美元融资环境和市场预期的第一手依据，二手解读容易省略声明中的条件与措辞。",
+      "impact": "推断：按揭、汽车贷款、信用卡和企业融资成本短期内仍将受当前利率水平约束，后续政策方向取决于声明所强调的数据条件。",
+      "evidence": "证据来自美联储的FOMC原始声明，MarketWatch同日报道维持利率不变，构成跨来源确认。",
+      "confidence": "已确认",
+      "published_at": "2026-10-29T02:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "federal_reserve",
+          "source_name": "美联储",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm"
+        }
+      ]
+    },
+    {
+      "id": "cf14a56603ed-03",
+      "category": "finance",
+      "headline": "美国9月物价、就业与薪资指标同时给出新的宏观读数",
+      "what_happened": "美国劳工统计局页面显示，2026年9月CPI为+0.6%、失业率为4.2%、初值非农就业增加2.9万人，平均时薪增加0.05美元，生产者价格指数为+1.3%。",
+      "why_it_matters": "分析：这些指标把价格压力、就业增长和工资变化放在同一时间窗口内，比只看单一通胀或就业标题更能反映政策取舍。",
+      "impact": "推断：如果后续数据延续当前组合，利率预期将同时受到通胀与就业两方面牵制，家庭和企业不宜仅凭单项指标判断融资成本方向。",
+      "evidence": "证据来自美国劳工统计局的官方汇总页面，候选集合内无其他来源逐项复核这些数字。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T22:01:13+08:00",
+      "sources": [
+        {
+          "source_id": "bls",
+          "source_name": "美国劳工统计局",
+          "url": "https://www.bls.gov/bls"
+        }
+      ]
+    },
+    {
+      "id": "c41894f3d3f4-09",
+      "category": "finance",
+      "headline": "ServiceNow业绩不及预期，AI展望上调仍未能稳住股价",
+      "what_happened": "MarketWatch报道，ServiceNow虽然出现更多数百万美元规模的AI交易并上调AI展望，但季度业绩未达预期，股价随后下跌。",
+      "why_it_matters": "分析：这表明企业AI交易增长尚未自动转化为足以满足市场预期的整体业绩，AI叙事与软件公司的财务兑现之间仍有落差。",
+      "impact": "推断：投资者和采购方可能更关注AI合同的实际收入确认、续约率和交付成本，而不只看交易金额或合作公告。",
+      "evidence": "证据来自MarketWatch的单一报道，候选集合内无其他来源交叉确认业绩与股价反应。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-29T05:07:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/servicenows-stock-slides-as-earnings-miss-clouds-a-raised-ai-outlook-96e48385"
+        }
+      ]
+    },
+    {
+      "id": "28ad77cbba41-11",
+      "category": "finance",
+      "headline": "家庭照护者年均自付费用超过1.1万美元，五年增长60%",
+      "what_happened": "MarketWatch转述AARP研究称，家庭照护者每年自付照护费用超过1.1万美元，五年内增长60%。",
+      "why_it_matters": "分析：照护成本正从家庭内部隐性负担转为可量化的财务压力，相关支出可能挤压储蓄、退休准备和劳动参与。",
+      "impact": "推断：长期照护、保险和家庭现金流规划的重要性上升，企业与公共政策也面临更直接的照护支持需求。",
+      "evidence": "证据来自MarketWatch对AARP研究的单一报道，候选集合内无其他来源交叉复核该调查数据。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-29T04:18:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/were-spending-more-than-11-000-a-year-of-our-own-money-caring-for-our-aging-parents-and-loved-ones-8fc5b2dc"
+        }
+      ]
+    },
+    {
+      "id": "41f94e953230-00",
+      "category": "tech",
+      "headline": "覆盖多数服务器厂商的UEFI严重漏洞可执行启动阶段代码",
+      "what_happened": "WIRED报道，一项影响多数服务器厂商和数据中心的UEFI固件漏洞，可让攻击者在系统启动早期执行代码。",
+      "why_it_matters": "分析：固件位于操作系统和常规安全软件之下，一旦被利用，传统补丁与终端防护可能难以及时发现或清除。",
+      "impact": "推断：云服务商、企业数据中心和服务器供应商需要优先核查受影响型号，否则一次利用可能波及大量共享基础设施。",
+      "evidence": "证据来自WIRED的单一报道，候选集合内无其他来源确认受影响范围和利用细节。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-29T04:30:00+08:00",
+      "sources": [
+        {
+          "source_id": "wired",
+          "source_name": "WIRED",
+          "url": "https://www.wired.com/story/most-servers-on-the-planet-are-vulnerable-to-a-code-execution-flaw-in-uefi-firmware"
+        }
+      ]
+    },
+    {
+      "id": "dca6b73aaad7-01",
+      "category": "tech",
+      "headline": "约4.1万名美国国土安全人员数据被泄露并在线公开",
+      "what_happened": "TechCrunch报道，一名黑客取得超过4万名国土安全部员工的个人身份信息，数据随后被发布到网上；WIRED报道数量约为4.1万人，并提及包括ICE与CBP人员及其设施、电话等信息。",
+      "why_it_matters": "分析：泄露涉及执法与边境机构人员，风险不仅在企业账号层面，还可能转化为针对个人、设施和行动安全的现实威胁。",
+      "impact": "推断：相关机构需要开展身份盗用防护、人员安全评估和内部系统权限复核，受影响的个人也可能长期面临定向诈骗或骚扰风险。",
+      "evidence": "证据来自TechCrunch，WIRED也独立报道了约4.1万人的泄露，构成跨来源确认。",
+      "confidence": "已确认",
+      "published_at": "2026-10-29T04:01:00+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/hacker-stole-personnel-data-about-thousands-of-homeland-security-employees-including-cbp-and-ice-agents"
+        }
+      ]
+    },
+    {
+      "id": "31ca40b143b1-08",
+      "category": "tech",
+      "headline": "美国能源部以50亿美元贷款支持为数据中心供电的核电站",
+      "what_happened": "TechCrunch报道，美国能源部将向Constellation Energy提供50亿美元贷款，用于现代化核反应堆；大部分新增电力产能已承诺给Google、Amazon和Meta。",
+      "why_it_matters": "分析：AI基础设施竞争正在进入长期电力采购层面，核电站改造、数据中心负荷与科技公司的用电承诺开始直接绑定。",
+      "impact": "推断：电力供给将成为数据中心选址和扩容的关键约束，能源项目延误或成本变化可能传导到云服务容量与AI部署时间表。",
+      "evidence": "证据来自TechCrunch的单一报道，候选集合内无其他来源交叉确认贷款与电力承诺细节。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-28T23:53:21+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/10/28/trump-doe-loans-5b-to-nuclear-plants-that-will-power-data-centers"
+        }
+      ]
+    }
+  ]
+}
