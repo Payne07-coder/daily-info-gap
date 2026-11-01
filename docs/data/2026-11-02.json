@@ -1,0 +1,162 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T05:48:30.136079+08:00",
+  "window_start": "2026-10-31T17:45:03.372186+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
+    ]
+  },
+  "items": [
+    {
+      "id": "2aeb2d3eab3e-04",
+      "category": "ai",
+      "headline": "DeepSeek開源路由式編碼代理原型dsh-superagent",
+      "what_happened": "據MarkTechPost報道，DeepSeek發布MIT許可的dsh-superagent研究原型，可把GitHub和飛書請求轉化為多個並行工作會話；報道引述其自身模擬結果稱，任務完成時間的p95由29.5分鐘降至15.7分鐘。",
+      "why_it_matters": "分析認為，若此類路由與並行架構可穩定運行，編碼代理可能從單一對話助手轉向可編排、可接入工作系統的執行層。",
+      "impact": "推斷：開源實現可能降低團隊自建多代理工作流的門檻，但模擬結果不能直接視為真實環境的生產性能。",
+      "evidence": "證據僅來自MarkTechPost對DeepSeek發布及其自測結果的報道，未見獨立交叉確認。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-01T15:47:17+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent"
+        }
+      ]
+    },
+    {
+      "id": "9ea833f4539a-05",
+      "category": "ai",
+      "headline": "Vercel Labs開源跨平台電腦操作代理工具",
+      "what_happened": "據MarkTechPost報道，Vercel Labs發布Apache-2.0許可的Rust命令列工具agent-desktop，宣稱可讓AI代理在macOS、Windows和Linux上讀取作業系統無障礙樹，並依據穩定引用執行動作，而非只依賴像素識別。",
+      "why_it_matters": "分析認為，讀取系統無障礙結構比純視覺點擊更適合標準化桌面自動化，可能降低代理操作不同應用程式的接入成本。",
+      "impact": "推斷：若工具成熟，桌面代理的跨平台部署會更容易，但權限、審計和誤操作風險也將成為採用時的關鍵成本。",
+      "evidence": "證據僅來自MarkTechPost對Vercel Labs開源項目的報道，未見其他來源交叉確認。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T18:10:28+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use"
+        }
+      ]
+    },
+    {
+      "id": "530652bdfca9-06",
+      "category": "ai",
+      "headline": "Nace AI開源可在Apple Silicon本地運行的27B決策模型",
+      "what_happened": "據MarkTechPost報道，Nace AI開源Drex Max v1，這是一個27B多模態決策模型，可在Apple Silicon上本地推理，報道並稱其得分為67.52。",
+      "why_it_matters": "分析認為，較大模型能在消費級硬體本地運行，代表私有資料處理和低網路依賴場景的成本可能下降；但這仍有賴實際記憶體佔用、延遲和穩定性驗證。",
+      "impact": "推斷：若本地部署體驗可用，企業對雲端推理的依賴可能部分轉向終端，但該測試得分不足以直接證明其整體能力。",
+      "evidence": "證據來自MarkTechPost對Nace AI發布及測試得分的報道，未說明獨立評測或交叉確認。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-01T16:10:07+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference"
+        }
+      ]
+    },
+    {
+      "id": "385bd1eb249b-07",
+      "category": "ai",
+      "headline": "Factory推出不綁定模型的編碼代理執行框架Droid 1.0",
+      "what_happened": "據MarkTechPost報道，Factory發布Droid 1.0，這是一套不綁定特定模型、把程式化工具呼叫作為預設方式的編碼代理執行框架；報道引述Factory自身Terminal-Bench 4測試稱，搭配Claude Opus 5.5得分65.2%，每個通過任務成本4.73美元。",
+      "why_it_matters": "分析認為，競爭焦點正從單一模型能力擴展到工具呼叫、執行編排及單位任務成本，這類框架可能成為模型與實際工程流程之間的中間層。",
+      "impact": "推斷：若不同模型可低成本替換，企業對單一模型供應商的依賴可能下降；但自測成績和單位成本仍需外部復現。",
+      "evidence": "證據僅來自MarkTechPost對Factory發布及其自測結果的報道，未見獨立交叉確認。",
+      "confidence": "单一来源",
+      "published_at": "2026-10-31T18:38:14+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness"
+        }
+      ]
+    },
+    {
+      "id": "774bcb7312cb-02",
+      "category": "finance",
+      "headline": "Apple將以罕見周一財報接受新CEO與成本壓力檢驗",
+      "what_happened": "MarketWatch報道，Apple將發布罕見的周一財報，並將此次財報描述為新任CEO John Ternus面對記憶體價格上漲及消費環境轉弱的重要觀察點。",
+      "why_it_matters": "分析認為，市場可藉此觀察管理層交接後如何應對成本上升，以及高階科技消費需求是否已經承壓。",
+      "impact": "推斷：財報中的成本、售價及需求訊號可能影響外界對大型科技公司盈利能力和AI投入回報的預期，但不代表股價必然朝單一方向變動。",
+      "evidence": "證據來自MarketWatch的財報前瞻分析，未見其他來源交叉確認。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-01T23:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e"
+        }
+      ]
+    },
+    {
+      "id": "d0acaf091c3d-00",
+      "category": "tech",
+      "headline": "Binance稱提款已恢復，但63億美元被盜事件仍在善後",
+      "what_happened": "據TechCrunch報道，Binance在發生63億美元安全事件後已恢復提款，並表示已覆蓋95%的被盜資產。",
+      "why_it_matters": "分析認為，這顯示大型交易所即使遭受巨額損失，仍可能依靠儲備或補償維持提款，但同時暴露了中心化平台安全與信任風險。",
+      "impact": "推斷：短期市場焦點將轉向剩餘資產缺口、用戶索賠及交易所安全措施；事件仍在發展，不宜把「已恢復提款」等同於風險完全解除。",
+      "evidence": "證據來自TechCrunch對Binance說法的單一報道，未見其他來源交叉確認。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-02T00:20:10+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach"
+        }
+      ]
+    },
+    {
+      "id": "7da9edf02b22-01",
+      "category": "tech",
+      "headline": "中國監管部門擬開會研究股票回購增持支持工具",
+      "what_happened": "據36氪轉述證券時報，消息人士稱11月2日人民銀行、證監會擬召集部分證券公司和基金公司開會，同日三部門還擬召集銀行研究優化股票回購增持再貸款政策。",
+      "why_it_matters": "分析認為，這可能是在市場承壓時完善回購與增持資金支持機制，屬於容易被一般產品新聞淹沒的政策信號。",
+      "impact": "推斷：若政策落地，銀行及上市公司回購活動可能獲得更多資金工具支持；但目前會議結果尚未公開，不能據此推斷具體規模或市場走勢。",
+      "evidence": "證據來自36氪轉述證券時報的匿名消息，另有相近條目轉述財聯社但同屬聚合報道，尚未見官方結果確認。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-01T16:47:07+08:00",
+      "sources": [
+        {
+          "source_id": "36kr",
+          "source_name": "36氪",
+          "url": "https://36kr.com/newsflashes/4050957554734215?f=rss"
+        }
+      ]
+    },
+    {
+      "id": "a73ea3c2377c-03",
+      "category": "tech",
+      "headline": "滬市10月回購實施金額超過326億元",
+      "what_happened": "據36氪轉述界面新聞，10月滬市有190家公司披露275家次回購進展公告，合計已實施回購超過326億元；同期53家公司披露62份增持進展公告，累計增持49.28億元。",
+      "why_it_matters": "分析認為，回購與股東增持是觀察上市公司現金使用及信心表達的實際資金訊號，比僅公布回購計畫更接近真實執行情況。",
+      "impact": "推斷：持續實施回購可能提供一定資金需求支撐，但無法單獨證明公司價值或未來回報，亦可能掩蓋基本面壓力。",
+      "evidence": "證據來自36氪轉述界面新聞的統計，未列明其他交叉確認來源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-01T17:41:47+08:00",
+      "sources": [
+        {
+          "source_id": "36kr",
+          "source_name": "36氪",
+          "url": "https://36kr.com/newsflashes/4051011292353417?f=rss"
+        }
+      ]
+    }
+  ]
+}
