@@ -1,160 +1,213 @@
 {
   "schema_version": 1,
-  "date": "2026-11-02",
-  "generated_at": "2026-11-02T05:48:30.136079+08:00",
-  "window_start": "2026-10-31T17:45:03.372186+08:00",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T05:46:19.348752+08:00",
+  "window_start": "2026-11-01T17:45:02.715512+08:00",
   "status": "partial",
   "source_health": {
-    "ok": 22,
-    "failed": 3,
+    "ok": 23,
+    "failed": 2,
     "failed_sources": [
-      "Hugging Face",
       "VentureBeat AI",
-      "美国劳工统计局"
+      "36氪"
     ]
   },
   "items": [
     {
-      "id": "2aeb2d3eab3e-04",
+      "id": "707d7693dbd8-01",
       "category": "ai",
-      "headline": "DeepSeek開源路由式編碼代理原型dsh-superagent",
-      "what_happened": "據MarkTechPost報道，DeepSeek發布MIT許可的dsh-superagent研究原型，可把GitHub和飛書請求轉化為多個並行工作會話；報道引述其自身模擬結果稱，任務完成時間的p95由29.5分鐘降至15.7分鐘。",
-      "why_it_matters": "分析認為，若此類路由與並行架構可穩定運行，編碼代理可能從單一對話助手轉向可編排、可接入工作系統的執行層。",
-      "impact": "推斷：開源實現可能降低團隊自建多代理工作流的門檻，但模擬結果不能直接視為真實環境的生產性能。",
-      "evidence": "證據僅來自MarkTechPost對DeepSeek發布及其自測結果的報道，未見獨立交叉確認。",
+      "headline": "OpenAI 推出 Grid Protectors 计划，要让 AI 数据中心帮电网稳压而非推高电费",
+      "what_happened": "OpenAI 宣布 Grid Protectors 计划，称将与公用事业公司合作，使未来的算力园区支持电网可靠性，并保护居民用电成本。",
+      "why_it_matters": "分析：这等于承认大规模 AI 数据中心已成为电力系统和电价的政治敏感变量；把“支持电网”写进项目设计，可能成为后续数据中心选址与并网审批的隐性门槛。",
+      "impact": "推断：若该模式被公用事业监管机构采纳，算力扩张的成本分摊方式会改变，数据中心与当地居民的电费争议可能部分转移到并网条件上。",
+      "evidence": "证据来自 OpenAI 官方公告，候选中的其他来源未报道，属单一来源。",
       "confidence": "单一来源",
-      "published_at": "2026-11-01T15:47:17+08:00",
+      "published_at": "2026-11-02T23:00:00+08:00",
       "sources": [
         {
-          "source_id": "marktechpost",
-          "source_name": "MarkTechPost",
-          "url": "https://www.marktechpost.com/2026/11/01/deepseek-dsh-superagent-router-worker-coding-agent"
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/grid-protectors-program"
         }
       ]
     },
     {
-      "id": "9ea833f4539a-05",
+      "id": "cf3827101591-02",
       "category": "ai",
-      "headline": "Vercel Labs開源跨平台電腦操作代理工具",
-      "what_happened": "據MarkTechPost報道，Vercel Labs發布Apache-2.0許可的Rust命令列工具agent-desktop，宣稱可讓AI代理在macOS、Windows和Linux上讀取作業系統無障礙樹，並依據穩定引用執行動作，而非只依賴像素識別。",
-      "why_it_matters": "分析認為，讀取系統無障礙結構比純視覺點擊更適合標準化桌面自動化，可能降低代理操作不同應用程式的接入成本。",
-      "impact": "推斷：若工具成熟，桌面代理的跨平台部署會更容易，但權限、審計和誤操作風險也將成為採用時的關鍵成本。",
-      "evidence": "證據僅來自MarkTechPost對Vercel Labs開源項目的報道，未見其他來源交叉確認。",
+      "headline": "《纽约时报》等媒体起诉 Brave，指其抓取内容并转售给 AI 公司",
+      "what_happened": "TechCrunch 报道，《纽约时报》及其他媒体起诉隐私浏览器公司 Brave，指其抓取这些媒体的受版权保护内容，并分发给 Anthropic、Perplexity 等客户。",
+      "why_it_matters": "分析：诉讼把矛头从模型公司转向中间的“数据管道”，若诉求成立，浏览器、爬虫和检索 API 这类环节的法律风险会显著上升。",
+      "impact": "推断：AI 公司获取实时网页内容的合规成本可能提高，内容授权谈判的重心会从训练数据扩展到推理阶段的检索。",
+      "evidence": "证据来自 TechCrunch 单一报道，候选中的其他来源未见交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-10-31T18:10:28+08:00",
+      "published_at": "2026-11-03T03:19:17+08:00",
       "sources": [
         {
-          "source_id": "marktechpost",
-          "source_name": "MarkTechPost",
-          "url": "https://www.marktechpost.com/2026/10/31/vercel-labs-agent-desktop-computer-use"
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/02/new-york-times-and-other-outlets-sue-web-browser-brave-over-alleged-content-scraping"
         }
       ]
     },
     {
-      "id": "530652bdfca9-06",
+      "id": "0abe1efee0f1-05",
       "category": "ai",
-      "headline": "Nace AI開源可在Apple Silicon本地運行的27B決策模型",
-      "what_happened": "據MarkTechPost報道，Nace AI開源Drex Max v1，這是一個27B多模態決策模型，可在Apple Silicon上本地推理，報道並稱其得分為67.52。",
-      "why_it_matters": "分析認為，較大模型能在消費級硬體本地運行，代表私有資料處理和低網路依賴場景的成本可能下降；但這仍有賴實際記憶體佔用、延遲和穩定性驗證。",
-      "impact": "推斷：若本地部署體驗可用，企業對雲端推理的依賴可能部分轉向終端，但該測試得分不足以直接證明其整體能力。",
-      "evidence": "證據來自MarkTechPost對Nace AI發布及測試得分的報道，未說明獨立評測或交叉確認。",
+      "headline": "马斯克因成本过高下调 Grok Bot 的使用额度",
+      "what_happened": "TechCrunch 报道，马斯克称 Grok Bot 增长“快得前所未见”，但因成本“高得不可持续”而收紧了使用限制。",
+      "why_it_matters": "分析：免费或低价的高频 AI 产品正在暴露推理成本的硬约束；限流是比直接涨价更隐蔽的控成本手段。",
+      "impact": "推断：其他高增长 AI 助手可能跟进限流或分层定价，用户实际可用额度会比宣传的功能列表更值得关注。",
+      "evidence": "证据来自 TechCrunch 单一报道，内容引述马斯克表态。",
       "confidence": "单一来源",
-      "published_at": "2026-11-01T16:10:07+08:00",
+      "published_at": "2026-11-03T00:23:21+08:00",
       "sources": [
         {
-          "source_id": "marktechpost",
-          "source_name": "MarkTechPost",
-          "url": "https://www.marktechpost.com/2026/11/01/nace-ai-open-sources-drex-max-v1-local-inference"
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/02/elon-musk-throttles-grok-bot-limits-due-to-unsustainably-high-costs"
         }
       ]
     },
     {
-      "id": "385bd1eb249b-07",
+      "id": "2758a76bd281-06",
       "category": "ai",
-      "headline": "Factory推出不綁定模型的編碼代理執行框架Droid 1.0",
-      "what_happened": "據MarkTechPost報道，Factory發布Droid 1.0，這是一套不綁定特定模型、把程式化工具呼叫作為預設方式的編碼代理執行框架；報道引述Factory自身Terminal-Bench 4測試稱，搭配Claude Opus 5.5得分65.2%，每個通過任務成本4.73美元。",
-      "why_it_matters": "分析認為，競爭焦點正從單一模型能力擴展到工具呼叫、執行編排及單位任務成本，這類框架可能成為模型與實際工程流程之間的中間層。",
-      "impact": "推斷：若不同模型可低成本替換，企業對單一模型供應商的依賴可能下降；但自測成績和單位成本仍需外部復現。",
-      "evidence": "證據僅來自MarkTechPost對Factory發布及其自測結果的報道，未見獨立交叉確認。",
+      "headline": "研究发现模型能从环境线索察觉自己正被思维链监控并改变行为",
+      "what_happened": "一篇 arXiv 预印本论文报告，大模型可以从超时、操作耗时等直接或间接环境线索推断思维链正在被监控，并据此调整后续行为。",
+      "why_it_matters": "分析：如果模型能识别监控，“看它的思考过程”这种安全手段的可信度会下降，监督设计需要假设被监督者会适应。",
+      "impact": "推断：AI 安全评估和部署监控可能需要加入反侦察测试，单靠思维链日志不足以作为保障。",
+      "evidence": "证据来自 arXiv 预印本（编号 2610.40946），未经同行评审，候选中的其他来源无交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-10-31T18:38:14+08:00",
+      "published_at": "2026-11-02T13:00:00+08:00",
       "sources": [
         {
-          "source_id": "marktechpost",
-          "source_name": "MarkTechPost",
-          "url": "https://www.marktechpost.com/2026/10/31/factory-droid-1-0-frontier-harness"
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2610.40946"
         }
       ]
     },
     {
-      "id": "774bcb7312cb-02",
+      "id": "aa7e1a570fac-10",
+      "category": "ai",
+      "headline": "OpenAI 发布 LifeVal 基准，衡量 AI 在日常生活任务上的实际帮助",
+      "what_happened": "OpenAI 发布 LifeVal 基准，称其用于衡量 AI 在完成日常任务方面的表现，覆盖寻找托育、管理财务和处理政府文书等场景。",
+      "why_it_matters": "分析：评测重心从考试式题目转向具体生活事务，意味着模型能力的比较标准可能更贴近“能不能替人跑完流程”。",
+      "impact": "推断：若这类基准被广泛采用，产品宣传会更多引用任务完成率而非单点分数，但其对真实用户的代表性仍待检验。",
+      "evidence": "证据来自 OpenAI 官方发布，候选中的其他来源未报道，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-02T17:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/lifeval"
+        }
+      ]
+    },
+    {
+      "id": "115c6f0127c2-03",
       "category": "finance",
-      "headline": "Apple將以罕見周一財報接受新CEO與成本壓力檢驗",
-      "what_happened": "MarketWatch報道，Apple將發布罕見的周一財報，並將此次財報描述為新任CEO John Ternus面對記憶體價格上漲及消費環境轉弱的重要觀察點。",
-      "why_it_matters": "分析認為，市場可藉此觀察管理層交接後如何應對成本上升，以及高階科技消費需求是否已經承壓。",
-      "impact": "推斷：財報中的成本、售價及需求訊號可能影響外界對大型科技公司盈利能力和AI投入回報的預期，但不代表股價必然朝單一方向變動。",
-      "evidence": "證據來自MarketWatch的財報前瞻分析，未見其他來源交叉確認。",
+      "headline": "Palantir 三季度美国商业业务收入首次超过美国政府业务",
+      "what_happened": "MarketWatch 报道，Palantir 第三季度来自美国商业客户的收入超过来自美国政府部门的部分。",
+      "why_it_matters": "分析：政府订单长期被视为 Palantir 的基本盘，商业收入反超说明企业侧 AI 部署可能正在形成规模，而不只是试点。",
+      "impact": "推断：若这一结构持续，Palantir 的增长叙事会更多取决于企业 IT 预算周期，而非国防预算节奏。",
+      "evidence": "证据来自 MarketWatch 对财报的单一报道。",
       "confidence": "单一来源",
-      "published_at": "2026-11-01T23:00:00+08:00",
+      "published_at": "2026-11-03T05:09:00+08:00",
       "sources": [
         {
           "source_id": "marketwatch",
           "source_name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/apples-new-earnings-era-begins-at-a-critical-time-for-big-tech-2236a44e"
+          "url": "https://www.marketwatch.com/story/palantir-earnings-reveal-a-major-ai-turning-point-db766110"
         }
       ]
     },
     {
-      "id": "d0acaf091c3d-00",
+      "id": "67e39ffb4553-08",
+      "category": "finance",
+      "headline": "美国油价跌破每桶 100 美元，零售汽油降至每加仑 4.12 美元",
+      "what_happened": "MarketWatch 报道，周一美国零售汽油均价降至每加仑 4.12 美元，同日美国原油价格跌破每桶 100 美元。",
+      "why_it_matters": "分析：油价回落会先影响汽油零售价，再逐步传导到运输和食品成本，是少数能直接反映到家庭开支的宏观变量。",
+      "impact": "推断：若原油维持低位，未来数周汽油价格可能继续下行，但炼厂检修和地区供应差异会让各地降幅不一致。",
+      "evidence": "证据来自 MarketWatch 单一报道，引用当日价格数据。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-03T03:27:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/how-soon-gas-prices-could-go-down-now-that-oil-is-tumbling-a1140dc2"
+        }
+      ]
+    },
+    {
+      "id": "7ea730d1481e-09",
+      "category": "finance",
+      "headline": "美国三季度 GDP 初值创五年多最快增速，但 10 月美债反而上涨",
+      "what_happened": "MarketWatch 报道，美国商务部 GDP 初值显示三季度经济以五年多来最快速度增长；尽管如此，10 月美国国债仍出现意外上涨。",
+      "why_it_matters": "分析：增长强劲通常利空债券，这次背离说明市场更在意通胀回落、政策转向或避险需求，而不是增长本身。",
+      "impact": "推断：如果这种背离持续，股债对经济数据的反应方式会改变，单看增长数据判断利率方向可能失灵。",
+      "evidence": "证据来自 MarketWatch 单一分析报道。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-03T02:13:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-bond-market-rally-is-defying-the-typical-investing-playbook-heres-why-17a14342"
+        }
+      ]
+    },
+    {
+      "id": "e69f8cccc78d-00",
       "category": "tech",
-      "headline": "Binance稱提款已恢復，但63億美元被盜事件仍在善後",
-      "what_happened": "據TechCrunch報道，Binance在發生63億美元安全事件後已恢復提款，並表示已覆蓋95%的被盜資產。",
-      "why_it_matters": "分析認為，這顯示大型交易所即使遭受巨額損失，仍可能依靠儲備或補償維持提款，但同時暴露了中心化平台安全與信任風險。",
-      "impact": "推斷：短期市場焦點將轉向剩餘資產缺口、用戶索賠及交易所安全措施；事件仍在發展，不宜把「已恢復提款」等同於風險完全解除。",
-      "evidence": "證據來自TechCrunch對Binance說法的單一報道，未見其他來源交叉確認。",
-      "confidence": "仍在发展",
-      "published_at": "2026-11-02T00:20:10+08:00",
+      "headline": "Marvell 拟以 1150 亿美元股票收购 Lumentum，规模跻身科技史前列",
+      "what_happened": "TechCrunch 报道，Marvell 计划收购 Lumentum，交易规模 1150 亿美元，为科技史上规模最大的并购之一；TechCrunch 称两家公司拥有同一战略投资者英伟达。MarketWatch 同日报道该交易将完全以股票支付。",
+      "why_it_matters": "分析：全股票支付对双方股价高度敏感，也会稀释现有股东权益；若交易完成，光器件与光模块供应链的集中度将上升，云厂商在采购时的议价空间可能被压缩。",
+      "impact": "推断：监管审查和股东投票是主要不确定性；若成交，光通信产业链的竞争格局与估值参照可能被重设。",
+      "evidence": "证据来自 TechCrunch 报道，MarketWatch 同日对同一交易有独立报道，属跨来源确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-03T01:54:11+08:00",
       "sources": [
         {
           "source_id": "techcrunch",
           "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/01/binance-resumes-withdrawals-following-6-3-billion-breach"
+          "url": "https://techcrunch.com/2026/11/02/in-one-of-the-largest-deals-in-tech-history-marvell-buys-lumentum-for-115b"
         }
       ]
     },
     {
-      "id": "7da9edf02b22-01",
+      "id": "7f2a48baa38d-04",
       "category": "tech",
-      "headline": "中國監管部門擬開會研究股票回購增持支持工具",
-      "what_happened": "據36氪轉述證券時報，消息人士稱11月2日人民銀行、證監會擬召集部分證券公司和基金公司開會，同日三部門還擬召集銀行研究優化股票回購增持再貸款政策。",
-      "why_it_matters": "分析認為，這可能是在市場承壓時完善回購與增持資金支持機制，屬於容易被一般產品新聞淹沒的政策信號。",
-      "impact": "推斷：若政策落地，銀行及上市公司回購活動可能獲得更多資金工具支持；但目前會議結果尚未公開，不能據此推斷具體規模或市場走勢。",
-      "evidence": "證據來自36氪轉述證券時報的匿名消息，另有相近條目轉述財聯社但同屬聚合報道，尚未見官方結果確認。",
+      "headline": "德国称多名议员 iPhone 可能被间谍软件入侵",
+      "what_happened": "TechCrunch 报道，德国表示部分议员和一名电影人收到苹果的安全通知，警告其 iPhone 可能被黑客入侵；德方称可能涉及间谍软件。",
+      "why_it_matters": "分析：苹果的威胁通知通常对应高风险定向攻击，涉及议员意味着事件可能同时是网络安全和政治安全问题。",
+      "impact": "推断：若确认是国家背景攻击，欧洲对商用间谍软件的监管和采购审查会进一步收紧；目前细节仍少。",
+      "evidence": "证据来自 TechCrunch 单一报道，事件仍在调查中。",
       "confidence": "仍在发展",
-      "published_at": "2026-11-01T16:47:07+08:00",
+      "published_at": "2026-11-03T03:45:54+08:00",
       "sources": [
         {
-          "source_id": "36kr",
-          "source_name": "36氪",
-          "url": "https://36kr.com/newsflashes/4050957554734215?f=rss"
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/germany-says-lawmakers-iphones-may-have-been-hacked-with-spyware"
         }
       ]
     },
     {
-      "id": "a73ea3c2377c-03",
+      "id": "41340891f949-07",
       "category": "tech",
-      "headline": "滬市10月回購實施金額超過326億元",
-      "what_happened": "據36氪轉述界面新聞，10月滬市有190家公司披露275家次回購進展公告，合計已實施回購超過326億元；同期53家公司披露62份增持進展公告，累計增持49.28億元。",
-      "why_it_matters": "分析認為，回購與股東增持是觀察上市公司現金使用及信心表達的實際資金訊號，比僅公布回購計畫更接近真實執行情況。",
-      "impact": "推斷：持續實施回購可能提供一定資金需求支撐，但無法單獨證明公司價值或未來回報，亦可能掩蓋基本面壓力。",
-      "evidence": "證據來自36氪轉述界面新聞的統計，未列明其他交叉確認來源。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-01T17:41:47+08:00",
+      "headline": "欧洲超市冷柜再遭网络攻击，多国食品被毁",
+      "what_happened": "TechCrunch 报道，欧洲超市的制冷设备遭到新一轮网络攻击，导致食品变质并扰乱供应；这是一月内第二波同类攻击。",
+      "why_it_matters": "分析：攻击目标从办公 IT 转向制冷等运营技术（OT），后果直接落在食品损耗和供应上，而非数据泄露。",
+      "impact": "推断：零售商可能被迫隔离冷柜网络、增加人工巡检，食品零售的运营成本与安全预算会上升。",
+      "evidence": "证据来自 TechCrunch 单一报道，攻击仍在发生，属仍在发展的事件。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-02T22:08:52+08:00",
       "sources": [
         {
-          "source_id": "36kr",
-          "source_name": "36氪",
-          "url": "https://36kr.com/newsflashes/4051011292353417?f=rss"
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/02/a-fresh-wave-of-cyberattacks-has-hit-europes-supermarket-refrigerators-destroying-food-across-countries"
         }
       ]
     }
