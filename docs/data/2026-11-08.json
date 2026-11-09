@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T05:48:00.866666+08:00",
+  "window_start": "2026-11-06T17:45:03.052462+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
+    ]
+  },
+  "items": [
+    {
+      "id": "fe20ed87ffea-00",
+      "category": "ai",
+      "headline": "OpenAI据报再融110亿美元，估值达1.25万亿美元",
+      "what_happened": "TechCrunch报道，OpenAI在一轮尚未完成的融资中又筹集了110亿美元，该轮融资的估值约为1.25万亿美元，预计将在数周内完成。",
+      "why_it_matters": "这是分析推断：如果报道属实，说明头部模型公司仍能吸纳巨额资本，行业资本进一步向少数玩家集中；但原文使用的是“据报道”，融资尚未关闭，条款仍可能变化。",
+      "impact": "这是分析推断：超大估值会抬高后来者的融资门槛，使算力和人才竞争更依赖资本市场窗口；如果融资条款或估值在完成时下调，市场对AI资产定价的预期也会随之修正。",
+      "evidence": "证据来自TechCrunch的独家报道，该报道为单一来源，且融资尚未完成，没有其他媒体交叉确认。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-07T06:53:46+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/06/openai-reportedly-raises-an-additional-11-billion-at-a-1-25-trillion-valuation"
+        }
+      ]
+    },
+    {
+      "id": "33683574ed15-01",
+      "category": "ai",
+      "headline": "美情报备忘录称中国国安部招募高管刺探英伟达CEO，国会已传唤黄仁勋",
+      "what_happened": "TechCrunch援引今年早些时候流传的一份美国情报备忘录报道，称中国国家安全部招募了一名女性科技高管，目的是刺探英伟达CEO；Ars Technica另报道，国会已就英伟达CEO黄仁勋与一名被指为中国情报人员的关联要求其作证。",
+      "why_it_matters": "这是分析推断：事件把AI芯片出口管制之外的人员安全与政治合规风险推到台前，企业高管背景审查和国会审视可能趋严。",
+      "impact": "这是分析推断：英伟达及在华有业务的美企可能面临更严格的国会问询和内部安全审查，合作方尽职调查成本上升；备忘录指控本身尚未获独立证实。",
+      "evidence": "证据来自TechCrunch对情报备忘录的报道和Ars Technica对国会传唤的报道，两篇指向同一事件，但核心指控未被独立证实。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-08T05:17:08+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo"
+        }
+      ]
+    },
+    {
+      "id": "32c769687662-06",
+      "category": "ai",
+      "headline": "Crusoe将怀俄明州受阻的数据中心项目出售给Google",
+      "what_happened": "TechCrunch报道，Crusoe把位于怀俄明州、进展不顺的数据中心项目出售给Google，报道称该交易凸显开发超大规模AI数据中心的难度。",
+      "why_it_matters": "这是分析推断：项目易手说明AI基建的瓶颈不只在算力需求，选址、电力接入和工程执行同样会决定项目成败。",
+      "impact": "这是分析推断：资金和工程能力更强的云厂商可能进一步接手边缘项目，AI数据中心开发的行业集中度上升。",
+      "evidence": "证据来自TechCrunch的单一报道，没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T09:40:28+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/06/crusoe-sells-troubled-wyoming-data-center-project-to-google"
+        }
+      ]
+    },
+    {
+      "id": "a6a7b3e5e93b-07",
+      "category": "ai",
+      "headline": "Ramp数据显示AI使用量上升但支出停滞",
+      "what_happened": "TechCrunch援引Ramp的数据报道，AI使用量持续上升，但相关支出停滞，降价和更精细的成本控制出现在支出较大的客户中。",
+      "why_it_matters": "这是分析推断：使用增长与支出脱钩，意味着“用量增长必然带来收入高增长”的假设需要修正，模型厂商的定价能力可能弱于预期。",
+      "impact": "这是分析推断：如果趋势延续，投资者对AI超高速增长的假设和基础设施投资回报预期会受到审视；报道同时提到Anthropic临近上市。",
+      "evidence": "证据来自TechCrunch基于Ramp数据的单一报道，没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-06T23:54:47+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo"
+        }
+      ]
+    },
+    {
+      "id": "b691f825d5a3-10",
+      "category": "ai",
+      "headline": "美国中期选举41项数据中心公投中，40项多数支持加码限制",
+      "what_happened": "TechCrunch报道，在本周美国中期选举中，选民就41项与数据中心相关的公投措施投票，除一项外，其余各项均为多数赞成对数据中心开发施加更多限制。",
+      "why_it_matters": "这是分析推断：地方许可和用地约束正成为AI基础设施扩张的实际瓶颈，这一信号在宏观叙事中常被忽略。",
+      "impact": "这是分析推断：数据中心选址和建设周期可能拉长、成本上升，项目可能向监管更宽松的地区转移。",
+      "evidence": "证据来自TechCrunch的单一来源报道，该媒体的播客与视频版本内容相同，不构成独立交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T02:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/podcast/how-a-blue-wave-midterm-might-reshape-the-ai-industry"
+        }
+      ]
+    },
+    {
+      "id": "33331e054343-03",
+      "category": "finance",
+      "headline": "CoreWeave债券收益率升破16%，AI债务承压信号浮现",
+      "what_happened": "CNBC报道，CoreWeave的债券收益率升破16%，报道将这一水平描述为AI债务市场承压、投资者担忧数据中心扩张放缓的反映。",
+      "why_it_matters": "这是分析推断：为AI数据中心扩张提供资金的公司融资成本明显抬升，可能压缩其扩张速度和现金流缓冲。",
+      "impact": "这是分析推断：如果高收益率持续，依赖债务扩张的算力租赁商将面临再融资压力，并可能传导到AI基础设施的投资节奏。",
+      "evidence": "证据来自CNBC的单一报道，没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T01:09:53+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+        }
+      ]
+    },
+    {
+      "id": "8745bec4cea6-04",
+      "category": "finance",
+      "headline": "旧金山联储主席Daly称美国仍在“高通胀跑步机”上，或需进一步加息",
+      "what_happened": "CNBC报道，旧金山联储主席Mary Daly称美国处于“高通胀的跑步机”上，并表示可能还需要加息。",
+      "why_it_matters": "这是分析推断：这一表态与市场普遍期待的降息方向相反，说明政策路径的不确定性仍然很高，通胀对家庭财务的压力被官方明确提及。",
+      "impact": "这是分析推断：如果利率预期上修，长久期资产和依赖低成本融资的行业估值将承压，美元与短端利率可能重新定价。",
+      "evidence": "证据来自CNBC对Daly讲话的单一报道，没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T03:05:00+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+        }
+      ]
+    },
+    {
+      "id": "3f4779e0c438-09",
+      "category": "finance",
+      "headline": "伯克希尔第三季度回购规模翻倍以上，利润下滑",
+      "what_happened": "CNBC报道，伯克希尔·哈撒韦表示第三季度加快了股票回购，回购规模较此前增加一倍以上，同时经营利润和整体利润下降。",
+      "why_it_matters": "这是分析推断：在利润下滑时加大回购，反映管理层认为股价相对内在价值有吸引力，也说明大规模并购机会有限。",
+      "impact": "这是分析推断：回购对每股指标形成支撑，但更多现金用于二级市场而非收购，可能影响市场对其资本部署节奏的判断。",
+      "evidence": "证据来自CNBC的单一报道，没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T23:23:46+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html"
+        }
+      ]
+    },
+    {
+      "id": "a3d6887a214d-11",
+      "category": "finance",
+      "headline": "英国央行发布11月市场参与者调查结果",
+      "what_happened": "英格兰银行发布2026年11月市场参与者调查结果，内容为英国利率市场专家对货币政策的预期。",
+      "why_it_matters": "这是分析推断：这是官方渠道披露的利率预期分布，可作为判断英国政策路径的参照，但媒体关注度低，容易被汇总忽略。",
+      "impact": "这是分析推断：如果调查显示的预期与市场定价出现偏离，英镑利率和英国资产可能重新定价。",
+      "evidence": "证据来自英格兰银行官网的原始发布，属于官方单一来源，没有其他来源交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-06T20:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "boe_publications",
+          "source_name": "英国央行发布",
+          "url": "https://www.bankofengland.co.uk/markets/market-intelligence/survey-results/2026/market-participants-survey-results-november-2026"
+        }
+      ]
+    },
+    {
+      "id": "26ad7ff9662b-02",
+      "category": "tech",
+      "headline": "币安CFO在63亿美元失窃案后离职",
+      "what_happened": "TechCrunch报道，币安首席财务官宣布离职，称将“追求新的机会”；此时距黑客从币安用户处盗走价值63亿美元加密货币仅一个多星期。",
+      "why_it_matters": "这是分析推断：重大安全事件后短期内高管离职，容易加剧市场对交易所内控、资金管理和治理稳定性的疑虑。",
+      "impact": "这是分析推断：用户可能加速提币或分散资产，交易所的合规、审计与保险成本上升；事件调查和责任认定仍在推进。",
+      "evidence": "证据来自TechCrunch的单一报道，候选材料中没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-08T01:24:07+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack"
+        }
+      ]
+    },
+    {
+      "id": "8300f00f09b8-05",
+      "category": "tech",
+      "headline": "Chainalysis称全部客户凭证和令牌被窃",
+      "what_happened": "Ars Technica报道，Chainalysis表示黑客窃取了其全部客户的凭证和令牌，公司把这次事件描述为包含AI代理和路径中数据截取的多线网络攻击。",
+      "why_it_matters": "这是分析推断：区块链分析公司本身被攻破，会削弱客户对其数据完整性和调查结论的信任，也暴露安全供应商成为攻击跳板的风险。",
+      "impact": "这是分析推断：使用其合规与追踪服务的交易所和执法机构需要紧急轮换凭证，并评估历史调查数据是否受影响。",
+      "evidence": "证据来自Ars Technica的单一报道，没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T04:56:41+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers"
+        }
+      ]
+    },
+    {
+      "id": "82ee46537dde-08",
+      "category": "tech",
+      "headline": "Fox完成对Roku的220亿美元收购",
+      "what_happened": "TechCrunch报道，Fox已完成对流媒体平台Roku的220亿美元收购；Ars Technica另一篇报道也提到，Fox已经完成这笔收购。",
+      "why_it_matters": "这是分析推断：内容方与流媒体平台合并，会改变应用分发、广告库存和用户数据的议价结构。",
+      "impact": "这是分析推断：Roku平台上的开发者和内容方可能面对新的条款与分成安排，此前监管审查带来的不确定性并未完全消除。",
+      "evidence": "证据来自TechCrunch关于交易完成的报道，并由Ars Technica另一篇报道间接交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-07T00:05:36+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku"
+        }
+      ]
+    }
+  ]
+}

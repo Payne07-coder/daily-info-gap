@@ -1,0 +1,238 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T05:46:32.654173+08:00",
+  "window_start": "2026-11-05T17:45:03.334548+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 23,
+    "failed": 2,
+    "failed_sources": [
+      "VentureBeat AI",
+      "36氪"
+    ]
+  },
+  "items": [
+    {
+      "id": "c7d72e23d70d-00",
+      "category": "ai",
+      "headline": "谷歌发布 Gemini Omni 1.2 Flash，宣称更快、成本更低、支持更长片段",
+      "what_happened": "Google DeepMind 于 11 月 6 日发布博客介绍 Gemini Omni 1.2 Flash，标题强调“快速、低成本、支持更长片段”；Google AI 官方博客同日发布同题文章。候选摘要为空，未提供参数、价格或评测数据。",
+      "why_it_matters": "分析：多模态模型近期的竞争集中在速度、单次调用成本和可处理时长这三条线上；如果官方标题中的“低成本”与“更长片段”成立，受影响的会是视频类与长上下文任务的调用成本结构，榜单分数反而次要。",
+      "impact": "推断：对依赖视频理解/生成接口的开发者，按分钟计费的支出一旦下降，批量处理类工作才更可能变得经济可行；在价格表和第三方评测出现前，无法判断实际降幅。",
+      "evidence": "证据来自 Google DeepMind 官方博客，候选数据中另列有 Google AI 官方博客的同题文章，但两者属同一公司的不同官方渠道，并非独立的第三方交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-06T01:05:16+08:00",
+      "sources": [
+        {
+          "source_id": "deepmind",
+          "source_name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-omni-12-flash-fast-and-cost-effective-with-longer-clips"
+        },
+        {
+          "source_id": "google_ai",
+          "source_name": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash"
+        }
+      ]
+    },
+    {
+      "id": "a6a7b3e5e93b-05",
+      "category": "ai",
+      "headline": "Ramp 数据：AI 使用量继续上升，但支出停滞",
+      "what_happened": "TechCrunch 援引 Ramp 的数据报道称，AI 使用量持续攀升，而支出停滞；报道提到价格下调与大额使用方的成本控制，并将其与 Anthropic 临近 IPO 的背景并列讨论。",
+      "why_it_matters": "分析：如果“用量涨、花费平”成立，那么按 token 计费类厂商的收入增速就会慢于用量增速，对 AI 超高速增长的假设需要把“采用率”和“可变现收入”分开看。",
+      "impact": "推断：模型厂商会同时面对用量增长与单价下行带来的收入压力，采购方则因成本可控而更有动力继续扩大使用；该结论依赖 Ramp 单家支付数据，样本代表性仍需验证。",
+      "evidence": "证据来自 TechCrunch 对 Ramp 数据的报道，候选数据中没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-06T23:54:47+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/06/ramp-data-shows-ai-spending-stalling-just-as-anthropic-nears-its-ipo"
+        }
+      ]
+    },
+    {
+      "id": "d6b3f9b34945-06",
+      "category": "ai",
+      "headline": "英伟达发布 Cosmos 3 开放模型，用于交互式世界模拟",
+      "what_happened": "Hugging Face 博客发布了 NVIDIA Cosmos 3 开放模型，主题为交互式世界模拟。候选摘要为空，未提供模型规模、许可条款或评测结果。",
+      "why_it_matters": "分析：世界模型是机器人、自动驾驶与合成数据管线的上游能力；以开放权重形式发布，会把竞争从“谁有模型”推向“谁能把仿真结果接进真实硬件”，这对没有自研基础模型的团队意义更大。",
+      "impact": "推断：如果许可允许商用，机器人团队则可以用合成数据降低真实采集成本；但开放权重同时也意味着安全与滥用边界更难控制，实际可用性要先看到许可与评测才能判断。",
+      "evidence": "证据来自 Hugging Face 官方博客的英伟达发布文章，候选数据中没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-06T03:35:16+08:00",
+      "sources": [
+        {
+          "source_id": "huggingface_blog",
+          "source_name": "Hugging Face",
+          "url": "https://huggingface.co/blog/nvidia/cosmos-interactive-world-simulation"
+        }
+      ]
+    },
+    {
+      "id": "3e412c96119b-09",
+      "category": "ai",
+      "headline": "数百个 Artex AI 渗透测试工具实例暴露在公网",
+      "what_happened": "TechCrunch 报道，安全研究人员发现数百台托管 Artex 渗透测试工具的服务器暴露在互联网上，任何人都能访问该工具。",
+      "why_it_matters": "分析：把攻击工具做成可部署的服务，门槛就会从“会写利用代码”降到“会正确配置部署”；一次配置失误，等同于把渗透测试能力公开挂到网上。",
+      "impact": "推断：这类暴露实例可能被用于未授权的扫描与探测；对云厂商和安全团队来说，资产测绘需要从“域名与端口”扩展到“已知攻击工具的指纹”，这一建议属推断。",
+      "evidence": "证据来自 TechCrunch 报道，引述安全研究人员的发现，候选数据中没有其他来源交叉确认。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-07T02:44:38+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/06/hundreds-of-artex-ai-hacking-tools-found-publicly-exposed-to-the-web"
+        }
+      ]
+    },
+    {
+      "id": "d2db3da93bf7-11",
+      "category": "ai",
+      "headline": "OpenAI 推出 BioBasicsBench：100 项湿实验任务评测 AI 智能体",
+      "what_happened": "OpenAI 发布 BioBasicsBench，一个包含 100 项任务的基准，用于衡量 AI 智能体解读原始实验数据、处理日常湿实验室工作的能力。",
+      "why_it_matters": "分析：这类基准把“AI 做科研”的讨论从论文问答推进到操作细节层面；如果智能体在原始实验数据的解读上表现不足，那么对实验室自动化节奏的预期就会被高估。",
+      "impact": "推断：短期影响主要在实验室的采购与验证环节——引入智能体前会要求可复现的基准结果，而不是演示视频；基准本身能否代表真实实验室流程，仍需外部复现。",
+      "evidence": "证据来自 OpenAI 官方博客的基准发布文章，候选数据中没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-06T08:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/measuring-how-ai-agents-handle-wet-lab-science"
+        }
+      ]
+    },
+    {
+      "id": "cf14a56603ed-01",
+      "category": "finance",
+      "headline": "美国 9 月 CPI 报 +0.6%，10 月失业率 4.1%、非农新增 16.5 万",
+      "what_happened": "美国劳工统计局“主要经济指标”页面显示：2026 年 9 月 CPI 为 +0.6%（该摘要未注明同比或环比口径）；2026 年 10 月失业率 4.1%，非农就业 +165,000（初值），平均时薪 +0.14 美元（初值）；9 月 PPI 最终需求 +1.3%（初值），三季度就业成本指数 +0.8%、生产率 +3.6%，9 月进口价格 +1.1%、出口价格 +2.2%。",
+      "why_it_matters": "分析：关键是这组数据的组合而不是单个数字——就业没有明显走弱、通胀读数偏高；如果 +0.6% 是环比，那就属于明显偏热的读数，如果它是同比，则相对温和。因此该条只能作为方向性信号，不能据此下结论。",
+      "impact": "推断：如果后续数据延续这种“就业稳、物价偏热”的组合，市场对降息路径的定价就需要重新调整，对利率敏感度高的资产和依赖低融资成本的项目会先感受到压力；以上为推断，不构成任何投资判断。",
+      "evidence": "证据来自美国劳工统计局官网“主要经济指标”汇总页，属官方原始数据发布，候选数据中没有其他来源交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-06T21:31:35+08:00",
+      "sources": [
+        {
+          "source_id": "bls",
+          "source_name": "美国劳工统计局",
+          "url": "https://www.bls.gov/bls"
+        }
+      ]
+    },
+    {
+      "id": "291a97639d81-03",
+      "category": "finance",
+      "headline": "英国央行将基准利率上调至 4%",
+      "what_happened": "英国央行于 11 月 5 日发布 11 月货币政策摘要与会议纪要，宣布将 Bank Rate 上调至 4%。",
+      "why_it_matters": "分析：在 AI 资本开支高度依赖低成本融资的时点，主要央行重新转向加息会抬高项目回报的门槛；这一动作与同日美国联储官员的加息表态方向一致，说明这不只是英国单方面的调整。",
+      "impact": "推断：英国浮动利率贷款、按揭和短端融资成本会随之上行；对全球市场而言，短期内更可能先体现为信号层面的影响，是否形成趋势要看其他央行是否跟进。",
+      "evidence": "证据来自英国央行官方货币政策摘要与会议纪要，属原始发布，候选数据中没有其他来源交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-05T20:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "boe_news",
+          "source_name": "英国央行新闻",
+          "url": "https://www.bankofengland.co.uk/monetary-policy-summary-and-minutes/2026/november-2026"
+        }
+      ]
+    },
+    {
+      "id": "33331e054343-04",
+      "category": "finance",
+      "headline": "CoreWeave 债券收益率升破 16%，AI 债务压力显性化",
+      "what_happened": "CNBC 报道，CoreWeave 的债券收益率升至 16% 以上；报道将这一变化放在 AI 债务市场承压、投资者担忧数据中心建设放缓的背景下描述。",
+      "why_it_matters": "分析：AI 基建融资的性质正在从“利率问题”变成“信用问题”；候选材料中另有 MarketWatch 关于数据中心债务发行与表现的报道，两条线索指向同一个方向，即融资端正在给 AI 扩张增加额外摩擦。",
+      "impact": "推断：如果高收益率持续，数据中心运营商新增融资与再融资的成本就会上升，部分项目可能被延后；但这是一家公司的债券价格，不能直接当作整个行业的结论。",
+      "evidence": "证据来自 CNBC 的报道，候选材料中 MarketWatch 另一篇关于数据中心债务的报道方向一致，但两篇均为媒体转述，未见原始债券条款披露。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-07T01:09:53+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/06/coreweave-bond-yield-tops-16percent-as-ai-credit-stress-rises.html"
+        }
+      ]
+    },
+    {
+      "id": "8745bec4cea6-07",
+      "category": "finance",
+      "headline": "旧金山联储主席 Daly：通胀像“跑步机”，可能还需加息",
+      "what_happened": "CNBC 报道，旧金山联储主席 Mary Daly 称最新就业报告对劳动者是“好消息”，但指出通胀正给家庭财务造成压力，并表示可能还需要进一步加息。",
+      "why_it_matters": "分析：这一表态把政策方向从“降息周期”改口为“可能继续加息”，并与英国央行同周加息相互呼应；对贴现率敏感的估值假设会因此被重新评估。",
+      "impact": "推断：如果更多官员采用同样的措辞，市场对短期降息的押注会被削弱；但 Daly 的表态不代表整个决策委员会，且会随数据变化。",
+      "evidence": "证据来自 CNBC 对 Daly 采访的报道，候选数据中没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T03:05:00+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/06/fed-daly-interest-rates-inflation.html"
+        }
+      ]
+    },
+    {
+      "id": "8300f00f09b8-02",
+      "category": "tech",
+      "headline": "Chainalysis 称黑客窃取了全部客户的凭证与令牌",
+      "what_happened": "Chainalysis 表示公司遭到一次“多线网络攻击”，黑客获取了其所有客户的凭证与令牌；该公司称攻击中使用了 AI 智能体，并包含在通信路径上截取数据的手法。",
+      "why_it_matters": "分析：区块链分析公司的客户名单和访问凭证本身就是高价值资产，泄露后攻击范围会从这家公司扩散到它的交易所、合规和执法类客户；同时，这也是“AI 智能体被用于实战攻击”的一个具体案例，而不只是概念演示。",
+      "impact": "推断：使用该服务的机构需要轮换密钥、复核访问日志，并评估历史查询记录是否被冒用；实际影响的大小取决于令牌的权限粒度与有效期，候选材料并未披露这些信息。",
+      "evidence": "证据来自 Ars Technica 对该公司声明的报道，候选数据中没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T04:56:41+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/chainalysis-says-hackers-stole-credentials-and-tokens-for-all-of-its-customers"
+        }
+      ]
+    },
+    {
+      "id": "82ee46537dde-08",
+      "category": "tech",
+      "headline": "福克斯完成 220 亿美元收购 Roku",
+      "what_happened": "TechCrunch 报道，福克斯（Fox）已完成对 Roku 的 220 亿美元收购，此前美国司法部曾调查该交易；另一篇 Ars Technica 报道称，一名开发者因福克斯收购 Roku 而终止了与 Roku 的屏保合作。",
+      "why_it_matters": "分析：流媒体分发层被内容方收购后，平台的中立性就从反垄断文本问题变成开发者与合作方的实际风险；那位开发者的退出，是这类风险提前显现的一个信号。",
+      "impact": "推断：Roku 平台上第三方应用的分成、推荐位与数据条款可能被重新谈判，广告主可触达的库存也会更集中；这些都需要等新的商务条款公布后才能确认。",
+      "evidence": "证据来自 TechCrunch 报道收购完成，Ars Technica 另一篇关于开发者退出的报道从侧面印证交易已完成，属不同媒体的间接交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-07T00:05:36+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/06/fox-completes-its-22b-acquisition-of-roku"
+        }
+      ]
+    },
+    {
+      "id": "6c7fbb3493ea-10",
+      "category": "tech",
+      "headline": "1140 万美元英伟达硬件在奥克兰至得州途中失踪",
+      "what_happened": "Ars Technica 报道，6 个托盘的英伟达硬件在从奥克兰运往得克萨斯的途中失踪，价值 1140 万美元，两个月后仍无人被捕。",
+      "why_it_matters": "分析：GPU 已成为可快速变现的高价值货物，物流环节的盗窃风险会直接转化为交付延迟、保险成本与合规审计，影响的不只是治安层面。",
+      "impact": "推断：大规模算力采购方需要重新评估承运方选择与在途保险条款；对二手市场来说，赃物流入会带来来源核验问题。候选材料未说明芯片型号与承运方。",
+      "evidence": "证据来自 Ars Technica 报道，候选数据中没有其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T04:05:30+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/nvidia-hardware-worth-11-4m-vanished-between-oakland-and-texas"
+        }
+      ]
+    }
+  ]
+}

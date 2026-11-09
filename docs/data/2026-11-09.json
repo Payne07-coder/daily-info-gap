@@ -1,0 +1,180 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T05:48:40.998179+08:00",
+  "window_start": "2026-11-07T17:45:03.687795+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
+    ]
+  },
+  "items": [
+    {
+      "id": "2a6b44576ab7-00",
+      "category": "ai",
+      "headline": "英伟达就 CEO 黄仁勋与疑似中国间谍的关系启动调查",
+      "what_happened": "据 TechCrunch 报道，英伟达在致员工的备忘录中表示将调查 CEO 黄仁勋与一名疑似中国间谍的女性之间的关系；黄仁勋在备忘录中承认存在婚外情。MarketWatch 同日报道，英伟达董事会将调查此事，公司发言人称黄仁勋将继续留任并配合调查，并称“今天的消息不会拖慢英伟达”。",
+      "why_it_matters": "分析：这件事同时牵涉 CEO 个人行为、公司治理与对华技术安全，三者叠加在美国 AI 芯片公司身上尤其敏感，容易从花边新闻升级为合规和供应链审查议题。",
+      "impact": "推断：调查期间，管理层精力与外界信任可能受影响，对华相关业务的合规审查压力或上升；公司“不会拖慢业务”的表态属于其自身立场，尚待独立验证。",
+      "evidence": "TechCrunch AI 报道，MarketWatch 同日就同一董事会调查另有报道，构成跨来源确认；但调查结论与备忘录原文尚未公开。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-09T05:00:11+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy"
+        }
+      ]
+    },
+    {
+      "id": "33683574ed15-01",
+      "category": "ai",
+      "headline": "美情报备忘录称中国国安招募科技高管监视黄仁勋",
+      "what_happened": "据 TechCrunch 报道，今年早些时候流传的一份美国情报备忘录声称，中国国家安全部招募了一名女性科技高管（报道指向 Megaspeed 相关人士）监视英伟达 CEO 黄仁勋。",
+      "why_it_matters": "分析：如果该说法成立，风险点就不只是个人关系，而是 AI 算力跨境流动中的人脉与情报渗透渠道，这类议题通常不会出现在产品发布类新闻里。",
+      "impact": "推断：可能推动美方对具有中国背景的算力转售商、海外合作方加强审查；目前这只是备忘录层面的指控，尚无司法或官方结论。",
+      "evidence": "仅 TechCrunch AI 一家报道，且其引述的是“据报道”流传的备忘录，未见原始文件，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-08T05:17:08+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo"
+        }
+      ]
+    },
+    {
+      "id": "c8f9854a058b-08",
+      "category": "ai",
+      "headline": "Nous Research 发布 Arete-27B：称将“宣传式回答”从 22% 降至 0.9%",
+      "what_happened": "MarkTechPost 报道，Nous Research 发布 Apache 2.0 许可的 Arete-27B，为 Qwen3.8-27B 的微调版本；在其自建的 803 条提示评测中，宣传式回答比例从 22% 降至 0.9%，Hermes Bench 分数持平于 65.60%。",
+      "why_it_matters": "分析：这提供了“在不明显损失通用能力的前提下压低特定倾向输出”的一个可复现路径，属于开源模型对齐领域较少被主流报道关注的方向。",
+      "impact": "推断：若第三方复现成立，类似的定向微调可能被更广泛用于内容倾向控制；目前数据全部来自发布方自评。",
+      "evidence": "仅 MarkTechPost 一家报道，评测由 Nous 自行设计并公布，无第三方复现，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-08T12:45:59+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/07/nous-research-arete-27b-qwen3-8-27b-propaganda-fine-tune"
+        }
+      ]
+    },
+    {
+      "id": "3f4779e0c438-04",
+      "category": "finance",
+      "headline": "伯克希尔三季度回购规模增加一倍以上，同期利润下滑",
+      "what_happened": "CNBC 报道，伯克希尔·哈撒韦周六披露三季度加快回购自家股票，回购规模较此前增加一倍以上；同期经营利润和整体利润均出现下降。",
+      "why_it_matters": "分析：利润承压时仍大幅加码回购，通常反映管理层认为自家股票比外部标的更有吸引力，这是观察大型资本配置者态度的一个侧面信号。",
+      "impact": "推断：可能被解读为对并购机会谨慎；但单季数据不足以说明趋势，需看后续季度是否延续。",
+      "evidence": "仅 CNBC 金融一家报道，候选材料中未见伯克希尔公告原文，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-07T23:23:46+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/07/berkshire-hathaway-q3-2026-earnings-buybacks.html"
+        }
+      ]
+    },
+    {
+      "id": "0682f1423125-05",
+      "category": "finance",
+      "headline": "标普500 企业盈利超预期幅度为约四年来最窄",
+      "what_happened": "MarketWatch 报道，标普500 成分股三季度业绩多数高于分析师预期，但超预期的平均幅度是约四年来最小的。",
+      "why_it_matters": "分析：超预期幅度收窄说明“业绩超预期”的含金量在下降，市场此前习惯的盈利惊喜正在变小，这一点通常被“多数公司超预期”的标题掩盖。",
+      "impact": "推断：若后续指引不能接力，估值对盈利的支撑会变弱；属单季截面数据，不宜直接外推。",
+      "evidence": "仅 MarketWatch 一家报道，其引用的数据提供方原文未在候选材料中出现，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-08T23:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/corporate-americas-profit-numbers-are-just-barely-beating-wall-streets-expectations-eaa67fe2"
+        }
+      ]
+    },
+    {
+      "id": "292b5d5f25a1-06",
+      "category": "finance",
+      "headline": "美股重现同步涨跌，恰逢一年多来最大抛售",
+      "what_happened": "MarketWatch 报道，原本走势分化的美国股市出现罕见的同步波动，而同一时期市场正经历一年多来规模最大的抛售。",
+      "why_it_matters": "分析：个股相关性上升意味着风险从“选股”转向“系统性”，分散持仓的保护作用会下降，这是普通行情汇总容易忽略的结构性变化。",
+      "impact": "推断：若同步性延续，指数层面的波动可能被放大，主动选股的相对优势收窄。",
+      "evidence": "仅 MarketWatch 一家报道，相关性数据未见原始出处，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-08T22:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/stocks-are-moving-in-sync-again-for-the-first-time-in-a-while-theres-just-one-problem-c953bf72"
+        }
+      ]
+    },
+    {
+      "id": "26ad7ff9662b-02",
+      "category": "tech",
+      "headline": "币安 CFO 在 63 亿美元被盗事件后宣布离职",
+      "what_happened": "TechCrunch 报道，币安首席财务官宣布离职、去“追求新的事业”，此时距黑客从币安用户处盗走价值约 63 亿美元加密货币仅一周多。",
+      "why_it_matters": "分析：重大安全事件后短期内财务负责人离任，会让外界更容易质疑交易所的资金管理与危机应对，而这类追问往往被行情报道淹没。",
+      "impact": "推断：可能加大用户提现与监管问询压力；63 亿美元这一规模若获独立确认，将属近年最大级别的交易所失窃事件。",
+      "evidence": "仅 TechCrunch 一家报道，候选材料中没有币安官方声明或第二家媒体的独立核实，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-08T01:24:07+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/07/binance-cfo-is-leaving-to-pursue-a-new-venture-after-6-3-billion-hack"
+        }
+      ]
+    },
+    {
+      "id": "085c5fb7932f-03",
+      "category": "tech",
+      "headline": "三星电子现金及等价物达 214.8 万亿韩元，或成韩国首家突破 200 万亿的企业",
+      "what_happened": "36氪援引行业数据报道，三星电子截至三季度末现金及现金等价物为 214.8 万亿韩元，较三个月前增加 24.8 万亿韩元，接近 2025 年同期 108.5 万亿韩元的两倍；总资产 791.8 万亿韩元，环比增加 32.4 万亿韩元。",
+      "why_it_matters": "分析：现金快速堆积与 AI 芯片景气周期直接相关，说明这轮存储涨价的利润正在转化为资产负债表实力，而不只是单季利润数字。",
+      "impact": "推断：为其 2026 年 90 万亿至 110 万亿韩元股东回报计划提供缓冲，也意味着在扩产和并购上留有更大余地。",
+      "evidence": "36氪转述行业数据（原始口径为新浪财经），候选材料中无第二家来源，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-08T18:00:53+08:00",
+      "sources": [
+        {
+          "source_id": "36kr",
+          "source_name": "36氪",
+          "url": "https://36kr.com/newsflashes/4060676956476291?f=rss"
+        }
+      ]
+    },
+    {
+      "id": "eaa20c408c49-07",
+      "category": "tech",
+      "headline": "中国央行连续 24 个月增持黄金，10 月加仓量为重启购金以来最大",
+      "what_happened": "36氪援引第一财经报道，央行数据显示 10 月末黄金储备为 7830 万盎司，环比增加 83 万盎司，为连续 24 个月增持，且增持量创 2024 年 11 月重启购金以来新高。",
+      "why_it_matters": "分析：在金价处于高位的背景下仍加大买入，说明增持更多是储备结构多元化的政策安排，而非价格择时，这一点常被金价涨跌的讨论掩盖。",
+      "impact": "推断：为黄金市场提供一个相对稳定的官方买盘预期；但单月数据不足以证明会持续加速。",
+      "evidence": "36氪转述第一财经对央行数据的报道，属官方统计口径，但候选材料内仅此一处转述，标为单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-08T17:01:34+08:00",
+      "sources": [
+        {
+          "source_id": "36kr",
+          "source_name": "36氪",
+          "url": "https://36kr.com/newsflashes/4060768862983045?f=rss"
+        }
+      ]
+    }
+  ]
+}
