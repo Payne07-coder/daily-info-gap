@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T05:46:29.298796+08:00",
+  "window_start": "2026-11-09T17:45:03.898198+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 23,
+    "failed": 2,
+    "failed_sources": [
+      "VentureBeat AI",
+      "36氪"
+    ]
+  },
+  "items": [
+    {
+      "id": "561284df6215-03",
+      "category": "ai",
+      "headline": "纽约州AI安全法进入执行阶段，头部模型公司须注册与披露",
+      "what_happened": "TechCrunch报道，纽约州准备执行其AI安全法，要求OpenAI、Anthropic等主要开发商注册、披露安全实践，并报告重大事件，否则面临罚款。",
+      "why_it_matters": "分析：这是美国州层面把前沿模型公司纳入类似“持牌加事故报告”框架的尝试，合规成本与信息披露义务可能先于联邦立法落地。",
+      "impact": "推断：在纽约有业务的模型公司需增设合规与安全事件报告流程；披露内容可能成为外界评估模型风险的公开信息源。执行细节与时间表仍在发展。",
+      "evidence": "证据来自TechCrunch单篇报道（单一来源），无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-11T04:52:13+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/10/openai-anthropic-face-new-oversight-as-new-yorks-ai-safety-law-takes-effect"
+        }
+      ]
+    },
+    {
+      "id": "fe4a91fddc70-05",
+      "category": "ai",
+      "headline": "DeepMind的AlphaProof Code用300万行Lean证明验证Signal核心加密",
+      "what_happened": "Google DeepMind宣布推出AlphaProof Code，称其智能体编写了300万行Lean证明，用于深度验证Signal的核心加密实现。",
+      "why_it_matters": "分析：把形式化验证从数学问题扩展到真实生产级密码代码，若可复现，将改变“人工阅读加测试”主导的代码审计成本结构。",
+      "impact": "推断：密码库与关键基础设施的验证周期可能缩短；但形式化证明只保证实现符合规格，规格本身是否写对仍需人工判断。",
+      "evidence": "证据来自Google DeepMind官方博客（单一来源），未见第三方复现或独立评估。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-10T20:02:28+08:00",
+      "sources": [
+        {
+          "source_id": "deepmind",
+          "source_name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/introducing-alphaproof-code"
+        }
+      ]
+    },
+    {
+      "id": "456609c2e00b-06",
+      "category": "ai",
+      "headline": "Gemini Robotics 2.5发布，同步公开ASIMOV-jailbreak安全基准",
+      "what_happened": "Google DeepMind发布Gemini Robotics 2.5视觉-语言-动作模型，称其在灵巧性、可靠性和安全性上更强；Ars Technica报道该模型在部分任务上成功率最高约为原来的两倍，并同步公开了名为ASIMOV-jailbreak的安全基准。",
+      "why_it_matters": "分析：机器人基础模型的竞争正从“能不能做”转向“能否被安全评测”，公开越狱基准意味着安全表现不再只由厂商自评。",
+      "impact": "推断：做具身智能的团队会更倾向采用通用VLA模型而非自研；安全基准可能进入采购与保险环节的评估清单。性能数字来自厂商口径，尚待独立复现。",
+      "evidence": "DeepMind官方博客与Ars Technica报道相互印证发布事实和基准名称，可交叉确认；性能提升幅度仅有厂商说法。",
+      "confidence": "已确认",
+      "published_at": "2026-11-10T03:51:47+08:00",
+      "sources": [
+        {
+          "source_id": "deepmind",
+          "source_name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/gemini-robotics-2-5-accelerates-real-world-physical-intelligence"
+        }
+      ]
+    },
+    {
+      "id": "d073e8d2ce50-08",
+      "category": "ai",
+      "headline": "OpenAI在ChatGPT内上线企业资料页，商家可管理展示信息",
+      "what_happened": "OpenAI发布“Businesses in ChatGPT”，允许商家管理自身信息、查看自己在ChatGPT中的展示情况并引导用户采取行动；TechCrunch将其解读为ChatGPT向消费级发现引擎靠拢。",
+      "why_it_matters": "分析：入口从“问答”变成“可被检索的商家目录”，意味着流量分配规则开始形成，逻辑类似搜索时代的SEO，但规则由单一平台掌握。",
+      "impact": "推断：本地服务与电商商家需要维护ChatGPT侧的资料准确性；未被收录或信息有误的中小商家可能在新入口中不可见。",
+      "evidence": "OpenAI官方公告与TechCrunch报道相互印证，可交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-10T18:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/introducing-businesses-chatgpt"
+        }
+      ]
+    },
+    {
+      "id": "6bc2fc3b0a07-11",
+      "category": "ai",
+      "headline": "Adobe与Google打通：Drive内可编辑PDF，Adobe AI进入Gemini",
+      "what_happened": "Google宣布与Adobe深化整合，用户可在Google Drive中编辑PDF，并在Gemini中使用Adobe的AI能力。",
+      "why_it_matters": "分析：这是把创意与文档AI嵌入办公套件默认入口的分发型合作，对日常使用者的影响可能比单纯的模型能力提升更直接。",
+      "impact": "推断：Workspace企业客户可能在现有订阅内获得部分PDF与AI功能，独立PDF工具和轻量设计工具的替代压力上升；具体计费方式与上线范围尚未明确。",
+      "evidence": "证据来自Google官方博客（单一来源），无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-10T22:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "google_ai",
+          "source_name": "Google AI",
+          "url": "https://blog.google/company-news/inside-google/company-announcements/adobe-google-partnership-integration"
+        }
+      ]
+    },
+    {
+      "id": "cf14a56603ed-00",
+      "category": "finance",
+      "headline": "美国10月CPI +0.4%、失业率4.1%，9月PPI +1.3%",
+      "what_happened": "美国劳工统计局“主要经济指标”页面汇总：2026年10月CPI为+0.4%，失业率4.1%，非农就业+16.5万人（初值），平均时薪+0.14美元（初值）；2026年9月PPI最终需求+1.3%（初值），第三季度就业成本指数+0.8%、生产率+3.6%。",
+      "why_it_matters": "分析：这组数据同时显示通胀压力尚未明显消退、就业降温但未失速，是美联储12月决策的直接输入；只盯CPI标题会漏掉PPI回升与生产率走强并存的组合。",
+      "impact": "推断：若通胀读数维持，市场对12月加息的定价会抬升，长债、成长股和房贷等利率敏感资产承压；生产率上修则部分抵消单位劳动力成本压力。",
+      "evidence": "证据来自美国劳工统计局官网“Major Economic Indicators”页面，属官方原始数据，候选集中无其他来源交叉复核。",
+      "confidence": "已确认",
+      "published_at": "2026-11-10T21:30:23+08:00",
+      "sources": [
+        {
+          "source_id": "bls",
+          "source_name": "美国劳工统计局",
+          "url": "https://www.bls.gov/bls"
+        }
+      ]
+    },
+    {
+      "id": "b55b182d17d2-01",
+      "category": "finance",
+      "headline": "美联储理事沃勒：倾向12月加息，不排除50个基点",
+      "what_happened": "美联储理事沃勒表示，他倾向于在12月加息，并称视通胀数据可能支持加息50个基点。",
+      "why_it_matters": "分析：决策层公开把“50个基点”摆上台面，说明对通胀回落的耐心在下降，而市场此前更习惯25个基点的节奏，预期差本身就会带来波动。",
+      "impact": "推断：短端利率与美元可能走强，久期较长的债券和依赖低利率估值的资产压力更大；最终幅度仍取决于后续通胀数据。",
+      "evidence": "证据来自CNBC单篇报道（单一来源），无其他来源交叉确认其原话与语境。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-11T01:13:44+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/10/fed-governor-waller-sees-december-hike-likely.html"
+        }
+      ]
+    },
+    {
+      "id": "0d3f7cb3dbe1-02",
+      "category": "finance",
+      "headline": "Anthropic设定70–78美元发行区间，最高隐含估值1.404万亿美元",
+      "what_happened": "TechCrunch报道，Anthropic将IPO发行价区间定为每股70–78美元，按完全稀释口径以上限计算隐含估值约1.404万亿美元，最高募资约630亿美元；MarketWatch称IPO预计下周进行、估值超过1万亿美元。",
+      "why_it_matters": "分析：若按此区间定价，AI模型公司将以接近大型科技巨头的估值进入公开市场，把私募阶段的估值分歧直接交给二级市场一次性定价。",
+      "impact": "推断：定价结果会成为算力、云和电力等AI基础设施链条的估值参照；若破发或认购不足，一级市场融资条件可能同步收紧。发行尚未完成，仍在发展。",
+      "evidence": "TechCrunch与MarketWatch两家来源均报道发行区间与估值，可交叉确认；最终定价未定。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-11T03:47:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/anthropic-reportedly-retracts-ipo-terms-sent-to-banks-by-mistake-exposing-jitters-over-ai-investments-6116578d"
+        }
+      ]
+    },
+    {
+      "id": "46c32b3e4e03-04",
+      "category": "finance",
+      "headline": "10年期美债收益率逼近5%，美股走低",
+      "what_happened": "MarketWatch报道，在周二通胀数据公布后，10年期美债收益率回升至接近5%，美股下跌；报道中一位组合经理表示反对美联储再加息25个基点。",
+      "why_it_matters": "分析：5%是长端利率的心理关口，收益率在此反复会压制最依赖久期的资产；市场人士公开反对继续加息，显示市场定价与决策层表态出现分歧。",
+      "impact": "推断：若收益率站稳5%上方，成长股与高杠杆企业的再融资成本上升，资金可能继续向现金和短债倾斜。",
+      "evidence": "证据来自MarketWatch单篇报道（单一来源）；其中引用的通胀数据可与美国劳工统计局原始发布交叉核对。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-11T05:42:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/why-stocks-are-falling-and-10-year-yields-are-climbing-back-near-5-after-tuesdays-inflation-report-389b8392"
+        }
+      ]
+    },
+    {
+      "id": "06974837aae2-07",
+      "category": "tech",
+      "headline": "英伟达调查中国情报部门是否通过婚外情接触其CEO",
+      "what_happened": "Ars Technica报道，英伟达正在调查中国情报部门是否通过一段婚外情接触其CEO黄仁勋；TechCrunch同日以时间线形式梳理该事件，并称其可能影响美中AI基础设施竞争。",
+      "why_it_matters": "分析：事件已从个人丑闻转入出口管制与国家安全议题，可能改变美国对华芯片销售的政策讨论氛围；但“间谍”相关指控目前仍是调查中的说法，未被证实。",
+      "impact": "推断：若国会借此推进更严格的对华出口法案，英伟达在华收入与特供型号策略将受直接约束。事件仍在发展。",
+      "evidence": "Ars Technica与TechCrunch均报道该调查，可交叉确认调查存在；间谍指控的具体细节仍为单一来源说法。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-09T23:23:20+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/ceo-jensen-huang-admits-affair-as-nvidia-probes-possible-chinese-espionage"
+        }
+      ]
+    },
+    {
+      "id": "736a707eeefa-09",
+      "category": "tech",
+      "headline": "N-able因零日漏洞被公开而下线远程访问服务",
+      "what_happened": "TechCrunch报道，在一名研究者公开数十个零日漏洞后，N-able将其远程访问服务下线，并敦促自托管客户关闭自己的服务器，称正在应对“严重安全事件”。",
+      "why_it_matters": "分析：厂商主动停服说明漏洞利用风险已高于停机成本，而受影响的主要是通过托管服务商管理客户网络的企业。",
+      "impact": "推断：使用N-able远程监控与访问工具的托管服务商及其下游企业需临时启用备用通道，并排查日志中是否存在入侵痕迹。事件仍在发展。",
+      "evidence": "证据来自TechCrunch单篇报道（单一来源），未见厂商公告原文交叉确认。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-10T23:45:27+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/n-able-takes-its-remote-access-service-offline-after-researcher-publishes-dozens-of-zero-day-bugs"
+        }
+      ]
+    },
+    {
+      "id": "fed12b84d75b-10",
+      "category": "tech",
+      "headline": "X-energy获NRC建设许可，将在得州建四台小型模块化反应堆",
+      "what_happened": "TechCrunch报道，X-energy获得美国核管理委员会（NRC）的建设许可，将在得克萨斯州建造四台小型模块化反应堆。",
+      "why_it_matters": "分析：这是小型模块化堆从设计认证走向实际开工的关键一步，而AI数据中心带来的电力缺口正是这类项目最主要的现实需求。",
+      "impact": "推断：数据中心配套核电的采购与选址谈判可能加速；但建设许可不等于并网时间表，成本超支与工期风险仍由业主和承包商承担。",
+      "evidence": "证据来自TechCrunch单篇报道（单一来源），未核对NRC许可文件本身。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-11T04:43:55+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors"
+        }
+      ]
+    }
+  ]
+}
