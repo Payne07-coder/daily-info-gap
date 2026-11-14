@@ -1,26 +1,27 @@
 {
   "schema_version": 1,
-  "date": "2026-11-14",
-  "generated_at": "2026-11-14T05:46:50.005262+08:00",
-  "window_start": "2026-11-12T17:45:02.434597+08:00",
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T05:48:27.973768+08:00",
+  "window_start": "2026-11-13T17:45:02.990036+08:00",
   "status": "partial",
   "source_health": {
-    "ok": 23,
-    "failed": 2,
+    "ok": 22,
+    "failed": 3,
     "failed_sources": [
+      "Hugging Face",
       "VentureBeat AI",
-      "36氪"
+      "美国劳工统计局"
     ]
   },
   "items": [
     {
       "id": "be0ae0be6be8-00",
       "category": "ai",
-      "headline": "英伟达 CEO 黄仁勋辞职风波：时间线梳理",
-      "what_happened": "TechCrunch AI 发布时间线，称英伟达 CEO 黄仁勋因一段婚外情已辞职，并称该事件在美中竞逐先进 AI 基础设施的背景下可能牵动国家安全。",
-      "why_it_matters": "分析——若属实，英伟达在 AI 算力供应中的核心地位使领导层动荡可能影响美中 AI 竞争格局、出口管制走向与全球 AI 供应链稳定性；多家媒体已从不同角度跟进，说明影响超出单一公司。",
-      "impact": "推断——可能影响市场对英伟达及 AI 芯片板块的预期、美中关系讨论氛围，并波及依赖英伟达的产业链与政策议程；具体后果需等待后续确认。",
-      "evidence": "源自 TechCrunch AI 时间线；CNBC、MarketWatch、WIRED 均有相关报道，但事件细节仍在更新。",
+      "headline": "黄仁勋辞去英伟达 CEO，AI 与芯片行业震荡",
+      "what_happened": "据 TechCrunch 报道，英伟达 CEO 黄仁勋因婚外情丑闻辞职，事件与美国对华 AI 基建竞争中的国家安全议题相关联。",
+      "why_it_matters": "英伟达是 AI 算力的核心供应商，CEO 突然更替可能影响客户、供应链与政策走向。此为分析。",
+      "impact": "后续多条候选显示亚洲政府、VC 与初创企业已在评估供应与融资影响；长期走向取决于继任者安排与事件定性。此为推断。",
+      "evidence": "TechCrunch 时间线报道；本批候选内无第二家独立媒体交叉确认。",
       "confidence": "仍在发展",
       "published_at": "2026-11-13T23:58:00+08:00",
       "sources": [
@@ -32,13 +33,13 @@
       ]
     },
     {
-      "id": "ebc17f3ae4d5-03",
+      "id": "ebc17f3ae4d5-02",
       "category": "ai",
-      "headline": "OpenAI 推出 ChatGPT Wallet：AI 智能体可在用户授权下完成购买",
-      "what_happened": "OpenAI 官方发布 ChatGPT Wallet，供 ChatGPT Work、Codex 和 dots 中的智能体在用户批准并沿用现有卡片保护机制的情况下完成购买；TechCrunch 报道该功能面向美国 Pro 订阅用户小范围推出。",
-      "why_it_matters": "分析——这标志 AI 从“给建议”走向“代客执行交易”，智能体开始系统性地进入真实支付环节，将改变用户与 AI 协作的信任边界和责任分配。",
-      "impact": "推断——可能加速智能体购物与结账场景落地，同时带来关于授权、风控、退款与消费安全方面的监管和讨论。",
-      "evidence": "OpenAI 官方公告为原始来源，TechCrunch 有独立报道确认美国 Pro 用户的小范围推出，两来源相互印证。",
+      "headline": "OpenAI 推出 ChatGPT Wallet，AI 代理可代用户付款",
+      "what_happened": "OpenAI 宣布推出 ChatGPT Wallet，供 ChatGPT Work、Codex 和 dots 中的代理完成购买，需用户批准并沿用现有卡片保护机制；TechCrunch 报道首批向美国 Pro 订阅用户有限开放。",
+      "why_it_matters": "这是 OpenAI 首次将「代理替用户支付」产品化，AI 从生成内容走向执行交易，触及支付、授权与风控边界。此为分析。",
+      "impact": "可能改变 AI 代理与电商、支付平台的合作与竞争格局；推广后用户需重新审视授权、退款与争议责任。此为推断。",
+      "evidence": "OpenAI 官方博客首发，TechCrunch 独立报道同一功能，可交叉确认。",
       "confidence": "已确认",
       "published_at": "2026-11-13T23:00:00+08:00",
       "sources": [
@@ -50,31 +51,13 @@
       ]
     },
     {
-      "id": "903a198ce665-04",
+      "id": "0dce7d95ef4b-06",
       "category": "ai",
-      "headline": "谷歌发布 Gemini 4 Hydrogen，并接入 Google Search",
-      "what_happened": "Google DeepMind 官方宣布 Gemini 4 Hydrogen；Google AI 博客另行宣布其已接入 Google Search，搜索界面出现相关卡片轮播；Ars Technica 报道称其正式取代 Gemini 3.8 Flash。",
-      "why_it_matters": "分析——作为主力模型代际更新并直接接入搜索，意味着谷歌将其最新模型能力铺向海量用户，可能重新定义搜索交互方式。",
-      "impact": "推断——可能提升搜索质量与多模态交互，并对模型竞争格局与搜索广告形态产生后续影响。",
-      "evidence": "Google DeepMind 官方博客为原始来源，Google AI 博客与 Ars Technica 有独立报道，多来源相互印证。",
-      "confidence": "已确认",
-      "published_at": "2026-11-13T02:00:50+08:00",
-      "sources": [
-        {
-          "source_id": "deepmind",
-          "source_name": "Google DeepMind",
-          "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen"
-        }
-      ]
-    },
-    {
-      "id": "0dce7d95ef4b-05",
-      "category": "ai",
-      "headline": "研究称中国最强 AI 模型由被禁出口的英伟达芯片训练",
-      "what_happened": "TechCrunch 报道，一项新研究显示中国最先进的 AI 模型是在被出口管制的英伟达芯片上训练的。",
-      "why_it_matters": "分析——若研究成立，说明现有出口管制未能阻止先进芯片进入中国 AI 训练环节，是对美中科技竞争与管制有效性的直接检验，也与黄仁勋辞职风波形成关联。",
-      "impact": "推断——可能促使政策层重新审视并收紧管制执行，影响英伟达及中国 AI 企业的合规与供应格局。",
-      "evidence": "仅 TechCrunch 单一来源转述研究结论，未见其他独立来源交叉确认。",
+      "headline": "研究称中国顶尖 AI 模型或由被禁英伟达芯片训练",
+      "what_happened": "有研究报告指出，中国最先进的部分 AI 模型是在被出口管制的英伟达芯片上训练出来的。",
+      "why_it_matters": "若研究成立，说明出口管制的执行存在缝隙，直接影响对华芯片政策评估。此为分析。",
+      "impact": "可能引发对出口管制合规与供应链溯源的讨论，并影响后续政策执行力度。此为推断。",
+      "evidence": "TechCrunch 引用研究报告报道，本批候选内单一来源。",
       "confidence": "单一来源",
       "published_at": "2026-11-14T02:40:30+08:00",
       "sources": [
@@ -86,49 +69,67 @@
       ]
     },
     {
-      "id": "28bb2f56b8b3-11",
+      "id": "e74ad165794b-09",
       "category": "ai",
-      "headline": "llama.cpp 发布 v1.0.0：本地 AI 生态的基础更进一步",
-      "what_happened": "llama.cpp 团队（ggml-org）通过 Hugging Face 博客发布 v1.0.0，称其为本地 AI 生态提供更强大的基础。",
-      "why_it_matters": "分析——llama.cpp 是本地与边缘侧大模型推理的基石工具之一，正式 1.0 里程碑可能意味着接口稳定性与生态成熟度提升。",
-      "impact": "推断——可能惠及大量依赖 llama.cpp 的本地推理项目与设备端应用，具体改动需查阅其发布说明。",
-      "evidence": "源自 Hugging Face 上 ggml-org（llama.cpp 原作者团队）官方博客，属原始来源，未见独立媒体报道。",
-      "confidence": "已确认",
-      "published_at": "2026-11-13T22:05:22+08:00",
+      "headline": "AI 代理初创 LangChain 估值达 30 亿美元",
+      "what_happened": "LangChain 宣布其模型与平台无关的代理管理工具 LangSmith 拥有 7,000 家客户，公司估值达到 30 亿美元。",
+      "why_it_matters": "反映 AI 代理基础设施层的资本热度与商业化进展，是代理生态成熟度的信号。此为分析。",
+      "impact": "为同赛道公司提供估值参照，并可能加剧代理工具层的竞争。此为推断。",
+      "evidence": "TechCrunch 报道，本批候选内单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-14T03:37:57+08:00",
       "sources": [
         {
-          "source_id": "huggingface_blog",
-          "source_name": "Hugging Face",
-          "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1"
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation"
         }
       ]
     },
     {
-      "id": "b392dcc11129-06",
+      "id": "10ef54220ffc-10",
+      "category": "ai",
+      "headline": "Perplexity 开源决策模型 Decider v1.3 输出概率而非文本",
+      "what_happened": "Perplexity 发布 Decider v1.3 与 Flash v1.3，为开源权重决策模型，输出概率而非生成文本；v1.3 新增 Locate 功能用于片段抽取，并报告在 63 项查询分类任务上平均准确率 91.6%。",
+      "why_it_matters": "「输出概率」的模型范式更适合可审计的分类、抽取与路由场景，与生成式模型互补。此为分析。",
+      "impact": "为需要确定性输出的 AI 工作流提供低成本开源选项，可能推动决策类模型应用。此为推断。",
+      "evidence": "MarkTechPost 转述官方发布，本批候选内单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-14T00:10:02+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate"
+        }
+      ]
+    },
+    {
+      "id": "3b3e1359fe54-04",
       "category": "finance",
-      "headline": "美联储公布 2027 年 FOMC 会议修订安排，10 月会议不再就利率投票",
-      "what_happened": "美联储发布 2027 年联邦公开市场委员会（FOMC）会议修订后的暂定日程；CNBC 报道称这是一次政策流程转变：2027 年将有 7 次投票会议，10 月会议仅作为政策讨论的额外时间，不再正式投票、也不发布会后声明。",
-      "why_it_matters": "分析——会议日程变化会改变市场对加息或降息时点的预期节奏，减少一次投票窗口意味着政策调整的频率与时点预期需要重估。",
-      "impact": "推断——可能影响市场对明年政策路径与关键时间节点的定价，后续会议流程的进一步说明值得关注。",
-      "evidence": "美联储官方发布为原始来源，CNBC 有独立报道并解读为政策转变，两来源相互印证。",
+      "headline": "美联储等延长第三方风险管理指引意见征询期",
+      "what_happened": "美联储等监管机构宣布延长关于第三方风险管理指引提案的公众意见征询期。",
+      "why_it_matters": "该指引将决定金融机构对云服务、AI 等第三方供应商的尽调与风险要求。此为分析。",
+      "impact": "金融机构及其云、AI 供应商的合规成本与时间表可能随之调整。此为推断。",
+      "evidence": "美联储官网新闻稿，官方原始来源。",
       "confidence": "已确认",
-      "published_at": "2026-11-13T01:45:00+08:00",
+      "published_at": "2026-11-14T05:15:00+08:00",
       "sources": [
         {
           "source_id": "federal_reserve",
           "source_name": "美联储",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261112a.htm"
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm"
         }
       ]
     },
     {
-      "id": "0c165cd15cad-07",
+      "id": "0c165cd15cad-05",
       "category": "finance",
-      "headline": "美国 SEC 提议改革高管与董事薪酬披露规则",
-      "what_happened": "美国证券交易委员会（SEC）提出规则修订提案，拟使高管与董事薪酬披露更基于原则、更注重重要性，以提供更清晰、简洁、低复杂度的披露。",
-      "why_it_matters": "分析——薪酬披露框架直接影响上市公司治理透明度与投资者信息质量，改革方向将改变公司披露口径与合规成本。",
-      "impact": "推断——若通过，上市公司需调整高管薪酬披露方式，投资者比较公司治理数据的口径也可能发生变化。",
-      "evidence": "源自 SEC 官方新闻稿（原始权威来源），未见独立媒体交叉报道。",
+      "headline": "SEC 提议改革高管与董事薪酬披露规则",
+      "what_happened": "美国证券交易委员会（SEC）提出规则修订，拟将高管与董事薪酬披露要求改为更原则化、以重要性为驱动，以提供更清晰、简洁、低复杂度的信息。",
+      "why_it_matters": "披露口径变化会影响上市公司如何呈现薪酬信息以及投资者如何解读。此为分析。",
+      "impact": "若通过，上市公司的披露合规与投资者分析框架都需相应调整。此为推断。",
+      "evidence": "美国 SEC 官网新闻稿，官方原始来源。",
       "confidence": "已确认",
       "published_at": "2026-11-14T00:57:00+08:00",
       "sources": [
@@ -140,31 +141,13 @@
       ]
     },
     {
-      "id": "1209c1f626b2-09",
+      "id": "30dd8e03464c-07",
       "category": "finance",
-      "headline": "英国央行、新加坡金管局与泰国央行联合公布 Meridian FX APAC 项目",
-      "what_happened": "英国央行、新加坡金管局与泰国央行联合发布媒体稿，公布 Meridian FX APAC 项目；该项目试验外汇交易中的“同步结算”，澳大利亚储备银行与菲律宾央行为观察方。",
-      "why_it_matters": "分析——多国央行对跨境外汇同步结算（PvP 同步）的联合试验，指向批发跨境支付基础设施的未来走向，是容易被忽略但有制度含义的信号。",
-      "impact": "推断——若走向落地服务，可能降低跨境外汇结算风险、改变批发支付清算格局，并成为其他地区借鉴的模板。",
-      "evidence": "英国央行等多方央行联合媒体稿为原始来源，英国央行另发布政策与技术报告，多份官方文件相互印证。",
-      "confidence": "已确认",
-      "published_at": "2026-11-13T17:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "boe_news",
-          "source_name": "英国央行新闻",
-          "url": "https://www.bankofengland.co.uk/news/2026/november/the-boe-monetary-authority-of-singapore-and-bank-of-thailand-media-release"
-        }
-      ]
-    },
-    {
-      "id": "30dd8e03464c-10",
-      "category": "finance",
-      "headline": "芝加哥联储主席 Goolsbee：美联储在通胀上“确实还有工作要做”",
-      "what_happened": "CNBC 报道，芝加哥联储主席 Goolsbee 对最新通胀数据表示担忧，并称美联储可能需要对通胀采取行动。",
-      "why_it_matters": "分析——作为联储官员对通胀的鹰派式表态，是观察政策倾向转变的边际信号，可帮助预判后续政策讨论方向。",
-      "impact": "推断——可能强化市场对美联储保持紧缩或延后降息的预期，但单一官员表态不能代表委员会最终决定。",
-      "evidence": "仅 CNBC 单一来源转述，未见其他独立来源交叉确认。",
+      "headline": "芝加哥联储 Goolsbee：通胀仍「有工作要做」",
+      "what_happened": "芝加哥联储主席 Goolsbee 对最新通胀数据表示担忧，称央行可能仍需采取行动。",
+      "why_it_matters": "联储官员的公开表态是货币政策路径的前瞻信号，影响利率预期。此为分析。",
+      "impact": "或强化市场对货币政策维持紧缩的预期，影响资产定价。此为推断。",
+      "evidence": "CNBC 采访报道，本批候选内单一来源。",
       "confidence": "单一来源",
       "published_at": "2026-11-13T22:22:07+08:00",
       "sources": [
@@ -176,13 +159,31 @@
       ]
     },
     {
-      "id": "7d920c923820-01",
+      "id": "e92f177eb24f-11",
+      "category": "finance",
+      "headline": "获 Eric Trump 背书的机器人初创拖欠工资",
+      "what_happened": "获 Eric Trump 背书的机器人公司 Foundation Future Industries 现金紧张并拖欠工资，其 CEO Sankaet Pathak 因 460 万美元公司贷款购房受到关注。",
+      "why_it_matters": "暴露政治背书下初创公司的治理与资金管理风险。此为分析。",
+      "impact": "可能削弱员工与投资人对该类项目的信心，并引发对政治关联背书的审查。此为推断。",
+      "evidence": "CNBC 报道，本批候选内单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-14T20:00:01+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html"
+        }
+      ]
+    },
+    {
+      "id": "708489d448bf-01",
       "category": "tech",
-      "headline": "美国联邦航空管理局以“特殊情况”为由停飞全美航班",
-      "what_happened": "据 TechCrunch 报道，美国联邦航空管理局（FAA）以“特殊情况”和“安全原因”为由在全美范围内停飞航班；WIRED 亦有报道称 FAA 停飞全美航班直至另行通知，起初未给出原因。",
-      "why_it_matters": "分析——全美范围航班停飞极为罕见，若持续将直接冲击客运、物流与商务活动，也可能反映航空系统或安全层面出现突发重大事件。",
-      "impact": "推断——可能造成大面积出行中断与供应链延误，并引发对航空基础设施韧性与应急响应的关注；具体原因与恢复时间尚未明确。",
-      "evidence": "TechCrunch 报道，WIRED 有同主题独立报道，两来源相互印证；停飞原因与持续时间仍在更新。",
+      "headline": "美国 FAA 因通信问题发布全国性停飞，数小时后解除",
+      "what_happened": "美国联邦航空管理局（FAA）以「影响多个航路交通管制中心的通信问题」为由发布全国性地面停飞令，为历史上第三次；后续报道称停飞已解除，官方归因于「常规设备升级」并否认与 AI 有关。",
+      "why_it_matters": "全国空管系统的单点故障暴露了关键基础设施的脆弱性。此为分析。",
+      "impact": "造成数小时全国航班中断，并引发对关键通信设备与 AI 参与空管的争论。此为推断。",
+      "evidence": "TechCrunch 与 Ars Technica 多条报道交叉，停飞事实已确认；停飞原因解释不一。",
       "confidence": "仍在发展",
       "published_at": "2026-11-14T05:44:38+08:00",
       "sources": [
@@ -194,31 +195,13 @@
       ]
     },
     {
-      "id": "7e035e154584-02",
+      "id": "cea18d3f5195-03",
       "category": "tech",
-      "headline": "微软全球云服务大规模中断，从 Outlook/Teams 蔓延至整个云平台",
-      "what_happened": "TechCrunch 报道，微软当天开始的故障从 Outlook 和 Teams 扩展至公司大部分云服务，持续约一天，微软表示正在逐步恢复服务；Ars Technica 与 WIRED 另有独立报道。",
-      "why_it_matters": "分析——单一厂商云服务长时间中断，暴露了企业、医院、政府等对集中化系统的依赖风险，也再次引发对云服务韧性与供应商集中度的讨论。",
-      "impact": "推断——可能影响依赖微软云的组织运行与用户工作流，并推高对多云、备份与应急预案的关注度；服务恢复仍在进行中。",
-      "evidence": "TechCrunch 首发报道，Ars Technica 与 WIRED 均有独立报道，多来源交叉印证；恢复状态与确切根因仍在更新。",
-      "confidence": "仍在发展",
-      "published_at": "2026-11-13T21:15:20+08:00",
-      "sources": [
-        {
-          "source_id": "techcrunch",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/13/microsoft-latest-email-outage-turned-into-a-full-blown-global-cloud-crisis"
-        }
-      ]
-    },
-    {
-      "id": "cea18d3f5195-08",
-      "category": "tech",
-      "headline": "研究员公开 Windows 0day“SignDrop”，本地用户可获系统最高权限",
-      "what_happened": "Ars Technica 报道，一名不满的研究员公开了一个名为“SignDrop”的 Windows 0day 漏洞利用，可让本地用户获得最高权限的 System 权限。",
-      "why_it_matters": "分析——本地提权 0day 虽需先在目标机器上立足，但可与其他攻击组合扩大危害；利用代码被公开会显著降低攻击门槛。",
-      "impact": "推断——可能增加 Windows 环境被提权攻击的风险，使用方应关注微软官方补丁与缓解措施；微软尚未有可见回应。",
-      "evidence": "仅 Ars Technica 单一来源报道，未见其他独立来源交叉确认。",
+      "headline": "Windows 0-day「SignDrop」公开，本地攻击者可获系统权限",
+      "what_happened": "据报道，一名不满的研究人员公开了名为「SignDrop」的 Windows 0-day 漏洞利用，可让本地用户获得系统（System）最高权限。",
+      "why_it_matters": "本地提权是攻击链的关键环节，0-day 被公开且暂无补丁会显著扩大受影响面。此为分析。",
+      "impact": "在补丁发布前，受影响系统需评估本地攻击与提权风险，管理员应关注权限配置与缓解措施。此为推断。",
+      "evidence": "Ars Technica 报道，本批候选内单一来源。",
       "confidence": "单一来源",
       "published_at": "2026-11-14T00:26:32+08:00",
       "sources": [
@@ -226,6 +209,24 @@
           "source_id": "ars_technica",
           "source_name": "Ars Technica",
           "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights"
+        }
+      ]
+    },
+    {
+      "id": "6e037e7d597f-08",
+      "category": "tech",
+      "headline": "Uber 确认司机驾照信息在 Fireworks AI 泄露",
+      "what_happened": "Uber 确认黑客在一次安全事件中窃取了数千名司机的驾照信息，这些信息存储于其 AI 云供应商 Fireworks AI 处。",
+      "why_it_matters": "数据泄露责任从直接服务商外溢到 AI 云供应商，凸显第三方供应链风险。此为分析。",
+      "impact": "受影响司机面临身份盗用风险，企业对 AI 云供应商的安全要求可能提高。此为推断。",
+      "evidence": "TechCrunch 报道（Uber 已确认），本批候选内单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-13T22:57:55+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach"
         }
       ]
     }
