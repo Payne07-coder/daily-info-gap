@@ -1,232 +1,231 @@
 {
   "schema_version": 1,
-  "date": "2026-11-15",
-  "generated_at": "2026-11-15T05:48:27.973768+08:00",
-  "window_start": "2026-11-13T17:45:02.990036+08:00",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T12:12:05.550485+08:00",
+  "window_start": "2026-11-15T00:08:01.971158+08:00",
   "status": "partial",
   "source_health": {
-    "ok": 22,
-    "failed": 3,
+    "ok": 23,
+    "failed": 2,
     "failed_sources": [
-      "Hugging Face",
       "VentureBeat AI",
-      "美国劳工统计局"
+      "36氪"
     ]
   },
   "items": [
     {
-      "id": "be0ae0be6be8-00",
+      "id": "abd2a15a4780-00",
       "category": "ai",
-      "headline": "黄仁勋辞去英伟达 CEO，AI 与芯片行业震荡",
-      "what_happened": "据 TechCrunch 报道，英伟达 CEO 黄仁勋因婚外情丑闻辞职，事件与美国对华 AI 基建竞争中的国家安全议题相关联。",
-      "why_it_matters": "英伟达是 AI 算力的核心供应商，CEO 突然更替可能影响客户、供应链与政策走向。此为分析。",
-      "impact": "后续多条候选显示亚洲政府、VC 与初创企业已在评估供应与融资影响；长期走向取决于继任者安排与事件定性。此为推断。",
-      "evidence": "TechCrunch 时间线报道；本批候选内无第二家独立媒体交叉确认。",
+      "headline": "Nvidia 安全负责人早在 8 月已离职，芯片流向中国的调查浮出水面",
+      "what_happened": "据 TechCrunch 报道，Nvidia 安全主管已于 8 月悄然离职；CEO 黄仁勋因与多人存在关系而辞职，其中一人是一家被怀疑向中国转运芯片的公司高管。一名前情报官员评论称，这类信息泄露常通过日常对话发生，多数企业安全团队难以察觉。",
+      "why_it_matters": "若报道属实，Nvidia 的危机不止于 CEO 去职，而涉及高管背景审查与出口管制合规的系统性问题，治理不确定性可能比表面更长。",
+      "impact": "推断：可能削弱市场对 Nvidia 治理能力的信心，并加大美国监管机构对芯片流向中国的审查力度，短期股价与供应链预期或持续波动。",
+      "evidence": "仅来自 TechCrunch 单篇报道，无其他来源交叉确认，事件仍在发展。",
       "confidence": "仍在发展",
-      "published_at": "2026-11-13T23:58:00+08:00",
+      "published_at": "2026-11-15T08:08:07+08:00",
       "sources": [
         {
           "source_id": "techcrunch_ai",
           "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline"
+          "url": "https://techcrunch.com/2026/11/14/where-was-nvidias-security-team"
         }
       ]
     },
     {
-      "id": "ebc17f3ae4d5-02",
+      "id": "5ecb9b9dbfda-03",
       "category": "ai",
-      "headline": "OpenAI 推出 ChatGPT Wallet，AI 代理可代用户付款",
-      "what_happened": "OpenAI 宣布推出 ChatGPT Wallet，供 ChatGPT Work、Codex 和 dots 中的代理完成购买，需用户批准并沿用现有卡片保护机制；TechCrunch 报道首批向美国 Pro 订阅用户有限开放。",
-      "why_it_matters": "这是 OpenAI 首次将「代理替用户支付」产品化，AI 从生成内容走向执行交易，触及支付、授权与风控边界。此为分析。",
-      "impact": "可能改变 AI 代理与电商、支付平台的合作与竞争格局；推广后用户需重新审视授权、退款与争议责任。此为推断。",
-      "evidence": "OpenAI 官方博客首发，TechCrunch 独立报道同一功能，可交叉确认。",
-      "confidence": "已确认",
-      "published_at": "2026-11-13T23:00:00+08:00",
+      "headline": "亚洲多国政府就黄仁勋离职作出反应，部分确认芯片供应承诺",
+      "what_happened": "据 TechCrunch 报道，亚洲一些政府已着手确认芯片供应承诺，另一些政府正监测对本地项目的影响，或处理正在进行的调查。",
+      "why_it_matters": "政府层面的反应显示黄仁勋离职已从公司事件升级为地缘供应链议题，尤其是对依赖 Nvidia 芯片的地区。",
+      "impact": "推断：若芯片供应承诺出现变化，可能影响相关国家的 AI 数据中心建设进度与算力采购节奏。",
+      "evidence": "仅来自 TechCrunch，无交叉确认，事件仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-15T00:34:15+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit"
+        }
+      ]
+    },
+    {
+      "id": "6ce0883355f8-09",
+      "category": "ai",
+      "headline": "OpenAI 称 GPT-6 Astra 协助给出标准模型晶格定义的新尝试",
+      "what_happened": "OpenAI 官方发布博客，介绍一个候选的非微扰晶格标准模型定义，并称 GPT-6 Astra 帮助将该想法转化为详细证明。",
+      "why_it_matters": "若该方向成立，意味着 AI 进入理论物理核心研究环节而非仅做辅助计算；但该博客为 OpenAI 单方表述，未经独立评审确认。",
+      "impact": "推断：短期主要是研究方向信号；若获学术圈独立验证，可能带动 AI for Science 在基础理论领域的投入。",
+      "evidence": "来源为 OpenAI 官方博客，候选集内无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-16T06:00:01+08:00",
       "sources": [
         {
           "source_id": "openai_news",
           "source_name": "OpenAI",
-          "url": "https://openai.com/index/introducing-chatgpt-wallet"
+          "url": "https://openai.com/index/step-toward-defining-the-standard-model"
         }
       ]
     },
     {
-      "id": "0dce7d95ef4b-06",
+      "id": "9bf4b30bd903-10",
       "category": "ai",
-      "headline": "研究称中国顶尖 AI 模型或由被禁英伟达芯片训练",
-      "what_happened": "有研究报告指出，中国最先进的部分 AI 模型是在被出口管制的英伟达芯片上训练出来的。",
-      "why_it_matters": "若研究成立，说明出口管制的执行存在缝隙，直接影响对华芯片政策评估。此为分析。",
-      "impact": "可能引发对出口管制合规与供应链溯源的讨论，并影响后续政策执行力度。此为推断。",
-      "evidence": "TechCrunch 引用研究报告报道，本批候选内单一来源。",
+      "headline": "苹果推出新 App，研究人们如何将 AI 用于健康",
+      "what_happened": "据 TechCrunch 报道，苹果推出了一款面向研究的新应用，该应用会回答日常医疗问题，用于研究人们如何将 AI 用于健康。",
+      "why_it_matters": "苹果在健康数据与 AI 的结合上采取研究型切入，可能为其后续健康 AI 产品积累行为数据与合规经验。",
+      "impact": "推断：若研究规模扩大，可能影响用户健康数据的收集方式，并给其他健康类 AI 应用带来竞争压力。",
+      "evidence": "仅来自 TechCrunch，候选集内无交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-11-14T02:40:30+08:00",
+      "published_at": "2026-11-16T09:30:00+08:00",
       "sources": [
         {
           "source_id": "techcrunch_ai",
           "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/13/export-banned-nvidia-chips-are-behind-chinas-most-powerful-ai-models-uh-oh-jensen"
+          "url": "https://techcrunch.com/2026/11/15/apple-launches-new-app-to-study-how-people-use-ai-for-health"
         }
       ]
     },
     {
-      "id": "e74ad165794b-09",
+      "id": "0fb5facb73e4-11",
       "category": "ai",
-      "headline": "AI 代理初创 LangChain 估值达 30 亿美元",
-      "what_happened": "LangChain 宣布其模型与平台无关的代理管理工具 LangSmith 拥有 7,000 家客户，公司估值达到 30 亿美元。",
-      "why_it_matters": "反映 AI 代理基础设施层的资本热度与商业化进展，是代理生态成熟度的信号。此为分析。",
-      "impact": "为同赛道公司提供估值参照，并可能加剧代理工具层的竞争。此为推断。",
-      "evidence": "TechCrunch 报道，本批候选内单一来源。",
+      "headline": "印度芯片初创 Bharat Semi 获 2400 万美元种子轮，瞄准 AI 传感器市场",
+      "what_happened": "据 TechCrunch 报道，印度芯片初创公司 Bharat Semi 获得 2400 万美元种子轮融资，并称其 AI 传感器技术已获得包括通用原子（General Atomics）在内的公司设计订单。",
+      "why_it_matters": "种子轮即获 2400 万美元且声称拿下防务相关设计订单，显示资本对印度本土 AI 芯片与传感器供应链的兴趣升温。",
+      "impact": "推断：若设计订单落地，可能增强印度在全球 AI 传感器供应链中的参与度；但初创公司早期声明需谨慎对待。",
+      "evidence": "仅来自 TechCrunch，候选集内无交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-11-14T03:37:57+08:00",
+      "published_at": "2026-11-16T07:30:00+08:00",
       "sources": [
         {
           "source_id": "techcrunch_ai",
           "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/13/ai-agent-startup-langchain-hits-3b-valuation"
+          "url": "https://techcrunch.com/2026/11/15/indian-chip-startup-bharat-semi-lands-24m-seed-round-as-it-eyes-global-ai-sensor-market"
         }
       ]
     },
     {
-      "id": "10ef54220ffc-10",
-      "category": "ai",
-      "headline": "Perplexity 开源决策模型 Decider v1.3 输出概率而非文本",
-      "what_happened": "Perplexity 发布 Decider v1.3 与 Flash v1.3，为开源权重决策模型，输出概率而非生成文本；v1.3 新增 Locate 功能用于片段抽取，并报告在 63 项查询分类任务上平均准确率 91.6%。",
-      "why_it_matters": "「输出概率」的模型范式更适合可审计的分类、抽取与路由场景，与生成式模型互补。此为分析。",
-      "impact": "为需要确定性输出的 AI 工作流提供低成本开源选项，可能推动决策类模型应用。此为推断。",
-      "evidence": "MarkTechPost 转述官方发布，本批候选内单一来源。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-14T00:10:02+08:00",
-      "sources": [
-        {
-          "source_id": "marktechpost",
-          "source_name": "MarkTechPost",
-          "url": "https://www.marktechpost.com/2026/11/13/perplexity-decider-v1-3-open-weight-decision-models-locate"
-        }
-      ]
-    },
-    {
-      "id": "3b3e1359fe54-04",
+      "id": "be03788120d0-01",
       "category": "finance",
-      "headline": "美联储等延长第三方风险管理指引意见征询期",
-      "what_happened": "美联储等监管机构宣布延长关于第三方风险管理指引提案的公众意见征询期。",
-      "why_it_matters": "该指引将决定金融机构对云服务、AI 等第三方供应商的尽调与风险要求。此为分析。",
-      "impact": "金融机构及其云、AI 供应商的合规成本与时间表可能随之调整。此为推断。",
-      "evidence": "美联储官网新闻稿，官方原始来源。",
-      "confidence": "已确认",
-      "published_at": "2026-11-14T05:15:00+08:00",
-      "sources": [
-        {
-          "source_id": "federal_reserve",
-          "source_name": "美联储",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/bcreg20261113a.htm"
-        }
-      ]
-    },
-    {
-      "id": "0c165cd15cad-05",
-      "category": "finance",
-      "headline": "SEC 提议改革高管与董事薪酬披露规则",
-      "what_happened": "美国证券交易委员会（SEC）提出规则修订，拟将高管与董事薪酬披露要求改为更原则化、以重要性为驱动，以提供更清晰、简洁、低复杂度的信息。",
-      "why_it_matters": "披露口径变化会影响上市公司如何呈现薪酬信息以及投资者如何解读。此为分析。",
-      "impact": "若通过，上市公司的披露合规与投资者分析框架都需相应调整。此为推断。",
-      "evidence": "美国 SEC 官网新闻稿，官方原始来源。",
-      "confidence": "已确认",
-      "published_at": "2026-11-14T00:57:00+08:00",
-      "sources": [
-        {
-          "source_id": "sec_press",
-          "source_name": "美国 SEC",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-114-sec-proposes-executive-director-compensation-disclosure-reforms"
-        }
-      ]
-    },
-    {
-      "id": "30dd8e03464c-07",
-      "category": "finance",
-      "headline": "芝加哥联储 Goolsbee：通胀仍「有工作要做」",
-      "what_happened": "芝加哥联储主席 Goolsbee 对最新通胀数据表示担忧，称央行可能仍需采取行动。",
-      "why_it_matters": "联储官员的公开表态是货币政策路径的前瞻信号，影响利率预期。此为分析。",
-      "impact": "或强化市场对货币政策维持紧缩的预期，影响资产定价。此为推断。",
-      "evidence": "CNBC 采访报道，本批候选内单一来源。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-13T22:22:07+08:00",
-      "sources": [
-        {
-          "source_id": "cnbc_finance",
-          "source_name": "CNBC 金融",
-          "url": "https://www.cnbc.com/2026/11/13/chicago-feds-goolsbee-says-central-bank-has-definitely-got-work-to-do-on-inflation.html"
-        }
-      ]
-    },
-    {
-      "id": "e92f177eb24f-11",
-      "category": "finance",
-      "headline": "获 Eric Trump 背书的机器人初创拖欠工资",
-      "what_happened": "获 Eric Trump 背书的机器人公司 Foundation Future Industries 现金紧张并拖欠工资，其 CEO Sankaet Pathak 因 460 万美元公司贷款购房受到关注。",
-      "why_it_matters": "暴露政治背书下初创公司的治理与资金管理风险。此为分析。",
-      "impact": "可能削弱员工与投资人对该类项目的信心，并引发对政治关联背书的审查。此为推断。",
-      "evidence": "CNBC 报道，本批候选内单一来源。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-14T20:00:01+08:00",
-      "sources": [
-        {
-          "source_id": "cnbc_finance",
-          "source_name": "CNBC 金融",
-          "url": "https://www.cnbc.com/2026/11/14/foundation-payroll-ceo-loan.html"
-        }
-      ]
-    },
-    {
-      "id": "708489d448bf-01",
-      "category": "tech",
-      "headline": "美国 FAA 因通信问题发布全国性停飞，数小时后解除",
-      "what_happened": "美国联邦航空管理局（FAA）以「影响多个航路交通管制中心的通信问题」为由发布全国性地面停飞令，为历史上第三次；后续报道称停飞已解除，官方归因于「常规设备升级」并否认与 AI 有关。",
-      "why_it_matters": "全国空管系统的单点故障暴露了关键基础设施的脆弱性。此为分析。",
-      "impact": "造成数小时全国航班中断，并引发对关键通信设备与 AI 参与空管的争论。此为推断。",
-      "evidence": "TechCrunch 与 Ars Technica 多条报道交叉，停飞事实已确认；停飞原因解释不一。",
+      "headline": "Nvidia 周二财报电话会被称为“公司史上最重要的一次”",
+      "what_happened": "据 MarketWatch 报道，在黄仁勋突然离职后，Nvidia 定于周二举行的财报电话会被描述为“公司历史上最重要的一次”。",
+      "why_it_matters": "这是管理层真空期后首次正式对外沟通，市场将借这次电话会判断接任安排、需求前景与出口管制影响。",
+      "impact": "推断：电话会的措辞与业绩指引可能显著放大 Nvidia 股价及 AI 相关板块的波动。",
+      "evidence": "仅来自 MarketWatch，无交叉确认，且电话会尚未召开，事件仍在发展。",
       "confidence": "仍在发展",
-      "published_at": "2026-11-14T05:44:38+08:00",
+      "published_at": "2026-11-16T05:32:00+08:00",
       "sources": [
         {
-          "source_id": "techcrunch",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances"
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/nvidia-is-gearing-up-for-one-of-wall-streets-most-anticipated-earnings-calls-in-years-91855b1e"
         }
       ]
     },
     {
-      "id": "cea18d3f5195-03",
-      "category": "tech",
-      "headline": "Windows 0-day「SignDrop」公开，本地攻击者可获系统权限",
-      "what_happened": "据报道，一名不满的研究人员公开了名为「SignDrop」的 Windows 0-day 漏洞利用，可让本地用户获得系统（System）最高权限。",
-      "why_it_matters": "本地提权是攻击链的关键环节，0-day 被公开且暂无补丁会显著扩大受影响面。此为分析。",
-      "impact": "在补丁发布前，受影响系统需评估本地攻击与提权风险，管理员应关注权限配置与缓解措施。此为推断。",
-      "evidence": "Ars Technica 报道，本批候选内单一来源。",
+      "id": "535bd2c83685-02",
+      "category": "finance",
+      "headline": "中国 10 月工业、零售、投资均不及预期，放缓加深",
+      "what_happened": "据 CNBC 报道，中国 10 月工业增加值、社会消费品零售总额与固定资产投资均不及预期；分析师称对外部需求的依赖加深，使中国更易受海外冲击，国内动能减弱。",
+      "why_it_matters": "三项核心指标同时走弱，指向内需动能不足，可能加大政策端进一步加码刺激的压力。",
+      "impact": "推断：可能影响全球大宗商品需求预期与人民币资产情绪，并对出口导向的周边经济体产生外溢。",
+      "evidence": "仅来自 CNBC，引述官方数据与分析师观点，候选集内无其他来源交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-11-14T00:26:32+08:00",
+      "published_at": "2026-11-16T11:53:59+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
+        }
+      ]
+    },
+    {
+      "id": "0cb57f3b931a-06",
+      "category": "finance",
+      "headline": "Nvidia 风波牵连商务部长 Lutnick，其子所在公司与该芯片商有往来",
+      "what_happened": "据 CNBC 报道，黄仁勋辞去 Nvidia CEO 后，美国商务部长霍华德·卢特尼克及其家族与 Nvidia 的财务往来受到新的关注，其子所在公司与该芯片商存在关联。",
+      "why_it_matters": "商务部主管出口管制，若关键官员与受调查芯片公司存在财务关联，可能引发利益冲突与监管中立性质疑。",
+      "impact": "推断：可能给 Nvidia 相关调查增添政治维度，并延缓政策与调查进程的明朗化。",
+      "evidence": "仅来自 CNBC，无交叉确认，事件仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-16T03:58:21+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html"
+        }
+      ]
+    },
+    {
+      "id": "a6757ee8f19e-07",
+      "category": "finance",
+      "headline": "美联储批准 2027 年 PSAF 为 3530 万美元及定价服务收费表",
+      "what_happened": "美国联邦公报（美联储）公布，联储理事会批准 2027 年私营部门调整因子（PSAF）为 3530 万美元，并批准 2027 年联储定价服务与电子接入的收费表；依据《1980 年货币控制法》，长期内按全部直接与间接成本定价。",
+      "why_it_matters": "这是联储向银行体系收取服务费用的年度基准调整，虽不直接面向公众，但反映其对支付与结算服务的成本核算框架。",
+      "impact": "推断：对使用联储定价服务的金融机构构成成本变化，对普通市场利率与个人几乎无直接影响。",
+      "evidence": "来源为美国联邦公报（美联储官方公告），属原始官方来源，候选集内无第三方交叉转载。",
+      "confidence": "已确认",
+      "published_at": "2026-11-16T13:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "federal_register_fed",
+          "source_name": "美国联邦公报·美联储",
+          "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23289/federal-reserve-bank-services"
+        }
+      ]
+    },
+    {
+      "id": "96172474f3ea-04",
+      "category": "tech",
+      "headline": "ULA 火神火箭发射失败，为其 20 年历史上首次全任务失败",
+      "what_happened": "据 Ars Technica 报道，联合发射联盟（ULA）的火神（Vulcan）火箭在发射中失败，这是 ULA 20 年历史上的首次全任务失败。",
+      "why_it_matters": "在 SpaceX 主导发射市场的背景下，ULA 主力火箭失利会削弱其承接政府与商业订单的能力。",
+      "impact": "推断：可能使更多商业与国防发射订单向 SpaceX 集中，并推迟 ULA 的部分任务进度。",
+      "evidence": "仅来自 Ars Technica，无交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-16T07:11:54+08:00",
       "sources": [
         {
           "source_id": "ars_technica",
           "source_name": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights"
+          "url": "https://arstechnica.com/space/2026/11/vulcan-rocket-fails-during-launch-dealing-major-blow-to-spacex-competitors"
         }
       ]
     },
     {
-      "id": "6e037e7d597f-08",
+      "id": "e81561f692e2-05",
       "category": "tech",
-      "headline": "Uber 确认司机驾照信息在 Fireworks AI 泄露",
-      "what_happened": "Uber 确认黑客在一次安全事件中窃取了数千名司机的驾照信息，这些信息存储于其 AI 云供应商 Fireworks AI 处。",
-      "why_it_matters": "数据泄露责任从直接服务商外溢到 AI 云供应商，凸显第三方供应链风险。此为分析。",
-      "impact": "受影响司机面临身份盗用风险，企业对 AI 云供应商的安全要求可能提高。此为推断。",
-      "evidence": "TechCrunch 报道（Uber 已确认），本批候选内单一来源。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-13T22:57:55+08:00",
+      "headline": "DeepSeek 对长对话与每日额度实施限额，官方未发布公告",
+      "what_happened": "据 IT之家 报道，多名用户反映 DeepSeek 已对 App 与网页版长对话设限，提示“算力不足，不再支持超过 7 天不活跃的长对话”，单次输入上限缩至约 4 万字，当日额度用尽后提示“服务器繁忙”；截至发稿官方未发布单独公告。报道另引 DeepSeek 状态页称 2026 年 10 月以来已发生 8 起服务中断，并引 OpenRouter 周榜称 DeepSeek V4.1 Flash 周调用量环比增长 801%。",
+      "why_it_matters": "若限额属实，说明 DeepSeek 的算力供给跟不上调用量激增，可能预示其基础设施或商业模式面临阶段性瓶颈。",
+      "impact": "推断：重度用户与企业调用者可能转向其他模型；若持续，将影响 DeepSeek 的用户增长与开发者依赖度。",
+      "evidence": "仅来自 IT之家，引用了官方状态页与 OpenRouter 数据，但无其他媒体交叉确认，状态仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-16T11:44:18+08:00",
       "sources": [
         {
-          "source_id": "techcrunch",
-          "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach"
+          "source_id": "ithome",
+          "source_name": "IT之家",
+          "url": "https://www.ithome.com/1/027/597.htm"
+        }
+      ]
+    },
+    {
+      "id": "ff62f773b149-08",
+      "category": "tech",
+      "headline": "国家统计局：AI 加快落地带动电子、电气机械行业价格上涨",
+      "what_happened": "据 IT之家 援引国家统计局新闻发言人在国新办发布会的表态，AI 加快产业落地带动电子、电气机械等行业需求回升与价格上涨；10 月电气机械和器材制造业、计算机通信和其他电子设备制造业价格环比均上涨 0.1%，同比分别上涨 6.2% 和 5.9%，合计影响 PPI 同比上涨约 1.18 个百分点。",
+      "why_it_matters": "官方数据把 AI 需求与具体行业的 PPI 涨幅直接挂钩，说明 AI 正在通过硬件与设备环节形成可量化的价格拉动。",
+      "impact": "推断：若 AI 带动的设备价格上涨延续，可能影响相关行业利润率与下游采购成本，并成为通胀分析中需单独跟踪的变量。",
+      "evidence": "仅来自 IT之家（转引界面新闻、国家统计局数据），候选集内无其他交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-16T11:59:15+08:00",
+      "sources": [
+        {
+          "source_id": "ithome",
+          "source_name": "IT之家",
+          "url": "https://www.ithome.com/1/027/602.htm"
         }
       ]
     }
