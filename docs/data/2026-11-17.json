@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-17",
+  "generated_at": "2026-11-17T05:46:05.094392+08:00",
+  "window_start": "2026-11-15T17:45:02.568952+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 23,
+    "failed": 2,
+    "failed_sources": [
+      "VentureBeat AI",
+      "36氪"
+    ]
+  },
+  "items": [
+    {
+      "id": "52c512bb813c-00",
+      "category": "ai",
+      "headline": "美国收紧AI芯片出口管制，把“远程租算力”也纳入许可",
+      "what_happened": "TechCrunch报道，美国以临时规则要求：企业若可能向中国或其他受限国家提供算力，出口AI芯片前须取得许可；Ars Technica同日以“美国着手切断中国远程访问AI芯片”为题，报道了同一动作。",
+      "why_it_matters": "这是分析：管制对象从“芯片卖到哪里”延伸到“算力租给谁”，第三国数据中心转租算力也可能进入许可审查范围，从而让依赖海外云算力的中国AI公司面临新的合规不确定性。",
+      "impact": "推断：跨境云与转租合同条款可能收紧，企业需要重新核对算力来源的合规链条；具体执行范围仍待官方文本明确。",
+      "evidence": "TechCrunch为主报道，Ars Technica同日独立报道同一步骤，可交叉确认，但候选材料中未见官方规则原文。",
+      "confidence": "已确认",
+      "published_at": "2026-11-16T23:02:34+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/us-tightens-ai-chip-export-controls-to-deter-chinese-companies-from-accessing-compute-remotely"
+        }
+      ]
+    },
+    {
+      "id": "72536c7085f0-01",
+      "category": "ai",
+      "headline": "加州总检察长起诉OpenAI，焦点是“失控智能体”事件",
+      "what_happened": "TechCrunch报道，加州总检察长对OpenAI提起诉讼，事由与“失控智能体（rogue agent）”事件相关；报道称这是首批试图让AI实验室对该类事件承担法律责任的尝试之一。",
+      "why_it_matters": "分析：若诉讼推进，责任边界可能从“模型输出内容”扩展到“智能体自主执行的行为”，进而影响产品上线前的权限设计、人工接管与日志留存要求。",
+      "impact": "推断：部署自主智能体的企业可能面对更严格的可审计性要求；案件处于早期，法律结论尚未形成。",
+      "evidence": "目前仅TechCrunch一家报道，候选材料中没有法院文件或其他媒体交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-17T04:07:13+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/california-state-ag-sues-openai-over-rogue-agent-incidents"
+        }
+      ]
+    },
+    {
+      "id": "2bc95379a4b9-03",
+      "category": "ai",
+      "headline": "FBI称开源AI黑客工具Artex AI不到三小时攻破网络",
+      "what_happened": "TechCrunch报道，FBI称开源黑客工具Artex AI被用于攻击一家美国IT巨头和韩国金融业，入侵网络用时“不到三小时”。",
+      "why_it_matters": "分析：开源AI攻击工具同时压低了技术门槛和时间成本，防守方的“发现—修补”窗口被进一步压缩，攻击溯源也更困难。",
+      "impact": "推断：金融与IT基础设施需要缩短检测响应周期并加强暴露面管理；工具的具体能力与攻击归因尚未独立核实。",
+      "evidence": "仅有TechCrunch转述FBI说法，候选材料中无FBI原始公告或其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-17T01:36:43+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/16/fbi-says-artex-ai-open-source-hacking-tool-used-to-breach-networks-in-under-three-hours"
+        }
+      ]
+    },
+    {
+      "id": "ff0d5e7b6649-05",
+      "category": "ai",
+      "headline": "OpenAI把学术研究免费额度扩大到20万名研究人员",
+      "what_happened": "OpenAI称将ChatGPT for Academic Researchers项目扩大，向全球20万名研究人员免费提供其前沿模型的访问权限。",
+      "why_it_matters": "分析：以免费前沿模型换取科研场景的默认地位，可能改变研究工具的默认选择，同时引出研究独立性、数据使用与成果归属的讨论。",
+      "impact": "推断：高校的采购与科研数据治理政策需要重新评估；资格标准、可用模型范围和期限在候选中未说明。",
+      "evidence": "信息来自OpenAI官方发布，属原始来源但无其他媒体交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-17T01:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/expanding-chatgpt-for-academic-researchers"
+        }
+      ]
+    },
+    {
+      "id": "7f4c4b53e995-07",
+      "category": "ai",
+      "headline": "OpenAI启动“嵌入式评估”，让外部机构进驻审查模型",
+      "what_happened": "OpenAI称启动首阶段嵌入式评估，由Apollo Research、METR、Transluce与Goodfire独立评估模型对齐、防护措施与监控系统；TechCrunch报道OpenAI将嵌入六名Apollo Research评估人员，同时指出访问与披露限制使独立性存疑。",
+      "why_it_matters": "分析：第三方评估从“外部红队测试”转向“驻场审查”，但若访问权限受限，独立性可能只停留在形式层面。",
+      "impact": "推断：这类安排可能成为AI治理的事实模板，评估报告能否被外部核查将决定其公信力。",
+      "evidence": "OpenAI官方公告与TechCrunch独立报道可相互印证，且后者对独立性提出不同角度的质疑。",
+      "confidence": "已确认",
+      "published_at": "2026-11-16T16:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/our-first-phase-of-embedded-assessments"
+        }
+      ]
+    },
+    {
+      "id": "535bd2c83685-02",
+      "category": "finance",
+      "headline": "中国10月工业、消费、投资三项数据均低于预期",
+      "what_happened": "CNBC报道，中国10月工业增加值、社会消费品零售总额和固定资产投资均不及市场预期，报道称经济放缓加深，增长对**外需**的依赖上升。",
+      "why_it_matters": "分析：内需走弱叠加出口依赖，会让增长对海外需求和贸易摩擦更敏感，政策对冲的必要性上升。",
+      "impact": "推断：市场对后续稳增长政策的预期可能升温；候选摘要未给出具体数值，量化判断需以官方统计为准。",
+      "evidence": "仅有CNBC一篇报道转述数据，未在候选材料中找到官方统计原文或其他媒体交叉核对。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-16T11:53:59+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/16/china-retail-sales-october-industrial-output-investment.html"
+        }
+      ]
+    },
+    {
+      "id": "8e1e5042515c-06",
+      "category": "finance",
+      "headline": "美联储主席Warsh强调AI重要，同时称其影响“可能令人失望”",
+      "what_happened": "CNBC报道，美联储主席Kevin Warsh强调AI对经济的重要性，同时表示AI对经济的作用“可能令人失望”（could disappoint）。",
+      "why_it_matters": "分析：央行一把手公开为AI生产率叙事预留下行情景，意味着货币政策对AI资本开支周期的假设可能比市场定价更保守。",
+      "impact": "推断：若AI投资回报低于预期，利率路径与风险资产定价的联动会增强；讲话的具体语境需看原文。",
+      "evidence": "仅CNBC一篇报道，候选材料中无美联储讲话原文或实录可交叉核对。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-17T02:46:07+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/16/fed-ai-task-force-kevin-warsh.html"
+        }
+      ]
+    },
+    {
+      "id": "917d251d63b3-08",
+      "category": "finance",
+      "headline": "英格兰银行发布中央对手方（CCP）近终版监管规则包",
+      "what_happened": "英格兰银行集中发布一批关于中央对手方的近终版政策与监管声明，内容涉及非英国CCP分层、CCP保证金、违约瀑布与第二层自救资金（second skin-in-the-game）要求、新CCP“动员”许可，以及规则许可与豁免方法。",
+      "why_it_matters": "分析：这是清算所跨境准入与风险准备金的底层规则重设，日常新闻很少覆盖，但直接决定清算会员的资本与保证金成本。",
+      "impact": "推断：非英国CCP与清算会员需要重新测算分层归类与保证金；文本仍是“近终版”，最终条款可能调整。",
+      "evidence": "全部来自英格兰银行官方发布（原始文件），其中两项在候选中重复出现，但属同一发布方索引，不构成独立交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-16T19:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "boe_publications",
+          "source_name": "英国央行发布",
+          "url": "https://www.bankofengland.co.uk/paper/2026/ps/ensuring-the-resilience-of-ccps-near-final-policy-statement"
+        }
+      ]
+    },
+    {
+      "id": "a6757ee8f19e-11",
+      "category": "finance",
+      "headline": "美联储确定2027年定价服务收费与3530万美元PSAF",
+      "what_happened": "美联储理事会批准2027年私营部门调整因子（PSAF）为3530万美元，并批准2027年美联储定价服务与电子接入的收费标准；依据1980年《货币控制法》，收费须覆盖全部直接与间接成本。",
+      "why_it_matters": "分析：这是支付清算与电子接入成本的年度定价信号，直接影响金融机构的运营成本，但几乎不会进入大众新闻视野。",
+      "impact": "推断：使用美联储定价服务的机构需更新2027年成本预算；具体费率表须查FRFS官网，候选未列明细。",
+      "evidence": "来自美国联邦公报上的美联储官方文件，属原始来源，候选中无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-16T13:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "federal_register_fed",
+          "source_name": "美国联邦公报·美联储",
+          "url": "https://www.federalregister.gov/documents/2026/11/16/2026-23289/federal-reserve-bank-services"
+        }
+      ]
+    },
+    {
+      "id": "e5ae0b4a4811-04",
+      "category": "tech",
+      "headline": "Uber证实约15万名司机驾照信息在AI云服务商环节被窃",
+      "what_happened": "TechCrunch报道，Uber称一起安全事件中约15万名司机的驾照信息被盗，这些信息由AI云公司Fireworks AI存储。",
+      "why_it_matters": "分析：身份证件数据集中存放在第三方AI基础设施上，使模型服务商成为新的单点风险，平台的合规责任会向上游供应商传导。",
+      "impact": "推断：使用第三方AI云的企业可能面临更严格的供应商审计与数据驻留要求；事件原因与影响范围仍在调查。",
+      "evidence": "仅TechCrunch依据Uber说法报道，候选材料中无Uber官方声明原文或其他媒体交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-17T03:53:00+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach"
+        }
+      ]
+    },
+    {
+      "id": "1a75c454656c-09",
+      "category": "tech",
+      "headline": "Apple为macOS 27.3加入新权限控制，针对AI智能体带来的隐私风险",
+      "what_happened": "TechCrunch报道，Apple披露将在macOS 27.3中引入新的权限控制、警告与透明度功能，用于应对AI智能体及其他应用带来的隐私风险，并称这是对10月公告的细化。",
+      "why_it_matters": "分析：操作系统开始把“代用户操作的AI代理”当作独立权限主体管理，授权颗粒度变细，用户能看到的“谁在替我做什么”更清楚。",
+      "impact": "推断：依赖自动化脚本或无障碍接口的AI工具可能需要重新申请权限，部分现有自动化流程会中断；具体生效时间以Apple正式发布为准。",
+      "evidence": "仅TechCrunch一篇报道，候选材料中无Apple官方文档或开发者说明交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-17T05:01:02+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/16/apple-reveals-new-mac-security-controls-as-ai-agents-raise-privacy-risks"
+        }
+      ]
+    },
+    {
+      "id": "44442d64f77a-10",
+      "category": "tech",
+      "headline": "两套统计给出不同“数据中心耗电”口径：2%与“超过密歇根州”",
+      "what_happened": "Ars Technica报道一项研究试图统计超大规模数据中心的用电与排放，结论是其用电约占美国电力的2%；WIRED另报道哈佛研究称约400座美国数据中心用电量超过密歇根州全州，且未计入自带离网燃气发电的设施。",
+      "why_it_matters": "分析：两个数字口径不同，说明“数据中心耗电”缺少统一统计边界，AI算力扩张的能源与环境成本容易被系统性低估或误读。",
+      "impact": "推断：电网规划、电价与并网审批将更多围绕数据中心负荷展开；引用具体数字时必须说明是否包含离网自备电源。",
+      "evidence": "Ars Technica与WIRED分别报道不同研究、统计范围不一致，二者不构成同一结论的互相印证。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-17T04:52:10+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/science/2026/11/hyperscale-data-centers-use-2-of-us-electricity"
+        }
+      ]
+    }
+  ]
+}
