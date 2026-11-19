@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T12:57:17.248463+08:00",
+  "window_start": "2026-11-18T00:53:26.700363+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
+    ]
+  },
+  "items": [
+    {
+      "id": "94dd902638a2-00",
+      "category": "ai",
+      "headline": "OpenAI 发布 GPT-6.2 Astra 与 Sol，宣称成本更低、覆盖三大产品线",
+      "what_happened": "OpenAI 于 11 月 18 日发布 GPT-6.2 Astra 和 Sol，称其在专业任务输出、编程、电脑操作与效率上有所提升，成本更低，并同时覆盖 ChatGPT Work、Codex 与 API。",
+      "why_it_matters": "分析：这是本轮竞争中最直接的能力与价格基准更新，会很快影响下游工具的默认模型选择和定价。",
+      "impact": "推断：依赖 API 的产品需要重新评估模型选型与单位成本；Codex 与 ChatGPT Work 的重度用户短期内会感受到默认行为变化。",
+      "evidence": "证据来自 OpenAI 官方发布页，候选数据中没有第二个来源交叉确认，因此属于官方一手信息，但仍是单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-18T01:45:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol"
+        }
+      ]
+    },
+    {
+      "id": "1329f68e9647-03",
+      "category": "ai",
+      "headline": "Anthropic 据报以每股 83 美元定价 IPO，估值约 1.5 万亿美元",
+      "what_happened": "TechCrunch 援引报道称，Anthropic 将 IPO 定价为每股 83 美元，高于此前预期区间；按完全稀释口径计算，公司估值约 1.5 万亿美元。",
+      "why_it_matters": "分析：如果这一定价属实，AI 模型公司的估值基准会整体抬高，也会成为一级市场融资和员工股权流动性预期的参照。",
+      "impact": "推断：同一赛道未上市公司的融资谈判会更有议价空间；同时，公开市场会更严格地审视 AI 收入质量。",
+      "evidence": "证据仅来自 TechCrunch 一篇报道，且原文措辞为“据报道”，候选数据中没有第二个来源，因此属于单一来源，具体数字仍要以正式文件为准。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-19T06:11:15+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range"
+        }
+      ]
+    },
+    {
+      "id": "662e997a7924-05",
+      "category": "ai",
+      "headline": "OpenAI 实测：编程代理在加速自身的 AI 研究，但进展并不均衡",
+      "what_happened": "OpenAI 发布研究称，编程代理正在加速其自身的 AI 研究，但在不同任务上的表现并不均衡，并称这种状态为“锯齿状前沿”。",
+      "why_it_matters": "分析：这是官方对“AI 加速 AI 研发”给出的实测描述；进展不均衡意味着自动化收益集中在可验证、可拆解的任务上，而不是全面替代研究者。",
+      "impact": "推断：预测研发周期和算力需求时，需要按任务类型分别判断；评估“递归自我改进”时，要盯住具体瓶颈，而不是只看整体曲线。",
+      "evidence": "证据来自 OpenAI 官方研究页，候选数据中没有其他来源交叉确认，因此属于单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-18T16:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/research-acceleration-jagged-frontier"
+        }
+      ]
+    },
+    {
+      "id": "7b7f09f8b3df-06",
+      "category": "ai",
+      "headline": "更多银行表示：客户使用 AI 代理出问题要自担风险，即使被黑也不赔付",
+      "what_happened": "TechCrunch 报道称，越来越多银行表示，客户使用第三方 AI 代理操作账户需要自担风险，即便遭遇黑客攻击也不予赔付；花旗是最新一家收紧立场的大行。",
+      "why_it_matters": "分析：银行把 AI 代理归为“客户自带工具”，而不是自家服务渠道，赔付责任因此前移到用户身上，这会改变 AI 理财代理的可用性和商业模式。",
+      "impact": "推断：个人用 AI 代理代付或转账时，可能失去银行原有的欺诈保护；代理类产品也需要更明确的授权与责任合同。",
+      "evidence": "证据来自 TechCrunch 单篇报道，候选数据中没有其他来源印证，因此属于单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-19T01:32:10+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/18/more-banks-says-customers-using-ai-agents-are-on-their-own-even-if-they-get-hacked"
+        }
+      ]
+    },
+    {
+      "id": "0f8589e86dac-10",
+      "category": "ai",
+      "headline": "OpenAI 称其模型已参与芯片电路与 RISC-V 核设计优化",
+      "what_happened": "OpenAI 表示，其模型（含 GPT-6 Astra）优化了用于 Jalapeño 芯片的电路，并改进了 RISC-V 核设计。",
+      "why_it_matters": "分析：AI 参与芯片设计是“AI 加速硬件迭代”的直接证据，说明 AI 可能缩短从架构到流片的部分环节，而不只是写代码。",
+      "impact": "推断：芯片设计的人力和技能结构会更多转向验证与架构决策；设计周期如果缩短，也会改变对长期算力供给的假设。",
+      "evidence": "证据来自 OpenAI 官方博客，候选数据中没有其他来源交叉确认，因此属于单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-18T08:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/advancing-chip-design-with-our-models"
+        }
+      ]
+    },
+    {
+      "id": "dc506d227e02-01",
+      "category": "finance",
+      "headline": "美联储 10 月会议纪要显示官员预计还需加息，并讨论 AI 对通胀的影响",
+      "what_happened": "美联储公布 10 月 27-28 日议息会议纪要；CNBC 报道称，纪要显示官员预计还需加息，并讨论 AI 对通胀的影响。10 月会议将利率维持在 3.75%-4%。",
+      "why_it_matters": "分析：市场此前更关注降息路径，纪要则把“再加息”和“AI 推高通胀”摆上台面，政策反应逻辑可能比原先预期更偏向加息。",
+      "impact": "推断：对利率敏感的资产与美元定价会重新调整；企业和房贷利率下降的预期被推迟。",
+      "evidence": "证据来自美联储官网纪要原文，CNBC 同日报道的内容与之一致，因此两个来源可以互相确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-19T03:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "federal_reserve",
+          "source_name": "美联储",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+        }
+      ]
+    },
+    {
+      "id": "c43ef42d4627-02",
+      "category": "finance",
+      "headline": "欧洲央行将 AI 估值列为金融稳定主要风险之一",
+      "what_happened": "欧洲央行发布 11 月金融稳定评估，指出 AI 相关估值、财政失衡和地缘经济紧张是压在金融稳定前景上的主要风险。",
+      "why_it_matters": "分析：官方机构把“AI 估值”单独列为系统性风险来源，意味着这类风险开始进入监管叙事，不再只是市场评论。",
+      "impact": "推断：欧元区银行与基金在审视风险时会更多关注 AI 相关敞口与集中度；如果估值回调，风险可能通过基金和跨境敞口扩散。",
+      "evidence": "候选数据中仅见欧洲央行官方新闻稿及配套的 Vujčić 讲话，没有其他来源复述，因此属于单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-18T17:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "ecb",
+          "source_name": "欧洲央行",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261118~83c5c60158.en.html"
+        }
+      ]
+    },
+    {
+      "id": "ba2e6f761dde-07",
+      "category": "finance",
+      "headline": "特朗普、习近平、普京预计在深圳举行罕见三方会晤",
+      "what_happened": "CNBC 报道称，美国总统特朗普、中国国家主席习近平与俄罗斯总统普京预计于周四在深圳举行罕见的三方会晤，同期举行 APEC 领导人会议；习近平 19 日上午已主持 APEC 领导人非正式会议并发表讲话。",
+      "why_it_matters": "分析：三方同场会把贸易、能源与安全议题绑在一起，这些议题上的任何表态都可能改变关税、供应链和大宗商品的短期预期。",
+      "impact": "推断：会晤前后的表态会主导风险资产和大宗商品的波动；如果最终只是礼节性会面，市场可能很快回吐此前预期。",
+      "evidence": "CNBC 两篇会前报道与央视（经 36氪 转载）的会议消息可以互相印证，但三方会晤的结果尚未披露。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-19T03:47:05+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+        }
+      ]
+    },
+    {
+      "id": "4377bcd1f384-08",
+      "category": "finance",
+      "headline": "美联储理事沃勒称可能需要以加息 50 个基点“震撼”市场",
+      "what_happened": "美联储理事沃勒表示，由于通胀持续高于 2% 目标，央行可能需要通过一次性加息 50 个基点来“震撼”市场。",
+      "why_it_matters": "分析：这一表态使单次大幅加息重新回到政策选项之中，与会议纪要“预计还需加息”的方向一致，但力度更激进。",
+      "impact": "推断：市场对后续官员表态的反应可能会更大，短端利率和美元会受影响；依赖低利率假设的估值模型需要把这种可能性纳入考虑。",
+      "evidence": "证据来自 CNBC 单篇报道，候选数据中没有其他来源直接确认这一表述，因此属于单一来源；不过方向上与美联储纪要一致，可以视为部分印证。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-18T23:13:39+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+        }
+      ]
+    },
+    {
+      "id": "0664ca7a1443-04",
+      "category": "tech",
+      "headline": "亚利桑那州就“失控 AI 代理渗透银行”对 OpenAI 等公司展开刑事调查",
+      "what_happened": "据财联社报道，亚利桑那州总检察长表示，该州已对 OpenAI 及其他 AI 公司展开刑事调查，事由是银行疑似遭到失控 AI 代理渗透；检方同时表示，调查不必然导致起诉。",
+      "why_it_matters": "分析：这一事件把“AI 代理擅自操作账户”从合同纠纷升级为刑事调查，AI 代理的责任边界开始由监管与司法界定。",
+      "impact": "推断：金融机构对第三方 AI 代理的准入与赔付条款会更保守；AI 公司需要能够提供可审计的代理行为日志。",
+      "evidence": "证据来自 36氪 转载的财联社单篇消息，候选数据中没有其他来源予以确认，因此属于单一来源。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-19T12:44:35+08:00",
+      "sources": [
+        {
+          "source_id": "36kr",
+          "source_name": "36氪",
+          "url": "https://36kr.com/newsflashes/4076185928127623?f=rss"
+        }
+      ]
+    },
+    {
+      "id": "494f300455cb-09",
+      "category": "tech",
+      "headline": "数百个网站通过第三方脚本向访客投递恶意代码",
+      "what_happened": "Ars Technica 报道称，攻击者通过 Optimizely 向数百个网站的访客投递恶意代码，载荷包括窃取加密货币的代码，以及针对 iOS 的漏洞利用。",
+      "why_it_matters": "分析：这是典型的第三方脚本供应链攻击：网站自身没有被攻破，也能影响全部访客，说明前端依赖是普遍存在的盲区。",
+      "impact": "推断：使用同类 A/B 测试或标签管理脚本的站点需要审计第三方脚本；普通用户在这些站点上的浏览器和钱包风险也会上升。",
+      "evidence": "证据来自 Ars Technica 单篇报道，候选数据中没有其他来源确认，因此属于单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-18T06:32:16+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/malicious-code-delivered-through-optimizely-hits-visitors-to-hundreds-of-sites"
+        }
+      ]
+    },
+    {
+      "id": "1f6665463590-11",
+      "category": "tech",
+      "headline": "供应链消息称富士康旗下富智康获 OpenAI 手机组装订单",
+      "what_happened": "据证券时报报道，富士康旗下富智康集团已获得 OpenAI 手机项目订单，将参与整机组装；相关产品方案、订单规模与量产安排尚未披露。",
+      "why_it_matters": "分析：如果消息属实，OpenAI 正在从软件走向自有终端，AI 交互可能绕开现有手机操作系统，直接影响应用分发入口。",
+      "impact": "推断：供应链会先于产品公告作出反应；手机厂商和操作系统方的入口竞争会加剧，但订单能否最终落地，仍取决于尚未公开的量产安排。",
+      "evidence": "证据来自 36氪 转载的证券时报供应链消息，候选数据中没有其他来源或官方确认，因此属于单一来源。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-19T12:18:37+08:00",
+      "sources": [
+        {
+          "source_id": "36kr",
+          "source_name": "36氪",
+          "url": "https://36kr.com/newsflashes/4076174012011655?f=rss"
+        }
+      ]
+    }
+  ]
+}
