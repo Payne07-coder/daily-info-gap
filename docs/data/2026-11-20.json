@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T05:46:59.746036+08:00",
+  "window_start": "2026-11-18T17:45:02.687085+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 23,
+    "failed": 2,
+    "failed_sources": [
+      "VentureBeat AI",
+      "36氪"
+    ]
+  },
+  "items": [
+    {
+      "id": "e3501aa45d9e-00",
+      "category": "ai",
+      "headline": "Anthropic 登陆纳斯达克，开盘价约 110–111 美元",
+      "what_happened": "TechCrunch 报道，Anthropic 以每股 83 美元完成 IPO，募资超过 800 亿美元，并在纳斯达克以约 110–111 美元开盘；该报道标题称开盘价较发行价高 33%，链接与正文则称高 27%，涨幅表述不一致。",
+      "why_it_matters": "分析：这是前沿 AI 实验室以高关注度进入公开市场的案例，首日定价会成为衡量 AI 资本开支周期承受力的公开标尺，也会把安全承诺与股东回报之间的矛盾摆上台面。",
+      "impact": "推断：若涨幅维持，可能鼓励更多 AI 公司启动上市并增强算力供应商的议价能力；若跌破发行价，则可能压低一级市场对 AI 基础设施的估值，AI 主题基金与养老组合的短期波动会放大。",
+      "evidence": "开盘价数字仅来自 TechCrunch（单一来源），且该报道的标题、摘要与链接对涨幅口径不一致；WIRED 与 MarketWatch 也提及此次 IPO，但未给出同一价格。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T00:59:23+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price"
+        }
+      ]
+    },
+    {
+      "id": "91c368f7195d-02",
+      "category": "ai",
+      "headline": "Meta 内部 AI 助手 Muse 被指串对话、暴露他人隐私数据",
+      "what_happened": "TechCrunch 援引报道称，Meta 的 AI 代理 Muse 在部分场景把不同对话混在一起，员工看到并非自己发起的育儿请求、职业建议、商品订单和银行余额；Ars Technica 亦援引内部聊天记录报道员工担忧，Meta 表示部分异常输出（如随机银行、比特币余额）并非真实数据。",
+      "why_it_matters": "分析：企业把 AI 代理接入聊天和账户上下文后，一旦会话隔离或权限校验失效，泄露的是同事与客户的真实生活信息，而这类错误通常不会触发传统安全告警。",
+      "impact": "推断：可能促使企业暂缓把此类代理接入敏感系统，并加强会话隔离、审计日志和最小权限检查；对个人用户，风险是自己的信息被错误展示给他人。",
+      "evidence": "TechCrunch 与 Ars Technica 两家独立媒体均引用内部材料报道，Meta 对部分内容作出否认，事件仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-20T01:38:40+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says"
+        }
+      ]
+    },
+    {
+      "id": "2a69f710dfb2-06",
+      "category": "ai",
+      "headline": "Google 在 Gemini API 中推出工具检索功能",
+      "what_happened": "Google AI 官方博客发布文章，宣布在 Gemini API 中引入 Tool Retrieval（工具检索）；候选材料只提供标题和配图说明，未披露具体参数、适用范围或定价。",
+      "why_it_matters": "分析：当代理可调用的工具越来越多，“先检索工具再调用”会替代把所有工具说明塞进提示词的做法，直接影响上下文成本、响应延迟和调用准确率；这类接口层变化通常不会进入大众新闻。",
+      "impact": "推断：依赖 Gemini 的开发者可能需要调整工具注册和描述方式；对终端用户，复杂任务中代理选错工具、反复试错的次数可能下降，但实际效果取决于未公开的实现细节。",
+      "evidence": "Google AI 官方博客，单一来源，且候选材料缺少功能细节。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T02:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "google_ai",
+          "source_name": "Google AI",
+          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval"
+        }
+      ]
+    },
+    {
+      "id": "c9b49a76abf7-07",
+      "category": "ai",
+      "headline": "OpenAI 披露用 Codex 工作流自动发现并修复 ChatGPT 性能问题",
+      "what_happened": "OpenAI 官方博客介绍其 Performance Factory：一套由 Codex 驱动的工作流，用于发现并修复性能问题，以维持 ChatGPT 的速度；候选材料未给出具体性能数字。",
+      "why_it_matters": "分析：这展示了“用 AI 代理维护 AI 产品”的闭环，把性能回归检测、定位和补丁生成交给模型流水线；相比发布新模型，这类工程实践更能解释服务成本和稳定性的变化。",
+      "impact": "推断：若该模式可复制，大型在线服务的性能维护人力结构会改变，瓶颈转向代码审查与回滚机制；对外部用户，可能表现为高峰期延迟更稳定。",
+      "evidence": "OpenAI 官方博客，单一来源，未提供可独立验证的指标。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-19T16:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+        }
+      ]
+    },
+    {
+      "id": "178cea4ca12f-10",
+      "category": "ai",
+      "headline": "Google 让 Gemini 在 Mac 上代为操作文件、表单和多步流程",
+      "what_happened": "TechCrunch 报道，Google 对 Gemini 的更新加入面向 Mac 的 AI 代理，可整理文件、填写表单并执行多步骤工作流。",
+      "why_it_matters": "分析：代理从“回答问题”转向“直接操作本地文件系统”，权限边界由浏览器扩展到个人电脑，便利之外也把误删、误提交和提示注入风险带进桌面。",
+      "impact": "推断：Mac 用户可能获得低门槛的跨应用自动化，但企业需要重新评估终端权限和数据防泄漏策略；普通用户最现实的风险是代理在未确认时改动文件或提交表单。",
+      "evidence": "仅 TechCrunch 报道（单一来源），候选材料未包含 Google 官方功能说明。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T02:09:11+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you"
+        }
+      ]
+    },
+    {
+      "id": "dc506d227e02-01",
+      "category": "finance",
+      "headline": "美联储 10 月会议纪要：官员预期还会加息，并讨论 AI 对通胀的影响",
+      "what_happened": "美联储公布 10 月 27–28 日 FOMC 会议纪要；CNBC 援引纪要报道，官员预计还会有更多加息，并对 AI 对通胀的影响表示担忧，该次会议将基准利率维持在 3.75%–4%。",
+      "why_it_matters": "分析：纪要把 AI 纳入通胀讨论，意味着利率路径不只取决于就业和传统物价，还可能受数据中心与算力投资周期影响；这与“AI 必然压低通胀”的市场直觉并不一致。",
+      "impact": "推断：若后续数据支持纪要中的偏鹰判断，长端利率和高估值成长股可能承压，房贷、车贷利率的下行时点也可能推迟；若 AI 提升生产率，则可能反向缓解通胀。",
+      "evidence": "美联储官网发布纪要原文，CNBC 同日作独立解读，属官方文件加媒体交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-19T03:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "federal_reserve",
+          "source_name": "美联储",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
+        }
+      ]
+    },
+    {
+      "id": "f4ef2031d99b-04",
+      "category": "finance",
+      "headline": "SEC 起诉八家机构，指其用假加密平台骗取逾 3700 万美元",
+      "what_happened": "美国 SEC 指控八家注册于科罗拉多州的实体通过虚假加密货币交易平台诈骗美国投资者超过 3700 万美元，并称这些实体可能由境外人员实际运营。",
+      "why_it_matters": "分析：案件说明诈骗方可以用注册地、品牌包装和假交易界面做出“看起来合规”的平台，监管主要在后端追责；普通投资者很难从账户余额和成交记录判断平台真伪。",
+      "impact": "推断：对主流加密资产价格的短期影响有限，但会强化交易所和钱包的提现审查与 KYC；跨境追偿难度大，受害者资金回收存在较大不确定性。",
+      "evidence": "美国 SEC 官网新闻稿，单一官方来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-19T22:39:02+08:00",
+      "sources": [
+        {
+          "source_id": "sec_press",
+          "source_name": "美国 SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors"
+        }
+      ]
+    },
+    {
+      "id": "08d925b5a8a7-08",
+      "category": "finance",
+      "headline": "英国央行就金融业网络韧性指引征求意见，并发布 AI 与量子实践",
+      "what_happened": "英国央行发布新闻稿称，英国金融监管机构正提出新的网络韧性指引，帮助金融服务机构应对网络威胁并从事件中恢复，同时发布了 AI 与量子相关的有效实践。",
+      "why_it_matters": "分析：监管重点从“防止被攻破”转向“被攻破后多快恢复”，并把 AI 与量子风险放进同一框架；这会改变银行在备份、第三方依赖和加密迁移上的预算优先级。",
+      "impact": "推断：英国金融机构及其云与安全服务供应商将面临更明确的演练和披露要求；对个人客户，长期影响是服务中断后的恢复速度，短期合规成本可能转化为费用。",
+      "evidence": "英国央行官网新闻稿，单一官方来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-19T16:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "boe_news",
+          "source_name": "英国央行新闻",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices"
+        }
+      ]
+    },
+    {
+      "id": "875036a39dd9-11",
+      "category": "finance",
+      "headline": "美国 Medicare Part B 月保费上涨 6.50 美元至 209.40 美元",
+      "what_happened": "MarketWatch 报道，受医疗成本上升推动，Medicare Part B 保费每月增加 6.50 美元，达到 209.40 美元。",
+      "why_it_matters": "分析：这是直接影响退休者月度医疗支出的固定费用上调；绝对额看似不大，但对固定收入家庭是持续性支出增加，而这类年度参数调整通常不如股市新闻显眼。",
+      "impact": "推断：退休者的月度医疗支出将增加 6.50 美元；若医疗成本继续上升，后续年度保费仍有上行压力。",
+      "evidence": "仅 MarketWatch 报道（单一来源），候选材料未提供官方费率公告。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T05:05:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/medicare-part-b-premiums-rise-due-higher-healthcare-spending-f2daba13"
+        }
+      ]
+    },
+    {
+      "id": "6965570f9547-03",
+      "category": "tech",
+      "headline": "英国法庭要求政府公开对苹果发出的秘密命令",
+      "what_happened": "TechCrunch 报道，英国一个法庭驳回了政府关于披露会损害国家安全的说法，要求其公开向苹果发出的秘密命令；报道将该命令称为“后门命令”。",
+      "why_it_matters": "分析：裁决把“秘密下令、禁止披露”的做法纳入司法审查，可能影响其他国家政府在向科技公司索取数据时的透明度，也关系到科技公司能否公开拒绝此类要求。",
+      "impact": "推断：苹果等公司可能面临更明确的披露义务或更多司法挑战；对用户而言，更直接的影响是政府秘密索取数据的行为是否会被公开审视。",
+      "evidence": "仅 TechCrunch 报道（单一来源），候选材料未提供命令原文或法庭判决书。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-19T23:32:20+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order"
+        }
+      ]
+    },
+    {
+      "id": "50e65ea3246e-05",
+      "category": "tech",
+      "headline": "Google 将于 2027 年 1 月起全球要求 Android 应用开发者验证",
+      "what_happened": "Ars Technica 报道，Google 宣布从 2027 年 1 月起在全球范围要求 Android 应用完成开发者验证，并称几乎所有开发者已配合。",
+      "why_it_matters": "分析：这会把“能否安装某个应用”的决定权更多集中到 Google 的验证体系，影响侧载、独立开发者和企业内部分发；用户获得的是诈骗应用减少，付出的是安装自由收窄。",
+      "impact": "推断：未验证的个人开发者、开源项目和地区性应用商店可能被迫迁移或退出，企业侧载与设备管理流程需要提前改造。",
+      "evidence": "仅 Ars Technica 报道（单一来源），候选材料未包含 Google 官方公告原文。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T02:00:33+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027"
+        }
+      ]
+    },
+    {
+      "id": "35d2503d3836-09",
+      "category": "tech",
+      "headline": "美国学生因薯片袋触发校园 AI 枪支警报起诉学校和警方",
+      "what_happened": "Ars Technica 报道，多名青少年起诉学校和警方，起因是一名学生携带的 Doritos 薯片袋触发了校园 AI 枪支检测警报；诉状称该学区超过 99% 的 AI 枪支警报为误报。",
+      "why_it_matters": "分析：这是“高误报率加武装执法快速响应”造成实际伤害的具体案例，把 AI 监控的采购标准、验收责任和赔偿问题变成可诉讼记录，而不只是隐私争论。",
+      "impact": "推断：可能推动学区公开误报率、增加人工复核，或促使供应商调整检测阈值；对家长和学生，直接影响是校园临检和执法接触带来的风险。",
+      "evidence": "仅 Ars Technica 报道（单一来源），99% 误报率为诉状主张，尚未经法院认定。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T04:19:28+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert"
+        }
+      ]
+    }
+  ]
+}
