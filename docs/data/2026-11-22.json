@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T05:48:46.522538+08:00",
+  "window_start": "2026-11-20T17:45:03.131624+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
+    ]
+  },
+  "items": [
+    {
+      "id": "c17c686eb5c8-01",
+      "category": "ai",
+      "headline": "Signal 限制移动端截图，应对 AI 监控风险",
+      "what_happened": "TechCrunch 报道，Signal 正在限制 Android 和 iOS 应用中的截图功能。",
+      "why_it_matters": "分析：截图是私密通讯内容外泄和被抓取的主要路径之一，限制截图反映通讯应用正把 AI 监控视为生存性风险。",
+      "impact": "推断：若其他通讯应用跟进，用户的取证、举报和内容留存方式会受影响；具体限制范围仍待观察。",
+      "evidence": "证据来自 TechCrunch AI 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-22T05:37:10+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance"
+        }
+      ]
+    },
+    {
+      "id": "afb684d8cd41-03",
+      "category": "ai",
+      "headline": "OpenAI 发布 GPT-Live-1.1，语音代理待机费降至每分钟 0.02 美元",
+      "what_happened": "MarkTechPost 报道，OpenAI 在 API 发布全双工语音模型 GPT-Live-1.1，改进多语言口音和转写，并将待机 WebRTC 计费从每分钟 0.05 美元降至 0.02 美元。",
+      "why_it_matters": "分析：语音代理的闲置连接成本明显下降，可能推动客服、陪伴和实时翻译类应用延长会话。",
+      "impact": "推断：开发者会更愿意保持长连接，但用量、延迟和隐私管理压力也会上升；实际效果取决于正式定价条款。",
+      "evidence": "证据来自 MarkTechPost 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T19:46:17+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode"
+        }
+      ]
+    },
+    {
+      "id": "48e51cfb5d92-08",
+      "category": "ai",
+      "headline": "Thinking Machines 发布可在 32GB Mac 运行的 Inkling 2 Mini",
+      "what_happened": "MarkTechPost 报道，Thinking Machines 发布 Inkling 2 Mini，一个 26.4B 参数、3.4B 激活参数的循环 MoE 模型，可在 32GB Mac 或单台 DGX Spark 上运行，SWE-bench Verified 得分 79.2%。",
+      "why_it_matters": "分析：把较强编码能力压到消费级内存，可能降低本地代理式编程的部署门槛。",
+      "impact": "推断：若基准和量化版本可复现，更多开发者会在本地运行编码代理；实际速度、内存占用和许可仍待验证。",
+      "evidence": "证据来自 MarkTechPost 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T20:13:50+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer"
+        }
+      ]
+    },
+    {
+      "id": "d59972c2a28c-10",
+      "category": "ai",
+      "headline": "Baseten 发布 Bison-1 与 Groundhog-1 决策模型",
+      "what_happened": "MarkTechPost 报道，Baseten 发布基于 Gemma 4 的开源权重决策模型 bison-1 和 groundhog-1，支持 128k 上下文和图像输入；bison-1 在 AA Decision Index v2.1 得 76 分。",
+      "why_it_matters": "分析：决策模型以开源权重和长上下文切入企业流程，可能压低专用决策模型的试用门槛。",
+      "impact": "推断：企业采用仍取决于许可、审计和实际任务表现；该指数评测的可复现性仍待确认。",
+      "evidence": "证据来自 MarkTechPost 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T12:01:04+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models"
+        }
+      ]
+    },
+    {
+      "id": "1c7a4b5a3549-11",
+      "category": "ai",
+      "headline": "RadixArk 发布仅用强化学习后训练的 DaisyRose-27B",
+      "what_happened": "MarkTechPost 报道，RadixArk 发布 Apache 2.0 许可的 DaisyRose-27B，从 Qwen3.8-27B 仅用强化学习后训练，Terminal Bench 4.1 pass@1 提升到 12.0，可在单 GPU 运行。",
+      "why_it_matters": "分析：仅用强化学习后训练提升代理式编码基准，说明后训练方法可能比继续扩大预训练更高效。",
+      "impact": "推断：若结果可复现，单 GPU 可运行的 Apache 2.0 编码代理会吸引小团队试验；12.0 的绝对水平仍不高。",
+      "evidence": "证据来自 MarkTechPost 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T01:42:29+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model"
+        }
+      ]
+    },
+    {
+      "id": "77ce93b15e8f-00",
+      "category": "finance",
+      "headline": "SEC 指控 Backward Hat Capital 涉 5.6 亿美元发行欺诈并获紧急冻结",
+      "what_happened": "美国 SEC 宣布，已对印第安纳波利斯的 Backward Hat Capital 及其联合创始人取得临时限制令、资产冻结和加快取证等紧急救济，并指控其涉及 5.6 亿美元发行欺诈。",
+      "why_it_matters": "分析：这是监管机构直接介入的大额发行欺诈案，紧急冻结表明其优先防止资产转移，也暴露发行审核与资金托管环节的风险。",
+      "impact": "推断：涉案投资者、相关中介和发行审核方将面临合规与追偿压力；指控是否成立及实际损失仍待司法程序确认。",
+      "evidence": "证据来自美国 SEC 新闻稿，候选未列其他来源，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T22:28:28+08:00",
+      "sources": [
+        {
+          "source_id": "sec_press",
+          "source_name": "美国 SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering"
+        }
+      ]
+    },
+    {
+      "id": "bfe854c0281e-04",
+      "category": "finance",
+      "headline": "美联储官员发言增多，与 Warsh 的少说话主张相背",
+      "what_happened": "CNBC 报道，Warsh 希望美联储官员少公开发言，但近期官员反而更频繁发声，而美联储主席保持低调。",
+      "why_it_matters": "分析：官员发言密度会影响市场对利率路径的预期，沟通纪律本身正在成为政策不确定性来源。",
+      "impact": "推断：若发言继续分散，利率预期波动可能加大；这属于沟通层面的分析，不代表具体政策决定。",
+      "evidence": "证据来自 CNBC 金融报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T05:10:48+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
+        }
+      ]
+    },
+    {
+      "id": "0624cfbcc3ed-05",
+      "category": "finance",
+      "headline": "企业从回购转向增发，Anthropic 大型 IPO 考验市场需求",
+      "what_happened": "CNBC 报道，一些公司正从股票回购转向增发新股，增加市场供给；报道并称 Anthropic 的 810 亿美元 IPO 将检验这部分需求。",
+      "why_it_matters": "分析：回购减少、发行增加会改变股市供需平衡，大型 AI 公司 IPO 可能吸收大量资金。",
+      "impact": "推断：若发行潮延续，估值对新增供给的敏感度会上升；Anthropic IPO 的规模与定价仍待正式文件确认。",
+      "evidence": "证据来自 CNBC 金融报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T22:15:29+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html"
+        }
+      ]
+    },
+    {
+      "id": "0f1e5cf9264d-09",
+      "category": "finance",
+      "headline": "英国央行工作论文研究招聘成本与劳动力市场紧张度",
+      "what_happened": "英国央行发布工作人员工作论文《When vacancies become cheap: vacancy posting costs and equilibrium labour market tightness》，研究招聘广告成本与劳动力市场紧张度之间的关系。",
+      "why_it_matters": "分析：招聘成本下降可能改变企业发布空缺的激励，从而影响工资和劳动力市场松紧，属于宏观政策评估的底层机制。",
+      "impact": "推断：这类研究不会立即改变利率，但可能影响对劳动力供给、工资压力和通胀黏性的判断；论文观点不等于英国央行政策立场。",
+      "evidence": "证据来自英国央行工作论文，候选未列其他来源，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T22:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "boe_publications",
+          "source_name": "英国央行发布",
+          "url": "https://www.bankofengland.co.uk/working-paper/2026/when-vacancies-become-cheap-vacancy-posting-costs-and-equilibrium-labour-market-tightness"
+        }
+      ]
+    },
+    {
+      "id": "735fd7d6340f-02",
+      "category": "tech",
+      "headline": "FBI 调查 NCIC 数据库遭黑客攻击的报道",
+      "what_happened": "TechCrunch 报道，FBI 正在调查国家犯罪信息中心（NCIC）遭黑客攻击的报道；特朗普称此事“不好”。",
+      "why_it_matters": "分析：NCIC 是 FBI 的犯罪信息数据库，若入侵属实，影响可能超出数据泄露，波及案件调查和执法信任。",
+      "impact": "推断：短期内可能触发联邦系统审计、访问权限收紧和承包商审查；攻击范围与数据内容仍待确认。",
+      "evidence": "证据来自 TechCrunch 报道，候选未列其他媒体，属单一来源，且事件仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-22T02:44:53+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good"
+        }
+      ]
+    },
+    {
+      "id": "d896dc89b404-06",
+      "category": "tech",
+      "headline": "FCC 阻止加州执行家庭电话服务规则",
+      "what_happened": "Ars Technica 报道，FCC 裁定加州不得执行要求 AT&T 继续提供家庭电话服务的州规。",
+      "why_it_matters": "分析：这不只是单一电话服务争议，还涉及联邦机构能否优先于州级消费者保护规则。",
+      "impact": "推断：加州用户、州监管机构与电信企业将围绕家庭电话退网和紧急通信保障继续博弈；其他州可能受先例影响。",
+      "evidence": "证据来自 Ars Technica 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T06:28:24+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att"
+        }
+      ]
+    },
+    {
+      "id": "849d61a66d64-07",
+      "category": "tech",
+      "headline": "警方转写供应商因云服务器无密码暴露敏感数据",
+      "what_happened": "TechCrunch 独家报道，一家被警方、检方和科技公司使用的转写公司因云服务器未设密码，暴露了警方访谈和随身摄像头视频的转写内容。",
+      "why_it_matters": "分析：敏感录音转写外包给第三方后，访问控制失误会把执法与隐私风险集中到一个供应商。",
+      "impact": "推断：受影响机构可能面临通知、调查与合规审查；泄露数据范围和是否被下载仍待确认。",
+      "evidence": "证据来自 TechCrunch 独家报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T23:46:07+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online"
+        }
+      ]
+    }
+  ]
+}

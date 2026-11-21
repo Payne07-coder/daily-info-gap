@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T13:19:04.211164+08:00",
-  "window_start": "2026-11-20T01:15:15.436928+08:00",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T05:48:46.522538+08:00",
+  "window_start": "2026-11-20T17:45:03.131624+08:00",
   "status": "partial",
   "source_health": {
     "ok": 22,
@@ -15,218 +15,218 @@
   },
   "items": [
     {
-      "id": "589589a15137-02",
+      "id": "c17c686eb5c8-01",
       "category": "ai",
-      "headline": "Anthropic 完成创纪录 IPO，七位创始人合计套现近20亿美元",
-      "what_happened": "TechCrunch 报道，Anthropic 以每股 83 美元的价格完成 IPO，七位创始人各套现约 2.8 亿美元，合计近 20 亿美元；公司募资近 1050 亿美元。",
-      "why_it_matters": "分析：创始人巨额套现与创纪录募资同时出现，说明头部 AI 公司已进入资本市场兑现期，也会放大外界对估值和治理的讨论。",
-      "impact": "推断：这可能为其他 AI 公司设定 IPO 定价参照，同时让员工、早期投资人和公开市场投资者更关注锁定期与流动性安排。",
-      "evidence": "证据来自 TechCrunch 的 IPO 报道，MarketWatch 和 CNBC 对 Anthropic 上市及股价的报道可交叉确认 IPO 已发生，但创始人的具体套现金额仅见 TechCrunch。",
+      "headline": "Signal 限制移动端截图，应对 AI 监控风险",
+      "what_happened": "TechCrunch 报道，Signal 正在限制 Android 和 iOS 应用中的截图功能。",
+      "why_it_matters": "分析：截图是私密通讯内容外泄和被抓取的主要路径之一，限制截图反映通讯应用正把 AI 监控视为生存性风险。",
+      "impact": "推断：若其他通讯应用跟进，用户的取证、举报和内容留存方式会受影响；具体限制范围仍待观察。",
+      "evidence": "证据来自 TechCrunch AI 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
       "confidence": "单一来源",
-      "published_at": "2026-11-20T08:43:50+08:00",
+      "published_at": "2026-11-22T05:37:10+08:00",
       "sources": [
         {
           "source_id": "techcrunch_ai",
           "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo"
+          "url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance"
         }
       ]
     },
     {
-      "id": "913d3c755e41-06",
+      "id": "afb684d8cd41-03",
       "category": "ai",
-      "headline": "OpenAI 披露对抗“对抗性蒸馏”的分层防御",
-      "what_happened": "OpenAI 发文介绍其对抗对抗性蒸馏的分层做法，涵盖模型训练、安全防护、检测和执法四个环节，目标是防止模型能力被提取。",
-      "why_it_matters": "分析：模型蒸馏攻击直接关系到 AI 公司的知识产权和滥用风险，OpenAI 公开防御框架说明能力保护正从技术问题变成行业治理问题。",
-      "impact": "推断：依赖 API 的开发者可能面临更严格的访问控制和使用条款，开源模型与闭源模型之间的能力差距争议也可能加剧。",
-      "evidence": "证据来自 OpenAI 官方博客，属于原始来源，但未提供第三方审计或独立验证。",
+      "headline": "OpenAI 发布 GPT-Live-1.1，语音代理待机费降至每分钟 0.02 美元",
+      "what_happened": "MarkTechPost 报道，OpenAI 在 API 发布全双工语音模型 GPT-Live-1.1，改进多语言口音和转写，并将待机 WebRTC 计费从每分钟 0.05 美元降至 0.02 美元。",
+      "why_it_matters": "分析：语音代理的闲置连接成本明显下降，可能推动客服、陪伴和实时翻译类应用延长会话。",
+      "impact": "推断：开发者会更愿意保持长连接，但用量、延迟和隐私管理压力也会上升；实际效果取决于正式定价条款。",
+      "evidence": "证据来自 MarkTechPost 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
       "confidence": "单一来源",
-      "published_at": "2026-11-20T18:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "openai_news",
-          "source_name": "OpenAI",
-          "url": "https://openai.com/index/combatting-adversarial-distillation"
-        }
-      ]
-    },
-    {
-      "id": "e1c8bac4363b-09",
-      "category": "ai",
-      "headline": "OpenAI 推出 MedChemBench，评估 AI 筛选药物候选能力",
-      "what_happened": "OpenAI 发布 MedChemBench，用于评估 AI 模型解读分子结构、根据实验证据推理，以及在早期药物发现中筛选化合物的能力。",
-      "why_it_matters": "分析：药物发现是 AI 最受期待但最难验证的应用之一，统一基准有助于区分演示效果与真实研发能力。",
-      "impact": "推断：制药公司和 AI 模型开发者可能获得更可比的评估工具，但基准分数不等于临床成功率，仍需实验验证。",
-      "evidence": "证据来自 OpenAI 官方发布，属于原始来源，未见独立研究或第三方复现。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-20T08:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "openai_news",
-          "source_name": "OpenAI",
-          "url": "https://openai.com/index/introducing-medchembench"
-        }
-      ]
-    },
-    {
-      "id": "d8b748a5b8fb-10",
-      "category": "ai",
-      "headline": "NVIDIA 发布 Nemotron-Labs-Sigma 连续扩散语言模型",
-      "what_happened": "NVIDIA 发布 Nemotron-Labs-Sigma，包含 14 个 3B 和 8B 的连续扩散语言模型检查点；模型在学习到的 16 维嵌入空间中去噪，可蒸馏为少步采样器，解码速度最高为自回归解码的 4.20 倍。",
-      "why_it_matters": "分析：扩散语言模型若能在保持质量的同时显著提速，可能改变推理成本和部署架构，挑战当前以自回归为主的技术路线。",
-      "impact": "推断：边缘设备和低成本推理场景可能受益，但“最高 4.20 倍”是特定条件下的结果，实际生产表现仍需独立测试。",
-      "evidence": "证据来自 MarkTechPost 对 NVIDIA 发布的报道，单一来源，未见 NVIDIA 官方页面或其他独立评测交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-20T22:44:52+08:00",
+      "published_at": "2026-11-21T19:46:17+08:00",
       "sources": [
         {
           "source_id": "marktechpost",
           "source_name": "MarkTechPost",
-          "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model"
+          "url": "https://www.marktechpost.com/2026/11/21/openai-gpt-live-1-1-api-standby-mode"
         }
       ]
     },
     {
-      "id": "cd08bd8d295d-11",
+      "id": "48e51cfb5d92-08",
       "category": "ai",
-      "headline": "AI 声称解决黎曼猜想，同时出现人类竞争性解法",
-      "what_happened": "TechCrunch 报道，数学界正在讨论一项 AI 声称解决已有 167 年历史的黎曼猜想的成果，同时存在一项人类提出的竞争性解法。",
-      "why_it_matters": "分析：黎曼猜想是数学核心难题，若任一解法成立，影响将远超 AI 领域；但在同行评审完成前，这更像一个高关注度信号而非既定结论。",
-      "impact": "推断：事件可能加剧关于 AI 数学能力的争论，也会考验学术出版和验证机制；目前不宜把“声称解决”等同于“已被证明”。",
-      "evidence": "证据来自 TechCrunch 的单一报道，数学界验证尚未完成，事件仍在发展。",
-      "confidence": "仍在发展",
-      "published_at": "2026-11-21T03:32:08+08:00",
-      "sources": [
-        {
-          "source_id": "techcrunch_ai",
-          "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too"
-        }
-      ]
-    },
-    {
-      "id": "d8cfb45760c2-00",
-      "category": "finance",
-      "headline": "芯片股遭遇历史级单周抛售，AI 交易恐慌扩散",
-      "what_happened": "MarketWatch 报道，一项主要半导体指数本周录得 25 年来最差单周表现，芯片股一周市值蒸发约 2.3 万亿美元。",
-      "why_it_matters": "分析：这说明 AI 交易的回撤已从个别龙头扩散到整个芯片板块，估值假设和融资环境可能同步收紧。",
-      "impact": "推断：芯片公司、数据中心项目和依赖股权融资的 AI 企业可能面临更高的资本成本，短期波动仍可能被放大。",
-      "evidence": "证据来自 MarketWatch 的行情报道，同日 MarketWatch 多篇报道与 CNBC 对 AI 抛售的报道可交叉确认板块抛售，但“2.3 万亿美元”和“25 年最差”为 MarketWatch 单一表述。",
-      "confidence": "已确认",
-      "published_at": "2026-11-21T06:44:00+08:00",
-      "sources": [
-        {
-          "source_id": "marketwatch",
-          "source_name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03"
-        }
-      ]
-    },
-    {
-      "id": "2f3562a925e6-03",
-      "category": "finance",
-      "headline": "SEC 提议撤销 Reg NMS 第613条，重构审计追踪系统",
-      "what_happened": "美国 SEC 发布提案，拟撤销《Regulation NMS》第 613 条，并重构 Consolidated Audit Trail（CAT）的治理与融资模式，以解决现行模式的低效问题。",
-      "why_it_matters": "分析：CAT 是美国股票市场重要的交易审计基础设施，治理和融资模式变化可能影响券商、交易所的合规成本与数据控制权。",
-      "impact": "推断：若提案推进，市场参与者需要重新评估交易报告义务和费用分摊；对普通投资者的直接影响是间接的，但会改变市场透明度与监管成本结构。",
-      "evidence": "证据来自 SEC 官方新闻稿，属于原始监管文件，未见其他独立来源对该提案细节进行交叉确认。",
+      "headline": "Thinking Machines 发布可在 32GB Mac 运行的 Inkling 2 Mini",
+      "what_happened": "MarkTechPost 报道，Thinking Machines 发布 Inkling 2 Mini，一个 26.4B 参数、3.4B 激活参数的循环 MoE 模型，可在 32GB Mac 或单台 DGX Spark 上运行，SWE-bench Verified 得分 79.2%。",
+      "why_it_matters": "分析：把较强编码能力压到消费级内存，可能降低本地代理式编程的部署门槛。",
+      "impact": "推断：若基准和量化版本可复现，更多开发者会在本地运行编码代理；实际速度、内存占用和许可仍待验证。",
+      "evidence": "证据来自 MarkTechPost 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
       "confidence": "单一来源",
-      "published_at": "2026-11-21T02:03:24+08:00",
+      "published_at": "2026-11-21T20:13:50+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/21/thinking-machines-inkling-2-mini-looped-transformer"
+        }
+      ]
+    },
+    {
+      "id": "d59972c2a28c-10",
+      "category": "ai",
+      "headline": "Baseten 发布 Bison-1 与 Groundhog-1 决策模型",
+      "what_happened": "MarkTechPost 报道，Baseten 发布基于 Gemma 4 的开源权重决策模型 bison-1 和 groundhog-1，支持 128k 上下文和图像输入；bison-1 在 AA Decision Index v2.1 得 76 分。",
+      "why_it_matters": "分析：决策模型以开源权重和长上下文切入企业流程，可能压低专用决策模型的试用门槛。",
+      "impact": "推断：企业采用仍取决于许可、审计和实际任务表现；该指数评测的可复现性仍待确认。",
+      "evidence": "证据来自 MarkTechPost 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T12:01:04+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/20/baseten-bison-1-groundhog-1-gemma-4-decision-models"
+        }
+      ]
+    },
+    {
+      "id": "1c7a4b5a3549-11",
+      "category": "ai",
+      "headline": "RadixArk 发布仅用强化学习后训练的 DaisyRose-27B",
+      "what_happened": "MarkTechPost 报道，RadixArk 发布 Apache 2.0 许可的 DaisyRose-27B，从 Qwen3.8-27B 仅用强化学习后训练，Terminal Bench 4.1 pass@1 提升到 12.0，可在单 GPU 运行。",
+      "why_it_matters": "分析：仅用强化学习后训练提升代理式编码基准，说明后训练方法可能比继续扩大预训练更高效。",
+      "impact": "推断：若结果可复现，单 GPU 可运行的 Apache 2.0 编码代理会吸引小团队试验；12.0 的绝对水平仍不高。",
+      "evidence": "证据来自 MarkTechPost 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T01:42:29+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/20/radixark-daisyrose-27b-agentic-model"
+        }
+      ]
+    },
+    {
+      "id": "77ce93b15e8f-00",
+      "category": "finance",
+      "headline": "SEC 指控 Backward Hat Capital 涉 5.6 亿美元发行欺诈并获紧急冻结",
+      "what_happened": "美国 SEC 宣布，已对印第安纳波利斯的 Backward Hat Capital 及其联合创始人取得临时限制令、资产冻结和加快取证等紧急救济，并指控其涉及 5.6 亿美元发行欺诈。",
+      "why_it_matters": "分析：这是监管机构直接介入的大额发行欺诈案，紧急冻结表明其优先防止资产转移，也暴露发行审核与资金托管环节的风险。",
+      "impact": "推断：涉案投资者、相关中介和发行审核方将面临合规与追偿压力；指控是否成立及实际损失仍待司法程序确认。",
+      "evidence": "证据来自美国 SEC 新闻稿，候选未列其他来源，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T22:28:28+08:00",
       "sources": [
         {
           "source_id": "sec_press",
           "source_name": "美国 SEC",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail"
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-116-sec-charges-indianapolis-based-backward-hat-capital-its-co-founders-560-million-dollar-offering"
         }
       ]
     },
     {
-      "id": "d7428148148c-04",
+      "id": "bfe854c0281e-04",
       "category": "finance",
-      "headline": "Anthropic IPO 后数十亿锁定股份将在一年内解禁",
-      "what_happened": "MarketWatch 报道，Anthropic 完成 IPO 后，仍有数十亿股锁定股份将在未来一年逐步进入市场。",
-      "why_it_matters": "分析：锁定股解禁会增加可流通股供给，可能在需求不足时压制股价，也会影响员工和早期投资人的变现节奏。",
-      "impact": "推断：这使 Anthropic 的股价表现不仅取决于业务进展，还取决于解禁时间表和承销商安排，对其他大型科技 IPO 也有参照意义。",
-      "evidence": "证据来自 MarketWatch 对 Anthropic 锁定股份的分析，另有 MarketWatch 和 TechCrunch 对 IPO 及股价的报道可确认上市，但锁定股的具体规模未见第二家独立来源。",
+      "headline": "美联储官员发言增多，与 Warsh 的少说话主张相背",
+      "what_happened": "CNBC 报道，Warsh 希望美联储官员少公开发言，但近期官员反而更频繁发声，而美联储主席保持低调。",
+      "why_it_matters": "分析：官员发言密度会影响市场对利率路径的预期，沟通纪律本身正在成为政策不确定性来源。",
+      "impact": "推断：若发言继续分散，利率预期波动可能加大；这属于沟通层面的分析，不代表具体政策决定。",
+      "evidence": "证据来自 CNBC 金融报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
       "confidence": "单一来源",
-      "published_at": "2026-11-21T05:39:00+08:00",
+      "published_at": "2026-11-21T05:10:48+08:00",
       "sources": [
         {
-          "source_id": "marketwatch",
-          "source_name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce"
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/20/warsh-fed-forward-guidance-rate-hikes.html"
         }
       ]
     },
     {
-      "id": "a4f33dd154f5-07",
+      "id": "0624cfbcc3ed-05",
       "category": "finance",
-      "headline": "美联储调查银行如何管理准备金余额",
-      "what_happened": "美联储发布对银行高级财务官的调查结果，内容涉及银行管理准备金余额的策略与做法。",
-      "why_it_matters": "分析：准备金管理直接影响银行在货币市场、回购和流动性压力下的行为，是观察金融体系缓冲能力的一个细节指标。",
-      "impact": "推断：调查结果可能影响监管对流动性规则的评估，但短期内对普通储户和投资者的直接感受有限。",
-      "evidence": "证据来自美联储官方新闻稿，属于原始监管来源，摘要未披露具体数据，也未见独立来源交叉确认。",
+      "headline": "企业从回购转向增发，Anthropic 大型 IPO 考验市场需求",
+      "what_happened": "CNBC 报道，一些公司正从股票回购转向增发新股，增加市场供给；报道并称 Anthropic 的 810 亿美元 IPO 将检验这部分需求。",
+      "why_it_matters": "分析：回购减少、发行增加会改变股市供需平衡，大型 AI 公司 IPO 可能吸收大量资金。",
+      "impact": "推断：若发行潮延续，估值对新增供给的敏感度会上升；Anthropic IPO 的规模与定价仍待正式文件确认。",
+      "evidence": "证据来自 CNBC 金融报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
       "confidence": "单一来源",
-      "published_at": "2026-11-20T23:00:00+08:00",
+      "published_at": "2026-11-20T22:15:29+08:00",
       "sources": [
         {
-          "source_id": "federal_reserve",
-          "source_name": "美联储",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm"
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/20/equity-issuance-bull-market-problem.html"
         }
       ]
     },
     {
-      "id": "7bf7fab9a7f1-01",
+      "id": "0f1e5cf9264d-09",
+      "category": "finance",
+      "headline": "英国央行工作论文研究招聘成本与劳动力市场紧张度",
+      "what_happened": "英国央行发布工作人员工作论文《When vacancies become cheap: vacancy posting costs and equilibrium labour market tightness》，研究招聘广告成本与劳动力市场紧张度之间的关系。",
+      "why_it_matters": "分析：招聘成本下降可能改变企业发布空缺的激励，从而影响工资和劳动力市场松紧，属于宏观政策评估的底层机制。",
+      "impact": "推断：这类研究不会立即改变利率，但可能影响对劳动力供给、工资压力和通胀黏性的判断；论文观点不等于英国央行政策立场。",
+      "evidence": "证据来自英国央行工作论文，候选未列其他来源，因此没有交叉确认，属单一来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T22:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "boe_publications",
+          "source_name": "英国央行发布",
+          "url": "https://www.bankofengland.co.uk/working-paper/2026/when-vacancies-become-cheap-vacancy-posting-costs-and-equilibrium-labour-market-tightness"
+        }
+      ]
+    },
+    {
+      "id": "735fd7d6340f-02",
       "category": "tech",
-      "headline": "加州总检察长向英伟达发出传票，调查黄仁勋涉华关系",
-      "what_happened": "TechCrunch 报道，加州总检察长办公室已向英伟达发出传票，关注前 CEO 黄仁勋与中国的关系，以及公司是否可能误导投资者。",
-      "why_it_matters": "分析：这把此前的高管动荡升级为州级执法调查，可能影响英伟达的合规成本、对华业务安排和投资者信心。",
-      "impact": "推断：若调查扩大，英伟达及与其绑定的 AI 供应链可能面临更长的监管不确定期；传票本身不等于认定违法。",
-      "evidence": "证据来自 TechCrunch 对该传票的报道，另有 TechCrunch 对黄仁勋辞职时间线和公司治理争议的报道相互印证，但未见第二家独立媒体确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-20T21:21:11+08:00",
+      "headline": "FBI 调查 NCIC 数据库遭黑客攻击的报道",
+      "what_happened": "TechCrunch 报道，FBI 正在调查国家犯罪信息中心（NCIC）遭黑客攻击的报道；特朗普称此事“不好”。",
+      "why_it_matters": "分析：NCIC 是 FBI 的犯罪信息数据库，若入侵属实，影响可能超出数据泄露，波及案件调查和执法信任。",
+      "impact": "推断：短期内可能触发联邦系统审计、访问权限收紧和承包商审查；攻击范围与数据内容仍待确认。",
+      "evidence": "证据来自 TechCrunch 报道，候选未列其他媒体，属单一来源，且事件仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-22T02:44:53+08:00",
       "sources": [
         {
           "source_id": "techcrunch",
           "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china"
+          "url": "https://techcrunch.com/2026/11/21/trump-says-reported-fbi-database-hack-is-not-good"
         }
       ]
     },
     {
-      "id": "5135ae36149a-05",
+      "id": "d896dc89b404-06",
       "category": "tech",
-      "headline": "Meta 因 AI 数据中心排放创纪录而重新评估2030净零目标",
-      "what_happened": "Ars Technica 报道，Meta 正在“重新评估”其 2030 年净零排放目标，背景是 AI 数据中心的排放创下纪录。",
-      "why_it_matters": "分析：AI 算力扩张正在把科技公司的气候承诺变成实际成本，Meta 的松动可能预示行业减排目标普遍承压。",
-      "impact": "推断：数据中心选址、能源采购和碳信用市场可能受到影响，其他大型云厂商是否跟进值得观察。",
-      "evidence": "证据来自 Ars Technica 的单一报道，未见 Meta 官方文件或其他媒体独立确认。",
+      "headline": "FCC 阻止加州执行家庭电话服务规则",
+      "what_happened": "Ars Technica 报道，FCC 裁定加州不得执行要求 AT&T 继续提供家庭电话服务的州规。",
+      "why_it_matters": "分析：这不只是单一电话服务争议，还涉及联邦机构能否优先于州级消费者保护规则。",
+      "impact": "推断：加州用户、州监管机构与电信企业将围绕家庭电话退网和紧急通信保障继续博弈；其他州可能受先例影响。",
+      "evidence": "证据来自 Ars Technica 报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
       "confidence": "单一来源",
-      "published_at": "2026-11-21T05:47:10+08:00",
+      "published_at": "2026-11-21T06:28:24+08:00",
       "sources": [
         {
           "source_id": "ars_technica",
           "source_name": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers"
+          "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att"
         }
       ]
     },
     {
-      "id": "50d33c3a937e-08",
+      "id": "849d61a66d64-07",
       "category": "tech",
-      "headline": "研究者在 AI 供应链植入200万个“金丝雀”，发现隐私数据外泄",
-      "what_happened": "Ars Technica 报道，一名研究人员在 AI 供应链中植入 200 万个带有唯一可追踪秘密的提示，测试结果显示用户数据并未保持私密。",
-      "why_it_matters": "分析：这说明 AI 服务的数据泄露可能发生在模型、API、插件等多个环节，只在某一层做合规并不足以保护用户。",
-      "impact": "推断：企业采用 AI 工具时需要更重视数据流向审计和供应商审查，个人用户上传敏感信息时也应重新评估风险。",
-      "evidence": "证据来自 Ars Technica 对这项测试的报道，单一来源，未见其他独立团队复现。",
+      "headline": "警方转写供应商因云服务器无密码暴露敏感数据",
+      "what_happened": "TechCrunch 独家报道，一家被警方、检方和科技公司使用的转写公司因云服务器未设密码，暴露了警方访谈和随身摄像头视频的转写内容。",
+      "why_it_matters": "分析：敏感录音转写外包给第三方后，访问控制失误会把执法与隐私风险集中到一个供应商。",
+      "impact": "推断：受影响机构可能面临通知、调查与合规审查；泄露数据范围和是否被下载仍待确认。",
+      "evidence": "证据来自 TechCrunch 独家报道，候选未列其他媒体，因此没有交叉确认，属单一来源。",
       "confidence": "单一来源",
-      "published_at": "2026-11-21T04:59:08+08:00",
+      "published_at": "2026-11-20T23:46:07+08:00",
       "sources": [
         {
-          "source_id": "ars_technica",
-          "source_name": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate"
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/20/a-transcription-firm-used-by-police-prosecutors-and-tech-giants-exposed-customer-data-online"
         }
       ]
     }
