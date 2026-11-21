@@ -1,231 +1,232 @@
 {
   "schema_version": 1,
-  "date": "2026-11-20",
-  "generated_at": "2026-11-20T05:46:59.746036+08:00",
-  "window_start": "2026-11-18T17:45:02.687085+08:00",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T13:19:04.211164+08:00",
+  "window_start": "2026-11-20T01:15:15.436928+08:00",
   "status": "partial",
   "source_health": {
-    "ok": 23,
-    "failed": 2,
+    "ok": 22,
+    "failed": 3,
     "failed_sources": [
+      "Hugging Face",
       "VentureBeat AI",
-      "36氪"
+      "美国劳工统计局"
     ]
   },
   "items": [
     {
-      "id": "e3501aa45d9e-00",
+      "id": "589589a15137-02",
       "category": "ai",
-      "headline": "Anthropic 登陆纳斯达克，开盘价约 110–111 美元",
-      "what_happened": "TechCrunch 报道，Anthropic 以每股 83 美元完成 IPO，募资超过 800 亿美元，并在纳斯达克以约 110–111 美元开盘；该报道标题称开盘价较发行价高 33%，链接与正文则称高 27%，涨幅表述不一致。",
-      "why_it_matters": "分析：这是前沿 AI 实验室以高关注度进入公开市场的案例，首日定价会成为衡量 AI 资本开支周期承受力的公开标尺，也会把安全承诺与股东回报之间的矛盾摆上台面。",
-      "impact": "推断：若涨幅维持，可能鼓励更多 AI 公司启动上市并增强算力供应商的议价能力；若跌破发行价，则可能压低一级市场对 AI 基础设施的估值，AI 主题基金与养老组合的短期波动会放大。",
-      "evidence": "开盘价数字仅来自 TechCrunch（单一来源），且该报道的标题、摘要与链接对涨幅口径不一致；WIRED 与 MarketWatch 也提及此次 IPO，但未给出同一价格。",
+      "headline": "Anthropic 完成创纪录 IPO，七位创始人合计套现近20亿美元",
+      "what_happened": "TechCrunch 报道，Anthropic 以每股 83 美元的价格完成 IPO，七位创始人各套现约 2.8 亿美元，合计近 20 亿美元；公司募资近 1050 亿美元。",
+      "why_it_matters": "分析：创始人巨额套现与创纪录募资同时出现，说明头部 AI 公司已进入资本市场兑现期，也会放大外界对估值和治理的讨论。",
+      "impact": "推断：这可能为其他 AI 公司设定 IPO 定价参照，同时让员工、早期投资人和公开市场投资者更关注锁定期与流动性安排。",
+      "evidence": "证据来自 TechCrunch 的 IPO 报道，MarketWatch 和 CNBC 对 Anthropic 上市及股价的报道可交叉确认 IPO 已发生，但创始人的具体套现金额仅见 TechCrunch。",
       "confidence": "单一来源",
-      "published_at": "2026-11-20T00:59:23+08:00",
+      "published_at": "2026-11-20T08:43:50+08:00",
       "sources": [
         {
           "source_id": "techcrunch_ai",
           "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/19/anthropic-hits-nasdaq-exchanges-at-110-27-above-ipo-price"
+          "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo"
         }
       ]
     },
     {
-      "id": "91c368f7195d-02",
+      "id": "913d3c755e41-06",
       "category": "ai",
-      "headline": "Meta 内部 AI 助手 Muse 被指串对话、暴露他人隐私数据",
-      "what_happened": "TechCrunch 援引报道称，Meta 的 AI 代理 Muse 在部分场景把不同对话混在一起，员工看到并非自己发起的育儿请求、职业建议、商品订单和银行余额；Ars Technica 亦援引内部聊天记录报道员工担忧，Meta 表示部分异常输出（如随机银行、比特币余额）并非真实数据。",
-      "why_it_matters": "分析：企业把 AI 代理接入聊天和账户上下文后，一旦会话隔离或权限校验失效，泄露的是同事与客户的真实生活信息，而这类错误通常不会触发传统安全告警。",
-      "impact": "推断：可能促使企业暂缓把此类代理接入敏感系统，并加强会话隔离、审计日志和最小权限检查；对个人用户，风险是自己的信息被错误展示给他人。",
-      "evidence": "TechCrunch 与 Ars Technica 两家独立媒体均引用内部材料报道，Meta 对部分内容作出否认，事件仍在发展。",
-      "confidence": "仍在发展",
-      "published_at": "2026-11-20T01:38:40+08:00",
-      "sources": [
-        {
-          "source_id": "techcrunch_ai",
-          "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/19/metas-ai-agent-muse-is-mixing-up-conversations-and-exposing-private-data-report-says"
-        }
-      ]
-    },
-    {
-      "id": "2a69f710dfb2-06",
-      "category": "ai",
-      "headline": "Google 在 Gemini API 中推出工具检索功能",
-      "what_happened": "Google AI 官方博客发布文章，宣布在 Gemini API 中引入 Tool Retrieval（工具检索）；候选材料只提供标题和配图说明，未披露具体参数、适用范围或定价。",
-      "why_it_matters": "分析：当代理可调用的工具越来越多，“先检索工具再调用”会替代把所有工具说明塞进提示词的做法，直接影响上下文成本、响应延迟和调用准确率；这类接口层变化通常不会进入大众新闻。",
-      "impact": "推断：依赖 Gemini 的开发者可能需要调整工具注册和描述方式；对终端用户，复杂任务中代理选错工具、反复试错的次数可能下降，但实际效果取决于未公开的实现细节。",
-      "evidence": "Google AI 官方博客，单一来源，且候选材料缺少功能细节。",
+      "headline": "OpenAI 披露对抗“对抗性蒸馏”的分层防御",
+      "what_happened": "OpenAI 发文介绍其对抗对抗性蒸馏的分层做法，涵盖模型训练、安全防护、检测和执法四个环节，目标是防止模型能力被提取。",
+      "why_it_matters": "分析：模型蒸馏攻击直接关系到 AI 公司的知识产权和滥用风险，OpenAI 公开防御框架说明能力保护正从技术问题变成行业治理问题。",
+      "impact": "推断：依赖 API 的开发者可能面临更严格的访问控制和使用条款，开源模型与闭源模型之间的能力差距争议也可能加剧。",
+      "evidence": "证据来自 OpenAI 官方博客，属于原始来源，但未提供第三方审计或独立验证。",
       "confidence": "单一来源",
-      "published_at": "2026-11-20T02:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "google_ai",
-          "source_name": "Google AI",
-          "url": "https://blog.google/innovation-and-ai/technology/developers-tools/gemini-api-tool-retrieval"
-        }
-      ]
-    },
-    {
-      "id": "c9b49a76abf7-07",
-      "category": "ai",
-      "headline": "OpenAI 披露用 Codex 工作流自动发现并修复 ChatGPT 性能问题",
-      "what_happened": "OpenAI 官方博客介绍其 Performance Factory：一套由 Codex 驱动的工作流，用于发现并修复性能问题，以维持 ChatGPT 的速度；候选材料未给出具体性能数字。",
-      "why_it_matters": "分析：这展示了“用 AI 代理维护 AI 产品”的闭环，把性能回归检测、定位和补丁生成交给模型流水线；相比发布新模型，这类工程实践更能解释服务成本和稳定性的变化。",
-      "impact": "推断：若该模式可复制，大型在线服务的性能维护人力结构会改变，瓶颈转向代码审查与回滚机制；对外部用户，可能表现为高峰期延迟更稳定。",
-      "evidence": "OpenAI 官方博客，单一来源，未提供可独立验证的指标。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-19T16:00:00+08:00",
+      "published_at": "2026-11-20T18:00:00+08:00",
       "sources": [
         {
           "source_id": "openai_news",
           "source_name": "OpenAI",
-          "url": "https://openai.com/index/how-openai-performance-factory-keeps-chatgpt-fast"
+          "url": "https://openai.com/index/combatting-adversarial-distillation"
         }
       ]
     },
     {
-      "id": "178cea4ca12f-10",
+      "id": "e1c8bac4363b-09",
       "category": "ai",
-      "headline": "Google 让 Gemini 在 Mac 上代为操作文件、表单和多步流程",
-      "what_happened": "TechCrunch 报道，Google 对 Gemini 的更新加入面向 Mac 的 AI 代理，可整理文件、填写表单并执行多步骤工作流。",
-      "why_it_matters": "分析：代理从“回答问题”转向“直接操作本地文件系统”，权限边界由浏览器扩展到个人电脑，便利之外也把误删、误提交和提示注入风险带进桌面。",
-      "impact": "推断：Mac 用户可能获得低门槛的跨应用自动化，但企业需要重新评估终端权限和数据防泄漏策略；普通用户最现实的风险是代理在未确认时改动文件或提交表单。",
-      "evidence": "仅 TechCrunch 报道（单一来源），候选材料未包含 Google 官方功能说明。",
+      "headline": "OpenAI 推出 MedChemBench，评估 AI 筛选药物候选能力",
+      "what_happened": "OpenAI 发布 MedChemBench，用于评估 AI 模型解读分子结构、根据实验证据推理，以及在早期药物发现中筛选化合物的能力。",
+      "why_it_matters": "分析：药物发现是 AI 最受期待但最难验证的应用之一，统一基准有助于区分演示效果与真实研发能力。",
+      "impact": "推断：制药公司和 AI 模型开发者可能获得更可比的评估工具，但基准分数不等于临床成功率，仍需实验验证。",
+      "evidence": "证据来自 OpenAI 官方发布，属于原始来源，未见独立研究或第三方复现。",
       "confidence": "单一来源",
-      "published_at": "2026-11-20T02:09:11+08:00",
+      "published_at": "2026-11-20T08:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/introducing-medchembench"
+        }
+      ]
+    },
+    {
+      "id": "d8b748a5b8fb-10",
+      "category": "ai",
+      "headline": "NVIDIA 发布 Nemotron-Labs-Sigma 连续扩散语言模型",
+      "what_happened": "NVIDIA 发布 Nemotron-Labs-Sigma，包含 14 个 3B 和 8B 的连续扩散语言模型检查点；模型在学习到的 16 维嵌入空间中去噪，可蒸馏为少步采样器，解码速度最高为自回归解码的 4.20 倍。",
+      "why_it_matters": "分析：扩散语言模型若能在保持质量的同时显著提速，可能改变推理成本和部署架构，挑战当前以自回归为主的技术路线。",
+      "impact": "推断：边缘设备和低成本推理场景可能受益，但“最高 4.20 倍”是特定条件下的结果，实际生产表现仍需独立测试。",
+      "evidence": "证据来自 MarkTechPost 对 NVIDIA 发布的报道，单一来源，未见 NVIDIA 官方页面或其他独立评测交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T22:44:52+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model"
+        }
+      ]
+    },
+    {
+      "id": "cd08bd8d295d-11",
+      "category": "ai",
+      "headline": "AI 声称解决黎曼猜想，同时出现人类竞争性解法",
+      "what_happened": "TechCrunch 报道，数学界正在讨论一项 AI 声称解决已有 167 年历史的黎曼猜想的成果，同时存在一项人类提出的竞争性解法。",
+      "why_it_matters": "分析：黎曼猜想是数学核心难题，若任一解法成立，影响将远超 AI 领域；但在同行评审完成前，这更像一个高关注度信号而非既定结论。",
+      "impact": "推断：事件可能加剧关于 AI 数学能力的争论，也会考验学术出版和验证机制；目前不宜把“声称解决”等同于“已被证明”。",
+      "evidence": "证据来自 TechCrunch 的单一报道，数学界验证尚未完成，事件仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-21T03:32:08+08:00",
       "sources": [
         {
           "source_id": "techcrunch_ai",
           "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you"
+          "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too"
         }
       ]
     },
     {
-      "id": "dc506d227e02-01",
+      "id": "d8cfb45760c2-00",
       "category": "finance",
-      "headline": "美联储 10 月会议纪要：官员预期还会加息，并讨论 AI 对通胀的影响",
-      "what_happened": "美联储公布 10 月 27–28 日 FOMC 会议纪要；CNBC 援引纪要报道，官员预计还会有更多加息，并对 AI 对通胀的影响表示担忧，该次会议将基准利率维持在 3.75%–4%。",
-      "why_it_matters": "分析：纪要把 AI 纳入通胀讨论，意味着利率路径不只取决于就业和传统物价，还可能受数据中心与算力投资周期影响；这与“AI 必然压低通胀”的市场直觉并不一致。",
-      "impact": "推断：若后续数据支持纪要中的偏鹰判断，长端利率和高估值成长股可能承压，房贷、车贷利率的下行时点也可能推迟；若 AI 提升生产率，则可能反向缓解通胀。",
-      "evidence": "美联储官网发布纪要原文，CNBC 同日作独立解读，属官方文件加媒体交叉确认。",
+      "headline": "芯片股遭遇历史级单周抛售，AI 交易恐慌扩散",
+      "what_happened": "MarketWatch 报道，一项主要半导体指数本周录得 25 年来最差单周表现，芯片股一周市值蒸发约 2.3 万亿美元。",
+      "why_it_matters": "分析：这说明 AI 交易的回撤已从个别龙头扩散到整个芯片板块，估值假设和融资环境可能同步收紧。",
+      "impact": "推断：芯片公司、数据中心项目和依赖股权融资的 AI 企业可能面临更高的资本成本，短期波动仍可能被放大。",
+      "evidence": "证据来自 MarketWatch 的行情报道，同日 MarketWatch 多篇报道与 CNBC 对 AI 抛售的报道可交叉确认板块抛售，但“2.3 万亿美元”和“25 年最差”为 MarketWatch 单一表述。",
       "confidence": "已确认",
-      "published_at": "2026-11-19T03:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "federal_reserve",
-          "source_name": "美联储",
-          "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261118a.htm"
-        }
-      ]
-    },
-    {
-      "id": "f4ef2031d99b-04",
-      "category": "finance",
-      "headline": "SEC 起诉八家机构，指其用假加密平台骗取逾 3700 万美元",
-      "what_happened": "美国 SEC 指控八家注册于科罗拉多州的实体通过虚假加密货币交易平台诈骗美国投资者超过 3700 万美元，并称这些实体可能由境外人员实际运营。",
-      "why_it_matters": "分析：案件说明诈骗方可以用注册地、品牌包装和假交易界面做出“看起来合规”的平台，监管主要在后端追责；普通投资者很难从账户余额和成交记录判断平台真伪。",
-      "impact": "推断：对主流加密资产价格的短期影响有限，但会强化交易所和钱包的提现审查与 KYC；跨境追偿难度大，受害者资金回收存在较大不确定性。",
-      "evidence": "美国 SEC 官网新闻稿，单一官方来源。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-19T22:39:02+08:00",
-      "sources": [
-        {
-          "source_id": "sec_press",
-          "source_name": "美国 SEC",
-          "url": "https://www.sec.gov/newsroom/press-releases/2026-115-sec-eight-entities-used-fake-crypto-asset-trading-platforms-steal-more-37-million-us-investors"
-        }
-      ]
-    },
-    {
-      "id": "08d925b5a8a7-08",
-      "category": "finance",
-      "headline": "英国央行就金融业网络韧性指引征求意见，并发布 AI 与量子实践",
-      "what_happened": "英国央行发布新闻稿称，英国金融监管机构正提出新的网络韧性指引，帮助金融服务机构应对网络威胁并从事件中恢复，同时发布了 AI 与量子相关的有效实践。",
-      "why_it_matters": "分析：监管重点从“防止被攻破”转向“被攻破后多快恢复”，并把 AI 与量子风险放进同一框架；这会改变银行在备份、第三方依赖和加密迁移上的预算优先级。",
-      "impact": "推断：英国金融机构及其云与安全服务供应商将面临更明确的演练和披露要求；对个人客户，长期影响是服务中断后的恢复速度，短期合规成本可能转化为费用。",
-      "evidence": "英国央行官网新闻稿，单一官方来源。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-19T16:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "boe_news",
-          "source_name": "英国央行新闻",
-          "url": "https://www.bankofengland.co.uk/news/2026/november/cyber-resilience-guidance-consultation-and-ai-and-quantum-effective-practices"
-        }
-      ]
-    },
-    {
-      "id": "875036a39dd9-11",
-      "category": "finance",
-      "headline": "美国 Medicare Part B 月保费上涨 6.50 美元至 209.40 美元",
-      "what_happened": "MarketWatch 报道，受医疗成本上升推动，Medicare Part B 保费每月增加 6.50 美元，达到 209.40 美元。",
-      "why_it_matters": "分析：这是直接影响退休者月度医疗支出的固定费用上调；绝对额看似不大，但对固定收入家庭是持续性支出增加，而这类年度参数调整通常不如股市新闻显眼。",
-      "impact": "推断：退休者的月度医疗支出将增加 6.50 美元；若医疗成本继续上升，后续年度保费仍有上行压力。",
-      "evidence": "仅 MarketWatch 报道（单一来源），候选材料未提供官方费率公告。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-20T05:05:00+08:00",
+      "published_at": "2026-11-21T06:44:00+08:00",
       "sources": [
         {
           "source_id": "marketwatch",
           "source_name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/medicare-part-b-premiums-rise-due-higher-healthcare-spending-f2daba13"
+          "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03"
         }
       ]
     },
     {
-      "id": "6965570f9547-03",
-      "category": "tech",
-      "headline": "英国法庭要求政府公开对苹果发出的秘密命令",
-      "what_happened": "TechCrunch 报道，英国一个法庭驳回了政府关于披露会损害国家安全的说法，要求其公开向苹果发出的秘密命令；报道将该命令称为“后门命令”。",
-      "why_it_matters": "分析：裁决把“秘密下令、禁止披露”的做法纳入司法审查，可能影响其他国家政府在向科技公司索取数据时的透明度，也关系到科技公司能否公开拒绝此类要求。",
-      "impact": "推断：苹果等公司可能面临更明确的披露义务或更多司法挑战；对用户而言，更直接的影响是政府秘密索取数据的行为是否会被公开审视。",
-      "evidence": "仅 TechCrunch 报道（单一来源），候选材料未提供命令原文或法庭判决书。",
+      "id": "2f3562a925e6-03",
+      "category": "finance",
+      "headline": "SEC 提议撤销 Reg NMS 第613条，重构审计追踪系统",
+      "what_happened": "美国 SEC 发布提案，拟撤销《Regulation NMS》第 613 条，并重构 Consolidated Audit Trail（CAT）的治理与融资模式，以解决现行模式的低效问题。",
+      "why_it_matters": "分析：CAT 是美国股票市场重要的交易审计基础设施，治理和融资模式变化可能影响券商、交易所的合规成本与数据控制权。",
+      "impact": "推断：若提案推进，市场参与者需要重新评估交易报告义务和费用分摊；对普通投资者的直接影响是间接的，但会改变市场透明度与监管成本结构。",
+      "evidence": "证据来自 SEC 官方新闻稿，属于原始监管文件，未见其他独立来源对该提案细节进行交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-11-19T23:32:20+08:00",
+      "published_at": "2026-11-21T02:03:24+08:00",
+      "sources": [
+        {
+          "source_id": "sec_press",
+          "source_name": "美国 SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail"
+        }
+      ]
+    },
+    {
+      "id": "d7428148148c-04",
+      "category": "finance",
+      "headline": "Anthropic IPO 后数十亿锁定股份将在一年内解禁",
+      "what_happened": "MarketWatch 报道，Anthropic 完成 IPO 后，仍有数十亿股锁定股份将在未来一年逐步进入市场。",
+      "why_it_matters": "分析：锁定股解禁会增加可流通股供给，可能在需求不足时压制股价，也会影响员工和早期投资人的变现节奏。",
+      "impact": "推断：这使 Anthropic 的股价表现不仅取决于业务进展，还取决于解禁时间表和承销商安排，对其他大型科技 IPO 也有参照意义。",
+      "evidence": "证据来自 MarketWatch 对 Anthropic 锁定股份的分析，另有 MarketWatch 和 TechCrunch 对 IPO 及股价的报道可确认上市，但锁定股的具体规模未见第二家独立来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T05:39:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce"
+        }
+      ]
+    },
+    {
+      "id": "a4f33dd154f5-07",
+      "category": "finance",
+      "headline": "美联储调查银行如何管理准备金余额",
+      "what_happened": "美联储发布对银行高级财务官的调查结果，内容涉及银行管理准备金余额的策略与做法。",
+      "why_it_matters": "分析：准备金管理直接影响银行在货币市场、回购和流动性压力下的行为，是观察金融体系缓冲能力的一个细节指标。",
+      "impact": "推断：调查结果可能影响监管对流动性规则的评估，但短期内对普通储户和投资者的直接感受有限。",
+      "evidence": "证据来自美联储官方新闻稿，属于原始监管来源，摘要未披露具体数据，也未见独立来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T23:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "federal_reserve",
+          "source_name": "美联储",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm"
+        }
+      ]
+    },
+    {
+      "id": "7bf7fab9a7f1-01",
+      "category": "tech",
+      "headline": "加州总检察长向英伟达发出传票，调查黄仁勋涉华关系",
+      "what_happened": "TechCrunch 报道，加州总检察长办公室已向英伟达发出传票，关注前 CEO 黄仁勋与中国的关系，以及公司是否可能误导投资者。",
+      "why_it_matters": "分析：这把此前的高管动荡升级为州级执法调查，可能影响英伟达的合规成本、对华业务安排和投资者信心。",
+      "impact": "推断：若调查扩大，英伟达及与其绑定的 AI 供应链可能面临更长的监管不确定期；传票本身不等于认定违法。",
+      "evidence": "证据来自 TechCrunch 对该传票的报道，另有 TechCrunch 对黄仁勋辞职时间线和公司治理争议的报道相互印证，但未见第二家独立媒体确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T21:21:11+08:00",
       "sources": [
         {
           "source_id": "techcrunch",
           "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/19/u-k-government-forced-to-disclose-secret-apple-backdoor-order"
+          "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china"
         }
       ]
     },
     {
-      "id": "50e65ea3246e-05",
+      "id": "5135ae36149a-05",
       "category": "tech",
-      "headline": "Google 将于 2027 年 1 月起全球要求 Android 应用开发者验证",
-      "what_happened": "Ars Technica 报道，Google 宣布从 2027 年 1 月起在全球范围要求 Android 应用完成开发者验证，并称几乎所有开发者已配合。",
-      "why_it_matters": "分析：这会把“能否安装某个应用”的决定权更多集中到 Google 的验证体系，影响侧载、独立开发者和企业内部分发；用户获得的是诈骗应用减少，付出的是安装自由收窄。",
-      "impact": "推断：未验证的个人开发者、开源项目和地区性应用商店可能被迫迁移或退出，企业侧载与设备管理流程需要提前改造。",
-      "evidence": "仅 Ars Technica 报道（单一来源），候选材料未包含 Google 官方公告原文。",
+      "headline": "Meta 因 AI 数据中心排放创纪录而重新评估2030净零目标",
+      "what_happened": "Ars Technica 报道，Meta 正在“重新评估”其 2030 年净零排放目标，背景是 AI 数据中心的排放创下纪录。",
+      "why_it_matters": "分析：AI 算力扩张正在把科技公司的气候承诺变成实际成本，Meta 的松动可能预示行业减排目标普遍承压。",
+      "impact": "推断：数据中心选址、能源采购和碳信用市场可能受到影响，其他大型云厂商是否跟进值得观察。",
+      "evidence": "证据来自 Ars Technica 的单一报道，未见 Meta 官方文件或其他媒体独立确认。",
       "confidence": "单一来源",
-      "published_at": "2026-11-20T02:00:33+08:00",
+      "published_at": "2026-11-21T05:47:10+08:00",
       "sources": [
         {
           "source_id": "ars_technica",
           "source_name": "Ars Technica",
-          "url": "https://arstechnica.com/gadgets/2026/11/google-will-launch-android-app-verification-requirement-globally-in-january-2027"
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers"
         }
       ]
     },
     {
-      "id": "35d2503d3836-09",
+      "id": "50d33c3a937e-08",
       "category": "tech",
-      "headline": "美国学生因薯片袋触发校园 AI 枪支警报起诉学校和警方",
-      "what_happened": "Ars Technica 报道，多名青少年起诉学校和警方，起因是一名学生携带的 Doritos 薯片袋触发了校园 AI 枪支检测警报；诉状称该学区超过 99% 的 AI 枪支警报为误报。",
-      "why_it_matters": "分析：这是“高误报率加武装执法快速响应”造成实际伤害的具体案例，把 AI 监控的采购标准、验收责任和赔偿问题变成可诉讼记录，而不只是隐私争论。",
-      "impact": "推断：可能推动学区公开误报率、增加人工复核，或促使供应商调整检测阈值；对家长和学生，直接影响是校园临检和执法接触带来的风险。",
-      "evidence": "仅 Ars Technica 报道（单一来源），99% 误报率为诉状主张，尚未经法院认定。",
+      "headline": "研究者在 AI 供应链植入200万个“金丝雀”，发现隐私数据外泄",
+      "what_happened": "Ars Technica 报道，一名研究人员在 AI 供应链中植入 200 万个带有唯一可追踪秘密的提示，测试结果显示用户数据并未保持私密。",
+      "why_it_matters": "分析：这说明 AI 服务的数据泄露可能发生在模型、API、插件等多个环节，只在某一层做合规并不足以保护用户。",
+      "impact": "推断：企业采用 AI 工具时需要更重视数据流向审计和供应商审查，个人用户上传敏感信息时也应重新评估风险。",
+      "evidence": "证据来自 Ars Technica 对这项测试的报道，单一来源，未见其他独立团队复现。",
       "confidence": "单一来源",
-      "published_at": "2026-11-20T04:19:28+08:00",
+      "published_at": "2026-11-21T04:59:08+08:00",
       "sources": [
         {
           "source_id": "ars_technica",
           "source_name": "Ars Technica",
-          "url": "https://arstechnica.com/tech-policy/2026/11/traumatized-teens-sue-school-cops-after-doritos-bag-triggers-ai-gun-alert"
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate"
         }
       ]
     }

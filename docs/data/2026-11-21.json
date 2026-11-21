@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T13:19:04.211164+08:00",
+  "window_start": "2026-11-20T01:15:15.436928+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
+    ]
+  },
+  "items": [
+    {
+      "id": "589589a15137-02",
+      "category": "ai",
+      "headline": "Anthropic 完成创纪录 IPO，七位创始人合计套现近20亿美元",
+      "what_happened": "TechCrunch 报道，Anthropic 以每股 83 美元的价格完成 IPO，七位创始人各套现约 2.8 亿美元，合计近 20 亿美元；公司募资近 1050 亿美元。",
+      "why_it_matters": "分析：创始人巨额套现与创纪录募资同时出现，说明头部 AI 公司已进入资本市场兑现期，也会放大外界对估值和治理的讨论。",
+      "impact": "推断：这可能为其他 AI 公司设定 IPO 定价参照，同时让员工、早期投资人和公开市场投资者更关注锁定期与流动性安排。",
+      "evidence": "证据来自 TechCrunch 的 IPO 报道，MarketWatch 和 CNBC 对 Anthropic 上市及股价的报道可交叉确认 IPO 已发生，但创始人的具体套现金额仅见 TechCrunch。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T08:43:50+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/19/anthropics-7-founders-cashed-out-nearly-2b-in-record-breaking-ipo"
+        }
+      ]
+    },
+    {
+      "id": "913d3c755e41-06",
+      "category": "ai",
+      "headline": "OpenAI 披露对抗“对抗性蒸馏”的分层防御",
+      "what_happened": "OpenAI 发文介绍其对抗对抗性蒸馏的分层做法，涵盖模型训练、安全防护、检测和执法四个环节，目标是防止模型能力被提取。",
+      "why_it_matters": "分析：模型蒸馏攻击直接关系到 AI 公司的知识产权和滥用风险，OpenAI 公开防御框架说明能力保护正从技术问题变成行业治理问题。",
+      "impact": "推断：依赖 API 的开发者可能面临更严格的访问控制和使用条款，开源模型与闭源模型之间的能力差距争议也可能加剧。",
+      "evidence": "证据来自 OpenAI 官方博客，属于原始来源，但未提供第三方审计或独立验证。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T18:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/combatting-adversarial-distillation"
+        }
+      ]
+    },
+    {
+      "id": "e1c8bac4363b-09",
+      "category": "ai",
+      "headline": "OpenAI 推出 MedChemBench，评估 AI 筛选药物候选能力",
+      "what_happened": "OpenAI 发布 MedChemBench，用于评估 AI 模型解读分子结构、根据实验证据推理，以及在早期药物发现中筛选化合物的能力。",
+      "why_it_matters": "分析：药物发现是 AI 最受期待但最难验证的应用之一，统一基准有助于区分演示效果与真实研发能力。",
+      "impact": "推断：制药公司和 AI 模型开发者可能获得更可比的评估工具，但基准分数不等于临床成功率，仍需实验验证。",
+      "evidence": "证据来自 OpenAI 官方发布，属于原始来源，未见独立研究或第三方复现。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T08:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/introducing-medchembench"
+        }
+      ]
+    },
+    {
+      "id": "d8b748a5b8fb-10",
+      "category": "ai",
+      "headline": "NVIDIA 发布 Nemotron-Labs-Sigma 连续扩散语言模型",
+      "what_happened": "NVIDIA 发布 Nemotron-Labs-Sigma，包含 14 个 3B 和 8B 的连续扩散语言模型检查点；模型在学习到的 16 维嵌入空间中去噪，可蒸馏为少步采样器，解码速度最高为自回归解码的 4.20 倍。",
+      "why_it_matters": "分析：扩散语言模型若能在保持质量的同时显著提速，可能改变推理成本和部署架构，挑战当前以自回归为主的技术路线。",
+      "impact": "推断：边缘设备和低成本推理场景可能受益，但“最高 4.20 倍”是特定条件下的结果，实际生产表现仍需独立测试。",
+      "evidence": "证据来自 MarkTechPost 对 NVIDIA 发布的报道，单一来源，未见 NVIDIA 官方页面或其他独立评测交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T22:44:52+08:00",
+      "sources": [
+        {
+          "source_id": "marktechpost",
+          "source_name": "MarkTechPost",
+          "url": "https://www.marktechpost.com/2026/11/20/nvidia-nemotron-labs-sigma-continuous-diffusion-language-model"
+        }
+      ]
+    },
+    {
+      "id": "cd08bd8d295d-11",
+      "category": "ai",
+      "headline": "AI 声称解决黎曼猜想，同时出现人类竞争性解法",
+      "what_happened": "TechCrunch 报道，数学界正在讨论一项 AI 声称解决已有 167 年历史的黎曼猜想的成果，同时存在一项人类提出的竞争性解法。",
+      "why_it_matters": "分析：黎曼猜想是数学核心难题，若任一解法成立，影响将远超 AI 领域；但在同行评审完成前，这更像一个高关注度信号而非既定结论。",
+      "impact": "推断：事件可能加剧关于 AI 数学能力的争论，也会考验学术出版和验证机制；目前不宜把“声称解决”等同于“已被证明”。",
+      "evidence": "证据来自 TechCrunch 的单一报道，数学界验证尚未完成，事件仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-21T03:32:08+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/20/ai-claimed-a-solution-to-the-167-year-old-riemann-hypothesis-and-a-human-did-too"
+        }
+      ]
+    },
+    {
+      "id": "d8cfb45760c2-00",
+      "category": "finance",
+      "headline": "芯片股遭遇历史级单周抛售，AI 交易恐慌扩散",
+      "what_happened": "MarketWatch 报道，一项主要半导体指数本周录得 25 年来最差单周表现，芯片股一周市值蒸发约 2.3 万亿美元。",
+      "why_it_matters": "分析：这说明 AI 交易的回撤已从个别龙头扩散到整个芯片板块，估值假设和融资环境可能同步收紧。",
+      "impact": "推断：芯片公司、数据中心项目和依赖股权融资的 AI 企业可能面临更高的资本成本，短期波动仍可能被放大。",
+      "evidence": "证据来自 MarketWatch 的行情报道，同日 MarketWatch 多篇报道与 CNBC 对 AI 抛售的报道可交叉确认板块抛售，但“2.3 万亿美元”和“25 年最差”为 MarketWatch 单一表述。",
+      "confidence": "已确认",
+      "published_at": "2026-11-21T06:44:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/chip-stocks-see-2-3-trillion-weekly-wipeout-as-panic-grips-the-ai-trade-371f2f03"
+        }
+      ]
+    },
+    {
+      "id": "2f3562a925e6-03",
+      "category": "finance",
+      "headline": "SEC 提议撤销 Reg NMS 第613条，重构审计追踪系统",
+      "what_happened": "美国 SEC 发布提案，拟撤销《Regulation NMS》第 613 条，并重构 Consolidated Audit Trail（CAT）的治理与融资模式，以解决现行模式的低效问题。",
+      "why_it_matters": "分析：CAT 是美国股票市场重要的交易审计基础设施，治理和融资模式变化可能影响券商、交易所的合规成本与数据控制权。",
+      "impact": "推断：若提案推进，市场参与者需要重新评估交易报告义务和费用分摊；对普通投资者的直接影响是间接的，但会改变市场透明度与监管成本结构。",
+      "evidence": "证据来自 SEC 官方新闻稿，属于原始监管文件，未见其他独立来源对该提案细节进行交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T02:03:24+08:00",
+      "sources": [
+        {
+          "source_id": "sec_press",
+          "source_name": "美国 SEC",
+          "url": "https://www.sec.gov/newsroom/press-releases/2026-117-sec-issues-proposal-restructure-consolidated-audit-trail"
+        }
+      ]
+    },
+    {
+      "id": "d7428148148c-04",
+      "category": "finance",
+      "headline": "Anthropic IPO 后数十亿锁定股份将在一年内解禁",
+      "what_happened": "MarketWatch 报道，Anthropic 完成 IPO 后，仍有数十亿股锁定股份将在未来一年逐步进入市场。",
+      "why_it_matters": "分析：锁定股解禁会增加可流通股供给，可能在需求不足时压制股价，也会影响员工和早期投资人的变现节奏。",
+      "impact": "推断：这使 Anthropic 的股价表现不仅取决于业务进展，还取决于解禁时间表和承销商安排，对其他大型科技 IPO 也有参照意义。",
+      "evidence": "证据来自 MarketWatch 对 Anthropic 锁定股份的分析，另有 MarketWatch 和 TechCrunch 对 IPO 及股价的报道可确认上市，但锁定股的具体规模未见第二家独立来源。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T05:39:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-hidden-catch-in-anthropics-ipo-billions-of-locked-up-shares-are-waiting-in-the-wings-279d33ce"
+        }
+      ]
+    },
+    {
+      "id": "a4f33dd154f5-07",
+      "category": "finance",
+      "headline": "美联储调查银行如何管理准备金余额",
+      "what_happened": "美联储发布对银行高级财务官的调查结果，内容涉及银行管理准备金余额的策略与做法。",
+      "why_it_matters": "分析：准备金管理直接影响银行在货币市场、回购和流动性压力下的行为，是观察金融体系缓冲能力的一个细节指标。",
+      "impact": "推断：调查结果可能影响监管对流动性规则的评估，但短期内对普通储户和投资者的直接感受有限。",
+      "evidence": "证据来自美联储官方新闻稿，属于原始监管来源，摘要未披露具体数据，也未见独立来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T23:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "federal_reserve",
+          "source_name": "美联储",
+          "url": "https://www.federalreserve.gov/newsevents/pressreleases/other20261120a.htm"
+        }
+      ]
+    },
+    {
+      "id": "7bf7fab9a7f1-01",
+      "category": "tech",
+      "headline": "加州总检察长向英伟达发出传票，调查黄仁勋涉华关系",
+      "what_happened": "TechCrunch 报道，加州总检察长办公室已向英伟达发出传票，关注前 CEO 黄仁勋与中国的关系，以及公司是否可能误导投资者。",
+      "why_it_matters": "分析：这把此前的高管动荡升级为州级执法调查，可能影响英伟达的合规成本、对华业务安排和投资者信心。",
+      "impact": "推断：若调查扩大，英伟达及与其绑定的 AI 供应链可能面临更长的监管不确定期；传票本身不等于认定违法。",
+      "evidence": "证据来自 TechCrunch 对该传票的报道，另有 TechCrunch 对黄仁勋辞职时间线和公司治理争议的报道相互印证，但未见第二家独立媒体确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-20T21:21:11+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/20/california-ag-subpoenas-nvidia-over-worries-about-huangs-ties-with-china"
+        }
+      ]
+    },
+    {
+      "id": "5135ae36149a-05",
+      "category": "tech",
+      "headline": "Meta 因 AI 数据中心排放创纪录而重新评估2030净零目标",
+      "what_happened": "Ars Technica 报道，Meta 正在“重新评估”其 2030 年净零排放目标，背景是 AI 数据中心的排放创下纪录。",
+      "why_it_matters": "分析：AI 算力扩张正在把科技公司的气候承诺变成实际成本，Meta 的松动可能预示行业减排目标普遍承压。",
+      "impact": "推断：数据中心选址、能源采购和碳信用市场可能受到影响，其他大型云厂商是否跟进值得观察。",
+      "evidence": "证据来自 Ars Technica 的单一报道，未见 Meta 官方文件或其他媒体独立确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T05:47:10+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers"
+        }
+      ]
+    },
+    {
+      "id": "50d33c3a937e-08",
+      "category": "tech",
+      "headline": "研究者在 AI 供应链植入200万个“金丝雀”，发现隐私数据外泄",
+      "what_happened": "Ars Technica 报道，一名研究人员在 AI 供应链中植入 200 万个带有唯一可追踪秘密的提示，测试结果显示用户数据并未保持私密。",
+      "why_it_matters": "分析：这说明 AI 服务的数据泄露可能发生在模型、API、插件等多个环节，只在某一层做合规并不足以保护用户。",
+      "impact": "推断：企业采用 AI 工具时需要更重视数据流向审计和供应商审查，个人用户上传敏感信息时也应重新评估风险。",
+      "evidence": "证据来自 Ars Technica 对这项测试的报道，单一来源，未见其他独立团队复现。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-21T04:59:08+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate"
+        }
+      ]
+    }
+  ]
+}
