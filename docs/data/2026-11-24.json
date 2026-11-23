@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T05:47:17.411385+08:00",
+  "window_start": "2026-11-22T17:45:03.020458+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
+    ]
+  },
+  "items": [
+    {
+      "id": "48c778936987-02",
+      "category": "ai",
+      "headline": "亚马逊以75亿美元收购 Decart 的AI优化技术与研究团队",
+      "what_happened": "亚马逊收购 Decart 的AI优化技术及研究团队，报道口径的交易金额为75亿美元；MarketWatch 引述分析师称，这可能是提升亚马逊自研芯片速度与效率的相对低成本方式。",
+      "why_it_matters": "分析：亚马逊正把竞争重点从单纯采购GPU转向让自有 Trainium 芯片更高效，软件与优化能力可能成为云厂商差异化的关键。",
+      "impact": "推断：对英伟达的替代压力是渐进的，短期更多影响云厂商的资本开支结构与AI推理成本；交易价格与整合效果仍需观察。",
+      "evidence": "TechCrunch 报道交易，MarketWatch 从芯片效率角度跟进，属跨来源确认，但75亿美元为报道口径，双方正式公告细节未见披露。",
+      "confidence": "已确认",
+      "published_at": "2026-11-24T01:14:23+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips"
+        }
+      ]
+    },
+    {
+      "id": "ad854a58ea1e-03",
+      "category": "ai",
+      "headline": "谷歌搜索AI模式接入 Drive、Wallet 等个人数据",
+      "what_happened": "谷歌发布搜索“Personal Intelligence”功能，允许AI模式读取 Drive、Wallet 等账户数据以提供个性化回答；TechCrunch 称该能力还扩展到 Gemini 应用。",
+      "why_it_matters": "分析：搜索正从“检索公开网页”转向“读取个人账户上下文”，差异化更多来自数据资产而非模型本身；隐私授权、数据边界与错误归因也随之成为产品核心问题。",
+      "impact": "推断：用户会获得更贴合个人情境的结果，但需权衡授权范围；依赖公开搜索流量的内容网站与广告归因可能受到结构性影响。",
+      "evidence": "Google 官方博客发布该功能，TechCrunch 报道具体接入 Drive、Wallet 与 Gemini 应用，属跨来源确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-24T01:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "google_ai",
+          "source_name": "Google AI",
+          "url": "https://blog.google/products-and-platforms/products/search/google-search-personal-intelligence-apps"
+        }
+      ]
+    },
+    {
+      "id": "b9e6f934a453-06",
+      "category": "ai",
+      "headline": "与黄仁勋争议相关的 Megaspeed 或将被列入美国黑名单",
+      "what_happened": "据 TechCrunch，曾由 Alice Huang 领导的 Megaspeed 可能被列入美国黑名单；若生效，美国公司在未获联邦特别许可的情况下将不得与其交易。",
+      "why_it_matters": "分析：事件把AI芯片流通、出口管制与政治争议连在一起；若黑名单落地，区域AI算力转售与供应链合规成本会上升。",
+      "impact": "推断：依赖该公司获取算力的客户需寻找替代渠道；具体名单与许可条件尚未最终确认，影响范围仍不确定。",
+      "evidence": "TechCrunch 单一来源报道，措辞为“可能被列入”，尚未见其他来源确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T05:25:42+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/23/megaspeed-the-company-at-the-center-of-the-jensen-huang-scandal-appears-headed-for-a-u-s-blacklist"
+        }
+      ]
+    },
+    {
+      "id": "cc8f801c33f7-08",
+      "category": "ai",
+      "headline": "Sierra 六个月估值翻倍至300亿美元，AI客服需求升温",
+      "what_happened": "由前 Salesforce 联席CEO Bret Taylor 联合创办的企业客户体验公司 Sierra 表示，已完成17.5亿美元F轮融资，估值在六个月内翻倍至300亿美元。",
+      "why_it_matters": "分析：资金继续流向能直接替代或增强人工客服的应用层公司，说明AI商业化的收入验证集中在客户服务等可量化场景。",
+      "impact": "推断：企业软件采购中“按结果付费”的AI客服方案会增加；高估值也意味着后续增长与留存必须兑现，融资环境反转时回撤风险较大。",
+      "evidence": "TechCrunch 单一来源报道公司融资消息，候选材料中未见其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-23T22:43:03+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/23/sierra-doubles-valuation-to-30b-within-six-months-as-demand-for-ai-in-cx-takes-off"
+        }
+      ]
+    },
+    {
+      "id": "2b977f2495cc-09",
+      "category": "ai",
+      "headline": "DeepMind 用智能体与形式化验证寻找更快的量子算法",
+      "what_happened": "Google DeepMind 发布研究，称使用智能体团队和形式化验证改进用于聚变与化学的量子算法。",
+      "why_it_matters": "分析：把“AI提出候选算法”与“形式化验证保证正确性”结合，可能缓解AI科研中最难的一环，也就是结果可信度；若可复现，会加速量子算法与科学计算探索。",
+      "impact": "推断：短期影响限于研究社区，离工程化仍有距离；真正价值在于形成可审计的“AI做科研”流程，而非单次算法提升。",
+      "evidence": "Google DeepMind 官方博客为原始来源，但属机构自述，候选材料中未见独立复核。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T00:59:40+08:00",
+      "sources": [
+        {
+          "source_id": "deepmind",
+          "source_name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification"
+        }
+      ]
+    },
+    {
+      "id": "bdb906ea8263-04",
+      "category": "finance",
+      "headline": "美联储威廉姆斯：为应对通胀，利率可能“随时间”上升",
+      "what_happened": "美联储官员 John Williams 表示，为应对通胀，利率可能“随时间”上升；他预计通胀将在2027年更接近美联储2%的目标。",
+      "why_it_matters": "分析：这与市场习惯的“降息路径”叙事不同，意味着即使通胀回落，政策利率也可能因中性利率上升而维持在更高水平，从而影响房贷、企业融资与美元资产定价。",
+      "impact": "推断：对利率敏感的长期资产承压，按揭与浮息债务成本下降空间受限；但这是官员表态而非委员会决议，政策路径仍取决于后续数据。",
+      "evidence": "CNBC 单一来源报道威廉姆斯讲话，候选材料中未见其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T05:02:17+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+        }
+      ]
+    },
+    {
+      "id": "a70f3cd39cee-05",
+      "category": "finance",
+      "headline": "欧洲央行将DLT资产纳入欧元体系合格抵押品",
+      "what_happened": "欧洲央行宣布扩大合格抵押品范围，接受基于分布式账本技术（DLT）的资产作为欧元体系抵押品。",
+      "why_it_matters": "分析：这为代币化资产进入央行流动性体系打开正式通道，可能推动代币化债券、基金等用于回购与抵押，影响欧洲批发金融基础设施。",
+      "impact": "推断：代币化平台与机构的使用门槛下降，但合格资产标准、折扣率和操作细节决定实际规模；短期不改变货币政策立场。",
+      "evidence": "欧洲央行官方新闻稿为原始来源，候选材料中未见其他媒体交叉报道。",
+      "confidence": "已确认",
+      "published_at": "2026-11-23T18:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "ecb",
+          "source_name": "欧洲央行",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261123~76b6f57b74.en.html"
+        }
+      ]
+    },
+    {
+      "id": "61d2efe8b308-10",
+      "category": "finance",
+      "headline": "英国PRA保险压力测试强调危机应对演练的价值",
+      "what_happened": "英国审慎监管局（PRA）公布2026年动态一般保险压力测试（DyGIST）结果，称测试凸显演练危机响应与恢复的价值。",
+      "why_it_matters": "分析：监管重点从“资本是否充足”扩展到“危机中能否实际执行处置”，意味着保险公司需证明运营韧性、数据可用性和跨部门协调能力。",
+      "impact": "推断：一般保险公司可能面临更高的治理与报告要求；摘要未披露具体缺口，实际资本影响需查看完整报告。",
+      "evidence": "英格兰银行官方新闻稿为原始来源，候选材料中未见其他媒体交叉报道。",
+      "confidence": "已确认",
+      "published_at": "2026-11-23T18:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "boe_news",
+          "source_name": "英国央行新闻",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/general-insurance-stress-test-highlights-value-of-rehearsing-crisis-response-and-recovery"
+        }
+      ]
+    },
+    {
+      "id": "0803e8e18082-00",
+      "category": "tech",
+      "headline": "英伟达董事会恢复黄仁勋CEO职务，参议院听证与市场反应接踵而至",
+      "what_happened": "英伟达董事会一致投票，即日起恢复黄仁勋总裁兼首席执行官职务；特朗普称该决定“正确且恰当”，并称自己曾与董事会沟通、黄仁勋“没有做错事”。据 TechCrunch，黄仁勋下周将就相关争议在参议院作证；36氪称英伟达美股盘前一度涨超25%，MarketWatch 称其当日涨超30%、创美股史上最大单日涨幅。",
+      "why_it_matters": "分析：CEO在辞职约一周多后复职，且有总统公开背书，公司治理、出口管制与政治干预之间的边界因此成为核心问题；参议院听证可能把个案变成行业性监管议题。",
+      "impact": "推断：短期缓解AI交易的情绪压力，但管理层稳定性、听证风险与治理争议仍需重新计入风险评估；供应商、客户和投资者的合规审查可能趋严。",
+      "evidence": "Ars Technica 报道董事会复职决定，WIRED、TechCrunch、36氪、CNBC 与 MarketWatch 报道同一事件链，属多来源交叉确认；参议院听证与市场反应仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-23T23:46:18+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/jensen-huang-reinstated-as-nvidia-ceo-board-chair"
+        }
+      ]
+    },
+    {
+      "id": "f4c85d622fb1-01",
+      "category": "tech",
+      "headline": "CrowdStrike 拟以440亿美元收购 Zscaler",
+      "what_happened": "CrowdStrike 宣布以440亿美元收购零信任安全厂商 Zscaler，称交易将帮助客户更好地使用AI代理。",
+      "why_it_matters": "分析：这是网络安全行业规模空前的整合，把终端防护与零信任访问合并，可能改变大型企业的安全采购格局，并与“AI代理需要新的身份与权限控制”这一需求直接相关。",
+      "impact": "推断：大型企业客户的选择面和议价结构会变化；监管审查、客户流失与整合执行是主要风险变量。",
+      "evidence": "TechCrunch 单一来源报道，候选材料中未见 Zscaler 或其他媒体交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T00:20:11+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/23/crowdstrike-to-acquire-zscaler-for-44-billion"
+        }
+      ]
+    },
+    {
+      "id": "3262c34b6f51-07",
+      "category": "tech",
+      "headline": "多州起诉 SpaceX，要求阻止 Grok 生成儿童性虐待图像与报复性色情内容",
+      "what_happened": "多个州总检察长起诉 SpaceX，要求停止 Grok 生成儿童性虐待材料和报复性色情图像；X 称所有 Grok 输出都经过筛查，但州总检察长称 Grok 仍在生成此类内容。",
+      "why_it_matters": "分析：争议从“模型输出是否合规”升级为对平台责任的法律检验，可能为生成式AI的内容责任、年龄验证与删除义务设定先例。",
+      "impact": "推断：xAI 与 Grok 面临禁令、罚款与产品限制风险；其他图像生成平台也会被要求证明筛查有效，而不只是声明存在筛查。",
+      "evidence": "Ars Technica 单一来源报道诉讼，文中同时呈现 X 的否认与州总检察长的指控，事件仍在发展。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T05:30:44+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/states-sue-spacex-to-stop-grok-from-generating-child-sex-images-revenge-porn"
+        }
+      ]
+    }
+  ]
+}
