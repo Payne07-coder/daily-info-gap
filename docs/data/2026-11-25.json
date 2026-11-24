@@ -1,0 +1,216 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T05:46:37.122556+08:00",
+  "window_start": "2026-11-23T17:45:03.094674+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "VentureBeat AI",
+      "美国劳工统计局",
+      "36氪"
+    ]
+  },
+  "items": [
+    {
+      "id": "107cb31f03a1-00",
+      "category": "ai",
+      "headline": "OpenAI称GPT-6展现蛋白质设计能力，实验室测试覆盖五个靶点",
+      "what_happened": "OpenAI发布称，GPT-6模型通过推理和代码设计蛋白质结构与序列，实验室测试在五个靶点上发现结合证据。",
+      "why_it_matters": "分析：若结果可复现，通用模型可能从辅助工具进入蛋白质早期设计流程，影响AI for Science的研究方式。",
+      "impact": "推断：相关团队会更重视湿实验复现、生物安全审查和失败案例披露，而不只看生成结构评分。",
+      "evidence": "证据来自OpenAI官方发布，候选未列出其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T21:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
+        }
+      ]
+    },
+    {
+      "id": "2c71f729ad9c-01",
+      "category": "ai",
+      "headline": "OpenAI与Cisco发布开源Linux运行时Shirudo，瞄准补丁部署空窗",
+      "what_happened": "OpenAI与Cisco发布开源Linux运行时Shirudo，用于在团队部署补丁期间保护正在运行的系统。",
+      "why_it_matters": "分析：Shirudo针对的是系统打补丁前后的风险空窗；若能在不中断业务的情况下降低暴露面，会成为应急修补的基础设施。",
+      "impact": "推断：运维团队可把它作为补丁前后的临时缓解层，但仍需独立验证兼容性、权限模型和性能开销。",
+      "evidence": "证据来自OpenAI官方发布，未见独立来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T05:20:00+08:00",
+      "sources": [
+        {
+          "source_id": "openai_news",
+          "source_name": "OpenAI",
+          "url": "https://openai.com/index/introducing-shirudo"
+        }
+      ]
+    },
+    {
+      "id": "fe435c56501e-04",
+      "category": "ai",
+      "headline": "英国网络安全机构警告：AI驱动攻击正在暴露基础安全欠账",
+      "what_happened": "英国网络安全机构警告，AI驱动的网络攻击正在暴露多年积累的基础安全弱点，并称AI黑客工具主要利用简单安全缺陷。",
+      "why_it_matters": "分析：攻击成本下降会把防御压力从高级威胁转向补丁、身份认证和资产清点等基本功。",
+      "impact": "推断：中小机构和关键基础设施需要优先修补已知漏洞，而非只采购AI安全产品。",
+      "evidence": "证据来自TechCrunch对英国网络安全机构警告的报道，未见独立来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-25T02:02:59+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security"
+        }
+      ]
+    },
+    {
+      "id": "53a451f08f8a-09",
+      "category": "ai",
+      "headline": "新基准显示：最强AI代理也难以可靠完成日常任务",
+      "what_happened": "TechCrunch报道，一项新基准测试显示，即使最先进的AI模型也难以可靠、安全地完成日常任务，且可能引入新问题。",
+      "why_it_matters": "分析：个人AI助手的评价重点会从演示能力转向长任务可靠性、安全性和故障后果。",
+      "impact": "推断：企业部署代理时需要更严格的人工接管、权限限制和回滚机制。",
+      "evidence": "证据来自TechCrunch对新基准的报道，未见其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-25T05:33:29+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life"
+        }
+      ]
+    },
+    {
+      "id": "2b977f2495cc-10",
+      "category": "ai",
+      "headline": "Google DeepMind用智能体团队和形式化验证改进量子算法",
+      "what_happened": "Google DeepMind发布研究，使用智能体团队和形式化验证改进面向聚变与化学的量子算法。",
+      "why_it_matters": "分析：形式化验证为AI生成算法提供可检查的正确性证明，可能缓解“能生成但难核验”的问题。",
+      "impact": "推断：短期影响集中在研究流程和工具链，距离可运行的量子优势仍需实验验证。",
+      "evidence": "证据来自Google DeepMind官方博客，未见其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T00:59:40+08:00",
+      "sources": [
+        {
+          "source_id": "deepmind",
+          "source_name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification"
+        }
+      ]
+    },
+    {
+      "id": "bdb906ea8263-02",
+      "category": "finance",
+      "headline": "美联储Williams称利率可能“在一段时间内”更高",
+      "what_happened": "美联储官员John Williams表示，为应对通胀，利率可能“在一段时间内”更高；他对通胀在2027年更接近美联储2%目标表示有信心。",
+      "why_it_matters": "分析：该表态会把降息时点的不确定性推后，使利率路径更依赖后续通胀数据。",
+      "impact": "推断：利率敏感型资产和企业的再融资成本短期内难明显下降。",
+      "evidence": "证据来自CNBC对Williams讲话的报道，未见其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T21:33:26+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+        }
+      ]
+    },
+    {
+      "id": "02b9a7ac7aed-03",
+      "category": "finance",
+      "headline": "美国国会对英伟达出现两党反弹，对华业务限制立法压力上升",
+      "what_happened": "MarketWatch报道，在特朗普推动黄仁勋回归后，美国国会对英伟达出现两党反弹；国会更可能批准限制英伟达对华业务的新措施，并呼吁更多调查、听证和简报。",
+      "why_it_matters": "分析：英伟达的对华业务风险正从行政管制延伸到立法层面，政策不确定性可能更难靠单一出口许可化解。",
+      "impact": "推断：芯片出口链和依赖对华收入的企业需要把立法风险纳入情景分析，而不只跟踪许可证。",
+      "evidence": "证据来自MarketWatch的国会动向报道，未见其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-25T04:42:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/a-bipartisan-backlash-is-hitting-nvidia-in-washington-in-the-wake-of-trumps-push-for-huangs-return-565626f2"
+        }
+      ]
+    },
+    {
+      "id": "5bcba0ab7be3-08",
+      "category": "finance",
+      "headline": "Kalshi永续合约日交易量开始超过其预测市场业务",
+      "what_happened": "CNBC报道，Kalshi的永续合约产品日交易量开始超过其预测市场业务；该产品于今年5月推出，是公司首个事件合约之外的产品。",
+      "why_it_matters": "分析：若永续合约成为主要交易量来源，Kalshi的风险轮廓会更接近衍生品平台，而不只是事件合约市场。",
+      "impact": "推断：平台收入将更依赖持续交易量、杠杆需求和做市深度，而非事件到期时的集中成交。",
+      "evidence": "证据来自CNBC，未见其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-25T02:34:55+08:00",
+      "sources": [
+        {
+          "source_id": "cnbc_finance",
+          "source_name": "CNBC 金融",
+          "url": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html"
+        }
+      ]
+    },
+    {
+      "id": "2c54b6d4f7df-05",
+      "category": "tech",
+      "headline": "数十艘石油和化学品运输船据报遭黑客攻击，伊朗为主要嫌疑方",
+      "what_happened": "TechCrunch援引报道称，近几周数十艘石油和化学品运输船遭网络攻击，伊朗是主要嫌疑方。",
+      "why_it_matters": "分析：船舶运营系统受攻击可能波及航线、装卸和保险定价，风险不止数据泄露。",
+      "impact": "推断：船东和租家会加强网络隔离与事件披露，但攻击范围和伊朗归因仍需独立核实。",
+      "evidence": "证据仅来自TechCrunch转述的报道，伊朗归因未获独立确认，属单一来源且事件仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-25T05:09:04+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report"
+        }
+      ]
+    },
+    {
+      "id": "9fd525e87e4f-06",
+      "category": "tech",
+      "headline": "Amazon称黑客AI智能体在极少人工输入下发现并利用0day漏洞",
+      "what_happened": "Amazon表示，黑客的AI智能体在几乎没有人工输入的情况下发现并利用了0day漏洞。",
+      "why_it_matters": "分析：若漏洞发现可以自动迭代，厂商从发现到修补的时间窗口会被压缩，防守方对AI代理的依赖也会上升。",
+      "impact": "推断：企业需要把资产盘点、补丁和诱捕自动化，并审计AI代理权限，否则攻击方可能先完成发现和利用。",
+      "evidence": "证据来自Ars Technica转述Amazon的说法，未见独立来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T20:30:05+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input"
+        }
+      ]
+    },
+    {
+      "id": "ace5e1759597-07",
+      "category": "tech",
+      "headline": "Tidal将删除2,700万首完全由AI生成的曲目",
+      "what_happened": "Tidal宣布将禁止完全由AI生成的音乐；Ars Technica报道其曲库中AI歌曲占6.3%，约2,700万首将在12月9日被删除，但Tidal仍接受AI辅助创作。",
+      "why_it_matters": "分析：大规模下架会把平台治理焦点从版权争议扩展到“完全生成”与“辅助创作”的边界认定。",
+      "impact": "推断：上传者需要保留创作过程证据，平台的内容审核和版权结算成本会上升。",
+      "evidence": "TechCrunch AI与Ars Technica均报道Tidal封禁，构成交叉确认；2,700万首与12月9日仅见Ars Technica。",
+      "confidence": "已确认",
+      "published_at": "2026-11-25T01:34:34+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9"
+        }
+      ]
+    }
+  ]
+}
