@@ -1,214 +1,214 @@
 {
   "schema_version": 1,
-  "date": "2026-11-25",
-  "generated_at": "2026-11-25T05:46:37.122556+08:00",
-  "window_start": "2026-11-23T17:45:03.094674+08:00",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T05:48:43.970378+08:00",
+  "window_start": "2026-11-25T17:45:26.999549+08:00",
   "status": "partial",
   "source_health": {
     "ok": 22,
     "failed": 3,
     "failed_sources": [
+      "Hugging Face",
       "VentureBeat AI",
-      "美国劳工统计局",
-      "36氪"
+      "美国劳工统计局"
     ]
   },
   "items": [
     {
-      "id": "107cb31f03a1-00",
+      "id": "fb5707b009b7-00",
       "category": "ai",
-      "headline": "OpenAI称GPT-6展现蛋白质设计能力，实验室测试覆盖五个靶点",
-      "what_happened": "OpenAI发布称，GPT-6模型通过推理和代码设计蛋白质结构与序列，实验室测试在五个靶点上发现结合证据。",
-      "why_it_matters": "分析：若结果可复现，通用模型可能从辅助工具进入蛋白质早期设计流程，影响AI for Science的研究方式。",
-      "impact": "推断：相关团队会更重视湿实验复现、生物安全审查和失败案例披露，而不只看生成结构评分。",
-      "evidence": "证据来自OpenAI官方发布，候选未列出其他来源交叉确认。",
+      "headline": "英伟达暂停向东南亚四国发运AI服务器",
+      "what_happened": "TechCrunch报道，英伟达已要求制造伙伴暂停向马来西亚、新加坡、泰国和印度尼西亚发运服务器，背景是美国收紧防止AI芯片流入中国的措施。",
+      "why_it_matters": "分析：管制焦点正从“哪些芯片能卖”延伸到“整机与转口流向”，东南亚作为中转地和数据中心枢纽的角色可能被重新审查，当地算力项目的交付节奏随之变得不确定。",
+      "impact": "推断：短期可能推迟东南亚AI数据中心上线，并抬高经第三国转运的合规成本；事件仍在发展，执行范围与持续时间尚不明确。",
+      "evidence": "仅TechCrunch AI一家报道，候选数据中无其他来源交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-11-24T21:00:00+08:00",
-      "sources": [
-        {
-          "source_id": "openai_news",
-          "source_name": "OpenAI",
-          "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities"
-        }
-      ]
-    },
-    {
-      "id": "2c71f729ad9c-01",
-      "category": "ai",
-      "headline": "OpenAI与Cisco发布开源Linux运行时Shirudo，瞄准补丁部署空窗",
-      "what_happened": "OpenAI与Cisco发布开源Linux运行时Shirudo，用于在团队部署补丁期间保护正在运行的系统。",
-      "why_it_matters": "分析：Shirudo针对的是系统打补丁前后的风险空窗；若能在不中断业务的情况下降低暴露面，会成为应急修补的基础设施。",
-      "impact": "推断：运维团队可把它作为补丁前后的临时缓解层，但仍需独立验证兼容性、权限模型和性能开销。",
-      "evidence": "证据来自OpenAI官方发布，未见独立来源交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-24T05:20:00+08:00",
-      "sources": [
-        {
-          "source_id": "openai_news",
-          "source_name": "OpenAI",
-          "url": "https://openai.com/index/introducing-shirudo"
-        }
-      ]
-    },
-    {
-      "id": "fe435c56501e-04",
-      "category": "ai",
-      "headline": "英国网络安全机构警告：AI驱动攻击正在暴露基础安全欠账",
-      "what_happened": "英国网络安全机构警告，AI驱动的网络攻击正在暴露多年积累的基础安全弱点，并称AI黑客工具主要利用简单安全缺陷。",
-      "why_it_matters": "分析：攻击成本下降会把防御压力从高级威胁转向补丁、身份认证和资产清点等基本功。",
-      "impact": "推断：中小机构和关键基础设施需要优先修补已知漏洞，而非只采购AI安全产品。",
-      "evidence": "证据来自TechCrunch对英国网络安全机构警告的报道，未见独立来源交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-25T02:02:59+08:00",
+      "published_at": "2026-11-27T04:03:54+08:00",
       "sources": [
         {
           "source_id": "techcrunch_ai",
           "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/24/uk-warns-ai-driven-cyberattacks-are-exposing-years-of-weak-security"
+          "url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia"
         }
       ]
     },
     {
-      "id": "53a451f08f8a-09",
+      "id": "1d88fa989d7e-06",
       "category": "ai",
-      "headline": "新基准显示：最强AI代理也难以可靠完成日常任务",
-      "what_happened": "TechCrunch报道，一项新基准测试显示，即使最先进的AI模型也难以可靠、安全地完成日常任务，且可能引入新问题。",
-      "why_it_matters": "分析：个人AI助手的评价重点会从演示能力转向长任务可靠性、安全性和故障后果。",
-      "impact": "推断：企业部署代理时需要更严格的人工接管、权限限制和回滚机制。",
-      "evidence": "证据来自TechCrunch对新基准的报道，未见其他来源交叉确认。",
+      "headline": "研究：AI代码审查提高“努力档位”可减少误放行",
+      "what_happened": "arXiv新论文让Claude Opus 5.5、Sonnet 5.5和Haiku 5.5分别审查90个来自SWE-bench Verified的Django代理补丁；用更强的SWE-ABS测试复核后，其中55个为错误补丁。高努力档位下错误补丁被接受的比例低于低档位，Opus为0.45对0.67。",
+      "why_it_matters": "分析：这为“AI审查AI代码”提供了一个可调的成本与可靠性权衡，也说明默认低成本的审查容易放行“测试能过、实际错误”的补丁。",
+      "impact": "推断：团队若把AI审查当作合并门槛，需要按风险设定努力档位并保留人工复核；结论基于单一模型家族和90个样本，外推需谨慎。",
+      "evidence": "仅arXiv预印本（2611.33639），未同行评审，候选数据中无其他来源交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-11-25T05:33:29+08:00",
+      "published_at": "2026-11-26T13:00:00+08:00",
       "sources": [
         {
-          "source_id": "techcrunch_ai",
-          "source_name": "TechCrunch AI",
-          "url": "https://techcrunch.com/2026/11/24/even-the-best-ai-agents-struggle-with-everyday-life"
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.33639"
         }
       ]
     },
     {
-      "id": "2b977f2495cc-10",
+      "id": "a9316d17e9dc-07",
       "category": "ai",
-      "headline": "Google DeepMind用智能体团队和形式化验证改进量子算法",
-      "what_happened": "Google DeepMind发布研究，使用智能体团队和形式化验证改进面向聚变与化学的量子算法。",
-      "why_it_matters": "分析：形式化验证为AI生成算法提供可检查的正确性证明，可能缓解“能生成但难核验”的问题。",
-      "impact": "推断：短期影响集中在研究流程和工具链，距离可运行的量子优势仍需实验验证。",
-      "evidence": "证据来自Google DeepMind官方博客，未见其他来源交叉确认。",
+      "headline": "研究用置信度分数为LLM自动决策设“闸门”",
+      "what_happened": "arXiv论文提出在冻结的LLM最后一层隐状态上训练线性置信度头，用来预测答案是否正确；高置信答案自动放行，不确定的交人工复核。对闭源模型，也可用纯文本元模型替代。",
+      "why_it_matters": "分析：企业落地的瓶颈常是“不知道模型何时不可靠”，可校准的置信度比单纯提升模型能力更直接地决定哪些流程能自动化。",
+      "impact": "推断：若置信度校准可靠，客服、审核等流程可分层自动化；但结果仅来自单一20亿参数模型，跨模型、跨任务的泛化仍待验证。",
+      "evidence": "仅arXiv预印本（2611.33394），候选数据中无其他来源交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-11-24T00:59:40+08:00",
+      "published_at": "2026-11-26T13:00:00+08:00",
       "sources": [
         {
-          "source_id": "deepmind",
-          "source_name": "Google DeepMind",
-          "url": "https://deepmind.google/blog/finding-faster-quantum-algorithms-with-agents-and-formal-verification"
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.33394"
         }
       ]
     },
     {
-      "id": "bdb906ea8263-02",
+      "id": "59354ed1e91f-08",
+      "category": "ai",
+      "headline": "“部分路由”让前沿模型把子任务分给便宜模型",
+      "what_happened": "arXiv论文提出partial routing：前沿主模型在执行中把适合的子任务委派给更便宜的模型，委派程度由参数δ控制，且无需训练任一模型；在ViBench与Terminal-Bench 4.0的留出任务上，平均表现高于单用主模型和任务级路由。",
+      "why_it_matters": "分析：智能体成本优化正从“整个任务选一个模型”转向“任务内分工”，这会改变API调用结构和算力账单的分布。",
+      "impact": "推断：对高频Agent工作流可能明显降本，但依赖可靠的子任务识别与质量监控；论文结果限于特定基准。",
+      "evidence": "仅arXiv预印本（2611.33402），候选数据中无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-26T13:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "arxiv_ai",
+          "source_name": "arXiv cs.AI",
+          "url": "https://arxiv.org/abs/2611.33402"
+        }
+      ]
+    },
+    {
+      "id": "6111d4e7edc9-02",
       "category": "finance",
-      "headline": "美联储Williams称利率可能“在一段时间内”更高",
-      "what_happened": "美联储官员John Williams表示，为应对通胀，利率可能“在一段时间内”更高；他对通胀在2027年更接近美联储2%目标表示有信心。",
-      "why_it_matters": "分析：该表态会把降息时点的不确定性推后，使利率路径更依赖后续通胀数据。",
-      "impact": "推断：利率敏感型资产和企业的再融资成本短期内难明显下降。",
-      "evidence": "证据来自CNBC对Williams讲话的报道，未见其他来源交叉确认。",
+      "headline": "欧洲央行10月会议纪要显示加息倾向仍强",
+      "what_happened": "欧洲央行公布10月28-29日会议纪要；据36氪转述第一财经的摘要，纪要称不确定性仍高、能源冲击对通胀的全面影响尚未显现，多位委员本可支持10月加息，并称除非通胀前景显著改善，否则仍需加息。",
+      "why_it_matters": "分析：如果市场已转向“按兵不动”，这份纪要提示政策反应仍偏鹰，分歧点在加息时机而非方向。",
+      "impact": "推断：欧元区短端利率与汇率将对后续通胀数据更敏感；若能源价格再度上行，加息预期可能快速回补。",
+      "evidence": "欧洲央行官网发布纪要原文，但具体内容仅见36氪转述第一财经的摘要，无第二家独立报道。",
       "confidence": "单一来源",
-      "published_at": "2026-11-24T21:33:26+08:00",
+      "published_at": "2026-11-26T20:30:00+08:00",
       "sources": [
         {
-          "source_id": "cnbc_finance",
-          "source_name": "CNBC 金融",
-          "url": "https://www.cnbc.com/2026/11/23/john-williams-fed-inflation-rate-hikes.html"
+          "source_id": "ecb",
+          "source_name": "欧洲央行",
+          "url": "https://www.ecb.europa.eu/press/accounts/2026/html/ecb.mg261126~ccf28c8071.en.html"
         }
       ]
     },
     {
-      "id": "02b9a7ac7aed-03",
+      "id": "25441819779a-03",
       "category": "finance",
-      "headline": "美国国会对英伟达出现两党反弹，对华业务限制立法压力上升",
-      "what_happened": "MarketWatch报道，在特朗普推动黄仁勋回归后，美国国会对英伟达出现两党反弹；国会更可能批准限制英伟达对华业务的新措施，并呼吁更多调查、听证和简报。",
-      "why_it_matters": "分析：英伟达的对华业务风险正从行政管制延伸到立法层面，政策不确定性可能更难靠单一出口许可化解。",
-      "impact": "推断：芯片出口链和依赖对华收入的企业需要把立法风险纳入情景分析，而不只跟踪许可证。",
-      "evidence": "证据来自MarketWatch的国会动向报道，未见其他来源交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-25T04:42:00+08:00",
+      "headline": "英国央行发布11月金融稳定报告",
+      "what_happened": "英格兰银行发布2026年11月《金融稳定报告》，阐述金融政策委员会（FPC）对英国金融体系稳定性的判断及拟采取的措施；同日还发布了FPC会议记录。",
+      "why_it_matters": "分析：在AI相关资产波动加大的背景下，FPC对估值、私募信贷与非银杠杆的评估，会影响英国银行的资本与拨备要求。",
+      "impact": "推断：若报告点名高估值或杠杆风险，英国银行与非银机构可能面临更严的压力测试或缓冲要求；具体结论需看报告正文。",
+      "evidence": "英格兰银行官网原始发布，候选数据中无媒体独立报道。",
+      "confidence": "已确认",
+      "published_at": "2026-11-26T18:30:00+08:00",
       "sources": [
         {
-          "source_id": "marketwatch",
-          "source_name": "MarketWatch",
-          "url": "https://www.marketwatch.com/story/a-bipartisan-backlash-is-hitting-nvidia-in-washington-in-the-wake-of-trumps-push-for-huangs-return-565626f2"
+          "source_id": "boe_publications",
+          "source_name": "英国央行发布",
+          "url": "https://www.bankofengland.co.uk/financial-stability-report/2026/november-2026"
         }
       ]
     },
     {
-      "id": "5bcba0ab7be3-08",
+      "id": "bdebae51aebd-09",
       "category": "finance",
-      "headline": "Kalshi永续合约日交易量开始超过其预测市场业务",
-      "what_happened": "CNBC报道，Kalshi的永续合约产品日交易量开始超过其预测市场业务；该产品于今年5月推出，是公司首个事件合约之外的产品。",
-      "why_it_matters": "分析：若永续合约成为主要交易量来源，Kalshi的风险轮廓会更接近衍生品平台，而不只是事件合约市场。",
-      "impact": "推断：平台收入将更依赖持续交易量、杠杆需求和做市深度，而非事件到期时的集中成交。",
-      "evidence": "证据来自CNBC，未见其他来源交叉确认。",
-      "confidence": "单一来源",
-      "published_at": "2026-11-25T02:34:55+08:00",
+      "headline": "英国监管机构落地“促增长”证券化改革",
+      "what_happened": "英国审慎监管局（PRA）与金融行为监管局（FCA）发布修订后的证券化规则，称旨在支持证券化对经济增长的贡献。",
+      "why_it_matters": "分析：这是英国调整银行资本与证券化框架的一步，会影响银行发放贷款并打包出售的能力和融资成本。",
+      "impact": "推断：若规则降低资本占用，英国银行与非银放贷机构的信贷供给可能增加，同时对复杂结构证券化的风险监测压力会上升。",
+      "evidence": "英格兰银行官网发布PRA与FCA联合新闻稿，候选数据中无其他来源独立报道。",
+      "confidence": "已确认",
+      "published_at": "2026-11-25T18:00:00+08:00",
       "sources": [
         {
-          "source_id": "cnbc_finance",
-          "source_name": "CNBC 金融",
-          "url": "https://www.cnbc.com/2026/11/24/kalshi-perps-volume-prediction-markets.html"
+          "source_id": "boe_news",
+          "source_name": "英国央行新闻",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms"
         }
       ]
     },
     {
-      "id": "2c54b6d4f7df-05",
+      "id": "b16a7e863e9c-10",
+      "category": "finance",
+      "headline": "欧元区店内刷卡支付首次略微超过现金",
+      "what_happened": "欧洲央行发布新闻稿称，欧元区消费者在商店使用银行卡支付的比例已略微超过现金，同时消费者希望两种支付方式都保留。",
+      "why_it_matters": "分析：支付习惯的结构性拐点会影响商户收单成本、现金基础设施投入，以及央行对零售支付体系的监管重点。",
+      "impact": "推断：现金使用下降可能加速ATM与现金处理网络收缩；但在消费者偏好“双轨”的情况下，要求保留现金的政策压力也会同步上升。",
+      "evidence": "欧洲央行官网新闻稿，候选数据中无其他来源独立报道。",
+      "confidence": "已确认",
+      "published_at": "2026-11-25T18:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "ecb",
+          "source_name": "欧洲央行",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html"
+        }
+      ]
+    },
+    {
+      "id": "a1744dfcd611-01",
       "category": "tech",
-      "headline": "数十艘石油和化学品运输船据报遭黑客攻击，伊朗为主要嫌疑方",
-      "what_happened": "TechCrunch援引报道称，近几周数十艘石油和化学品运输船遭网络攻击，伊朗是主要嫌疑方。",
-      "why_it_matters": "分析：船舶运营系统受攻击可能波及航线、装卸和保险定价，风险不止数据泄露。",
-      "impact": "推断：船东和租家会加强网络隔离与事件披露，但攻击范围和伊朗归因仍需独立核实。",
-      "evidence": "证据仅来自TechCrunch转述的报道，伊朗归因未获独立确认，属单一来源且事件仍在发展。",
-      "confidence": "仍在发展",
-      "published_at": "2026-11-25T05:09:04+08:00",
+      "headline": "陪审团裁定华为窃取美国商业机密罪名成立",
+      "what_happened": "Ars Technica报道，美国陪审团认定华为窃取T-Mobile与思科的商业机密，并违反伊朗制裁；报道引述司法部称，华为未刻意隐藏相关行为。",
+      "why_it_matters": "分析：这是刑事定罪，而非行政罚款，可能影响华为在美业务、供应商关系及后续量刑与罚金规模，也为美中科技争端增加司法层面的先例。",
+      "impact": "推断：罚金与合规义务可能上升，其他被指“技术转移”的企业面临更高法律风险；对华为全球供应链的实际影响取决于量刑结果。",
+      "evidence": "仅Ars Technica一家报道并引述美国司法部，候选数据中无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-26T00:33:45+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions"
+        }
+      ]
+    },
+    {
+      "id": "cfacdb40dfe6-04",
+      "category": "tech",
+      "headline": "美国FCC批准SpaceX在轨AI数据中心方案",
+      "what_happened": "TechCrunch报道，FCC批准了SpaceX在太空部署AI数据中心的计划，并以超出监管权限为由驳回反对者关于科研影响等部分担忧；Ars Technica报道，该授权涉及最多100万颗卫星。",
+      "why_it_matters": "分析：把算力基础设施搬到轨道，意味着频谱与轨道资源、天文观测和太空碎片治理都被卷入AI算力竞争，而FCC以权限边界回避了部分环境与科研争议。",
+      "impact": "推断：若项目推进，轨道与频谱申请将更紧张，天文和遥感领域的反对可能转向其他监管或司法渠道；短期实际部署规模仍受发射能力与成本约束。",
+      "evidence": "TechCrunch与Ars Technica分别报道FCC对SpaceX的相关批准，可相互交叉确认。",
+      "confidence": "已确认",
+      "published_at": "2026-11-26T04:56:44+08:00",
       "sources": [
         {
           "source_id": "techcrunch",
           "source_name": "TechCrunch",
-          "url": "https://techcrunch.com/2026/11/24/dozens-of-oil-and-shipping-tankers-hacked-in-recent-weeks-per-report"
+          "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space"
         }
       ]
     },
     {
-      "id": "9fd525e87e4f-06",
+      "id": "7bdd8fd9aa6a-05",
       "category": "tech",
-      "headline": "Amazon称黑客AI智能体在极少人工输入下发现并利用0day漏洞",
-      "what_happened": "Amazon表示，黑客的AI智能体在几乎没有人工输入的情况下发现并利用了0day漏洞。",
-      "why_it_matters": "分析：若漏洞发现可以自动迭代，厂商从发现到修补的时间窗口会被压缩，防守方对AI代理的依赖也会上升。",
-      "impact": "推断：企业需要把资产盘点、补丁和诱捕自动化，并审计AI代理权限，否则攻击方可能先完成发现和利用。",
-      "evidence": "证据来自Ars Technica转述Amazon的说法，未见独立来源交叉确认。",
+      "headline": "1Password称内部系统被入侵，客户密码未受影响",
+      "what_happened": "1Password表示，攻击者通过一名员工的企业账户进入其内部系统，并获取了部分客户信息；公司称客户密码安全。",
+      "why_it_matters": "分析：密码管理器是单点信任基础设施，即使主密钥体系未被攻破，员工账户与客户元数据泄露也会为后续钓鱼和定向攻击提供素材。",
+      "impact": "推断：企业客户可能被要求加强SSO与最小权限管理；若后续发现更多数据外泄，信任成本会进一步上升。",
+      "evidence": "仅TechCrunch一家报道，候选数据中无其他来源交叉确认。",
       "confidence": "单一来源",
-      "published_at": "2026-11-24T20:30:05+08:00",
+      "published_at": "2026-11-26T02:49:52+08:00",
       "sources": [
         {
-          "source_id": "ars_technica",
-          "source_name": "Ars Technica",
-          "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input"
-        }
-      ]
-    },
-    {
-      "id": "ace5e1759597-07",
-      "category": "tech",
-      "headline": "Tidal将删除2,700万首完全由AI生成的曲目",
-      "what_happened": "Tidal宣布将禁止完全由AI生成的音乐；Ars Technica报道其曲库中AI歌曲占6.3%，约2,700万首将在12月9日被删除，但Tidal仍接受AI辅助创作。",
-      "why_it_matters": "分析：大规模下架会把平台治理焦点从版权争议扩展到“完全生成”与“辅助创作”的边界认定。",
-      "impact": "推断：上传者需要保留创作过程证据，平台的内容审核和版权结算成本会上升。",
-      "evidence": "TechCrunch AI与Ars Technica均报道Tidal封禁，构成交叉确认；2,700万首与12月9日仅见Ars Technica。",
-      "confidence": "已确认",
-      "published_at": "2026-11-25T01:34:34+08:00",
-      "sources": [
-        {
-          "source_id": "ars_technica",
-          "source_name": "Ars Technica",
-          "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9"
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe"
         }
       ]
     }

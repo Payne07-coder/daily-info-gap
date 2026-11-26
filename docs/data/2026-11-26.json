@@ -1,0 +1,234 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T05:48:04.611456+08:00",
+  "window_start": "2026-11-24T17:45:03.209578+08:00",
+  "status": "partial",
+  "source_health": {
+    "ok": 22,
+    "failed": 3,
+    "failed_sources": [
+      "Hugging Face",
+      "VentureBeat AI",
+      "美国劳工统计局"
+    ]
+  },
+  "items": [
+    {
+      "id": "40d30fa719d4-02",
+      "category": "ai",
+      "headline": "OpenAI 合并 Chat 与 Work，重度用户将更早触顶",
+      "what_happened": "TechCrunch 报道，OpenAI 在合并 ChatGPT 的 Chat 与 Work 体验时，将引入统一的用量计量，重度用户可能更早触及使用上限。",
+      "why_it_matters": "分析：配额从按产品分割改为统一额度，意味着同一账号下不同场景会互相挤占，重度使用者实际可用量可能低于预期。",
+      "impact": "推断：重度个人用户和小团队需要重算用量与成本，可能转向多模型或多账号方案；具体额度与生效时间在候选信息中未给出。",
+      "evidence": "证据来自 TechCrunch 单一报道，OpenAI 官方说明未出现在候选集中。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-26T04:03:27+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work"
+        }
+      ]
+    },
+    {
+      "id": "ab6fced0abd4-03",
+      "category": "ai",
+      "headline": "纽约州对 AI 聊天机器人玩具实施五年禁售",
+      "what_happened": "TechCrunch 报道，纽约州禁止销售 AI 聊天机器人玩具，为期五年；同时 Common Sense Media 的新研究指出此类产品存在接触不当内容与影响情绪发展的风险。",
+      "why_it_matters": "分析：这是针对具体产品品类的州级禁令，不只是泛泛的 AI 监管原则；一旦形成先例，硬件厂商的产品定义、内容过滤和年龄分级成本都会被推高。",
+      "impact": "推断：影响在纽约销售 AI 玩具的厂商与渠道，假日季备货和退货风险上升；其他州是否跟进尚不确定。",
+      "evidence": "证据来自 TechCrunch 单一报道，其引用的 Common Sense Media 研究原文不在候选集中。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-26T02:11:46+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/25/want-to-buy-your-kid-an-ai-toy-this-christmas-not-in-new-york"
+        }
+      ]
+    },
+    {
+      "id": "1ff54b0e37c5-04",
+      "category": "ai",
+      "headline": "多州总检察长反对 Character.AI 破产出售中打包用户聊天记录",
+      "what_happened": "TechCrunch 报道，多州总检察长对 Character.AI 破产出售方案提出异议，该方案涉及逾 2100 万个美国账户的敏感个人数据，其中 210 万注册者为未成年人。",
+      "why_it_matters": "分析：把用户对话当破产资产出售，会让用户同意条款的边界变成资产估值的一部分；若获允许，其他陷入困境的 AI 公司可能照此处理数据。",
+      "impact": "推断：影响 Character.AI 用户尤其是未成年用户的数据去向，并可能推动州级限制 AI 对话数据转让；结果取决于破产法院与各州立场。",
+      "evidence": "证据来自 TechCrunch 单一报道，引用的是州总检察长意见，原始法律文件不在候选集中，事件仍在发展。",
+      "confidence": "仍在发展",
+      "published_at": "2026-11-26T01:35:58+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats"
+        }
+      ]
+    },
+    {
+      "id": "e81711fa20ef-10",
+      "category": "ai",
+      "headline": "DeepMind 为 Google Antigravity 推出质谱解析技能包",
+      "what_happened": "Google DeepMind 发布 Mass Spec Skills，供使用 Google Antigravity 的科研人员解读串联质谱数据。",
+      "why_it_matters": "分析：这是把通用代理环境接到具体仪器数据格式上的尝试，价值不在模型本身，而在把领域知识封装成可复用技能，依赖人工解谱的环节可能先被改变。",
+      "impact": "推断：影响使用 Antigravity 的实验室的分析流程与人力分配；准确率、可复现性与是否开源尚未在候选信息中说明。",
+      "evidence": "证据来自 Google DeepMind 官方博客，属原始发布；候选集中无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-24T21:07:53+08:00",
+      "sources": [
+        {
+          "source_id": "deepmind",
+          "source_name": "Google DeepMind",
+          "url": "https://deepmind.google/blog/interpreting-mass-spectra-with-google-antigravity"
+        }
+      ]
+    },
+    {
+      "id": "c13f022e452e-11",
+      "category": "ai",
+      "headline": "AI 数据中心越来越难建，新兴云厂商先感到压力",
+      "what_happened": "TechCrunch 播客节目称，英伟达明确表示在数据中心接近可运行前不会提供背书，同期新兴云厂商报告建设延期与债务成本上升。",
+      "why_it_matters": "分析：算力供给瓶颈正从芯片转向土地、电力与已完工建筑，融资条件收紧会先淘汰只有方案、没有落地能力的项目，这与 AI 资本开支无限扩张的叙事相反。",
+      "impact": "推断：影响依赖第三方算力租赁的 AI 初创公司的交付时间与成本，以及相关数据中心项目的融资条款；播客为二手转述，具体数据待核实。",
+      "evidence": "证据来自 TechCrunch 播客摘要单一来源，英伟达与新兴云厂商的原始披露不在候选集中。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-25T23:41:43+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch_ai",
+          "source_name": "TechCrunch AI",
+          "url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it"
+        }
+      ]
+    },
+    {
+      "id": "7715f9b7eedf-00",
+      "category": "finance",
+      "headline": "美联储在12月议息前称通胀没有改善",
+      "what_happened": "MarketWatch 11月26日报道，在12月关键利率决议前，美联储表示顽固的通胀仍是经济扩张的拖累，通胀状况没有变好。",
+      "why_it_matters": "分析：如果市场把12月加息当成既定事实，房贷、成长股估值和美元可能已经提前定价；但这条是媒体转述而非决议文件，措辞强弱容易被二次解读放大。",
+      "impact": "推断：短期影响美国按揭利率、企业融资成本与美元走势，并外溢到新兴市场资产；实际幅度取决于12月决议本身。",
+      "evidence": "证据仅来自 MarketWatch 一篇报道，候选集中没有美联储原始声明或其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-26T03:39:00+08:00",
+      "sources": [
+        {
+          "source_id": "marketwatch",
+          "source_name": "MarketWatch",
+          "url": "https://www.marketwatch.com/story/the-fed-says-inflation-hasnt-gotten-any-better-ahead-of-its-key-december-vote-to-raise-rates-65024d33"
+        }
+      ]
+    },
+    {
+      "id": "06faf4a1cfcd-05",
+      "category": "finance",
+      "headline": "巴塞尔委员会公布 2026 年全球系统重要性银行评估细节",
+      "what_happened": "国际清算银行发布巴塞尔委员会对 2026 年全球系统重要性银行（G-SIB）评估的补充信息，包括全球分母与各银行分项指标，并与金融稳定理事会更新的 G-SIB 名单同步发布。",
+      "why_it_matters": "分析：G-SIB 分档直接决定附加资本要求，分项指标公开后可推算单家银行的档位变化；这类技术文件很少进入大众新闻，却是银行资本规划的硬约束。",
+      "impact": "推断：影响名单内大型银行的资本缓冲及其分红、回购空间，并间接影响其债券定价；具体分档变动需以官方名单为准。",
+      "evidence": "证据来自国际清算银行官方新闻稿，属原始发布；候选集中无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-25T08:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "bis_press",
+          "source_name": "国际清算银行",
+          "url": "https://www.bis.org/media-releases/20261125-basel-committee-publishes-more-details-2026-assessment-global-systemically-important-banks"
+        }
+      ]
+    },
+    {
+      "id": "bdebae51aebd-08",
+      "category": "finance",
+      "headline": "英国 PRA 与 FCA 落地促增长证券化新规",
+      "what_happened": "英国央行新闻稿称，审慎监管局（PRA）与金融行为监管局（FCA）当天发布修订后的规则，目的是支持证券化对经济增长的贡献。",
+      "why_it_matters": "分析：证券化规则放宽通常意味着银行可把更多贷款打包出售、释放资本，但同时改变风险在金融体系中的分布；这类修订很少被大众媒体逐条解读。",
+      "impact": "推断：影响英国银行的资本占用与放贷能力，以及证券化产品的发行和投资者适当性要求；具体条款与生效时间需查规则原文。",
+      "evidence": "证据来自英国央行官方新闻稿，属监管机构原始发布；候选集中无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-25T18:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "boe_news",
+          "source_name": "英国央行新闻",
+          "url": "https://www.bankofengland.co.uk/news/2026/november/regulators-implement-growth-friendly-securitisation-reforms"
+        }
+      ]
+    },
+    {
+      "id": "b16a7e863e9c-09",
+      "category": "finance",
+      "headline": "欧元区店内刷卡笔数略微超过现金，消费者仍希望两者兼有",
+      "what_happened": "欧洲央行发布消息称，欧元区商店内银行卡支付已略微超过现金，同时调查显示消费者希望保留现金与刷卡两种选择。",
+      "why_it_matters": "分析：支付方式的结构性拐点会影响 ATM 布点、商户费率与现金流通成本；消费者希望两者兼有，意味着去现金化不会线性推进，现金可及性仍有政策压力。",
+      "impact": "推断：影响收单机构与银行的费率谈判、零售商现金管理成本，以及围绕现金可及性的立法讨论；调查口径与样本未在候选摘要中给出。",
+      "evidence": "证据来自欧洲央行官方新闻稿，属原始发布；候选集中无其他来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-25T18:00:00+08:00",
+      "sources": [
+        {
+          "source_id": "ecb",
+          "source_name": "欧洲央行",
+          "url": "https://www.ecb.europa.eu/press/pr/date/2026/html/ecb.pr261125~26d1ade228.en.html"
+        }
+      ]
+    },
+    {
+      "id": "a1744dfcd611-01",
+      "category": "tech",
+      "headline": "陪审团裁定华为窃取美国商业机密罪名成立",
+      "what_happened": "Ars Technica 报道，美国陪审团裁定华为窃取 T-Mobile 与思科的商业机密，并规避伊朗制裁，美国司法部称华为并未刻意掩盖相关行为。",
+      "why_it_matters": "分析：这是刑事定罪而非行政制裁，可能带来罚金与合规约束，并为其他涉美供应链企业提供判例参照，跨境经营的合规成本是长期变量。",
+      "impact": "推断：影响华为在美相关业务与供应链合作方，也可能波及使用其设备的美国运营商及盟友市场的采购决策；罚金与量刑仍待法院程序。",
+      "evidence": "证据来自 Ars Technica 对判决的报道，候选集中无第二家来源交叉确认。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-26T00:33:45+08:00",
+      "sources": [
+        {
+          "source_id": "ars_technica",
+          "source_name": "Ars Technica",
+          "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions"
+        }
+      ]
+    },
+    {
+      "id": "7bdd8fd9aa6a-06",
+      "category": "tech",
+      "headline": "1Password 确认内部系统被入侵，称用户密码库未受影响",
+      "what_happened": "TechCrunch 报道，1Password 表示攻击者通过一名员工的公司账号进入其内部系统，获取了部分客户信息，但用户密码本身安全。",
+      "why_it_matters": "分析：密码管理器是单点信任基础设施，即使只泄露邮箱等客户元数据，也足以支撑精准钓鱼；厂商所说的密码安全与实际泄露范围要分开看。",
+      "impact": "推断：1Password 企业客户可能需要复核访问日志与钓鱼防护；若披露范围扩大，可能影响企业采购决策，实际泄露字段仍在披露中。",
+      "evidence": "证据来自 TechCrunch 单一报道，依据是 1Password 的声明，事件仍在披露过程中。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-26T02:49:52+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe"
+        }
+      ]
+    },
+    {
+      "id": "cfacdb40dfe6-07",
+      "category": "tech",
+      "headline": "FCC 批准 SpaceX 在太空部署 AI 数据中心的计划",
+      "what_happened": "TechCrunch 报道，美国联邦通信委员会批准 SpaceX 在太空部署 AI 数据中心的计划，并以超出自身监管权限为由，驳回了反对方提出的部分担忧，包括对科学研究的潜在影响。",
+      "why_it_matters": "分析：这次审批把轨道资源与算力基础设施绑在一起，而 FCC 以权限边界回避科研影响，意味着这类项目的天文与环境影响可能缺少专门的监管口。",
+      "impact": "推断：影响天文学观测、轨道碎片治理与在轨算力商业模式；后续争议可能转向其他监管机构或法院，而非 FCC 流程内部。",
+      "evidence": "证据来自 TechCrunch 单一报道；候选集中 Ars Technica 另有 FCC 授权 SpaceX 大规模卫星部署的报道，但无法确认与本条是同一决定。",
+      "confidence": "单一来源",
+      "published_at": "2026-11-26T04:56:44+08:00",
+      "sources": [
+        {
+          "source_id": "techcrunch",
+          "source_name": "TechCrunch",
+          "url": "https://techcrunch.com/2026/11/25/fcc-approves-spacex-plan-to-put-ai-data-centers-in-space"
+        }
+      ]
+    }
+  ]
+}
